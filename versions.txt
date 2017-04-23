@@ -21,11 +21,11 @@ Boxcar	1.0		5ef44a4a34ca79dcf2de4baba7128625	Send message to Boxcar App (https:/
 File Sort	1.0		56685d3beb7d499fc6e43ecb29071d96	Auto move a file to its corresponding folder if a part of the filename match the folder name.
 Gist	1.2	1034	4cc9dc7220c847b52e5742c208784c01	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Mail Link	1.1	1029	f8837accddaabb393effcd2898d314c8	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.7	1036	e3ea3d5c526c164b0002f59c4420855a	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+YouTube Downloader	1.7	1036	7c7de8a8ae1d62b5c5b6d051db75e2bb	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		7acc5af4a02cedebd9a4f096869128a8	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	8c53e907cf1311a156d68138e6e9578a	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		8a50f84c6a556b474e2ca4ae38ca1a7b	Compare files and folders via Araxis Merge (and some AppleScript)
-Qiniu	1.3	0830	1e11937357ae87220e5f93c61ba78c2a	Upload images to qiniu.com
+Qiniu	1.3	0830	7f6dda9c67b75834fe795f6f81dced78	Upload images to qiniu.com
 Slack	1.1	1019	850058ca51cb1e517947f90905f1a46e	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
 Bitly	1.5	1013	cd1a203c1c0ac020f277d119aee7aa7b	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
 TwitPic	1.0	1007	39897d11fb06f027041326bf40250a8e	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
@@ -33,8 +33,8 @@ Bundle Script	1.2	1001	55395ea50b270052af62962d897a0b36	Converts dropped .dropzo
 1024px	1.0		8c44ec5e86f6cf65025fba7fbebd97ca	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
 Install Application	1.4	1011	777a900609b2f67b01f520b1dbd91c44	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
 Kaleidoscope Diff	1.1	1018	04d3f379e643332499b96d289e9e6479	Drag two or more files to diff them with Kaleidoscope
-YouTube Uploader	1.7	1026	24d6c2ad5abc3b6c76495caa53bbeaf1	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
-Tinify	1.0		0d043bda5799abe4a3fd6d792247f0c5	https://tinypng.com/
+YouTube Uploader	1.7	1026	3e2bb3a0fe92cc1fd70bc813b62b2a72	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
+Tinify	1.0		5260307c50ff04001d0d0d3af960ef3e	https://tinypng.com/
 Rackspace Cloud Files	2.0	1017	e0e965ce2bfac06b20631d17e6c5e95f	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
 Flickr Upload	1.0	1004	69d5473189d700a85a7e4056d12bab75	Allows images to be uploaded to Flickr. Holding down the option key while dragging copies the direct image URL.
 Clean Text	1.0		ac72e2f4caaea99f219b3fbfc8261f12	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
