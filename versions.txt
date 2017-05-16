@@ -1,27 +1,27 @@
 Up1	1.1	2175601	8c429fdaf599ea2aea4e3039f0341e4c	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
-Sparse Image	1.0		90b853ab1d9cc21ff25c67099739b1ca	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
-Pushover	1.1		b11a5b93e9cf7b8cac207be916578724	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list. 
-KDiff3	1.0	1033	7dddbc5dba08b71d23c10c67b08a6923	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
-Send iMessage With Attachment to Phone Number	1.4	1021	8913c54123368671f9df47a6c2662a73	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
-Pushbullet	1.0	1032	866d3b8e4d60ca4eb26547ca30639580	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
-Say Text	1.0	1023	9b1b4a21f4a05abf9cb6f6318eb6152a	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	64f7ff42dfbe68032e30da6554a3d889	Provides an action to upload your files to a FTPES Server
-Gfycat	1.0		4dc824e5dd49686fff342e63318c09be	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	1b8e939e9c24e10327df4ecb1dd97c12	Uploads images to ImageShack. Drop multiple images to create an album.
-Finder Path	1.2	1003	94a1fcd1dad3ddf7cf40ee23a828dbca	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
-Clone Git Repository	1.3	1031	428bedc96b054eb8a2bf0fff350dbf80	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder.
-Open iTerm at Path	1.1		92fabe1dbc66d236415dda76c3e4a7be	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
-Sleep	1.0	1027	09bd560e47edf4b1ff192f4e806a8b4f	Puts your Mac to sleep.
-Google Drive	1.8	1020	44c66b43a413b5de7f096ecff5fbd9c5	Uploads files to Google Drive.
-Zip Files	1.2	1025	bc5b9d1acc6f46b665b925cd69b59884	Zips up the dropped files or folders and places the zip file in the chosen folder.
-Make GIF	1.0		eda0d16c8bce8dc26bb825931e6455a6	This action converts videos to GIFs using ffmpeg
-Desktop Picture	1.0	1002	e7285e8732f5e199fa83755f94cb29aa	A dropped image will be set as the current desktop background.
-Create DMG File	1.0	1028	57a7c16afa7a4af18a1969dca0de2564	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
-Boxcar	1.0		58b6fb04277f68d1e23666788e714407	Send message to Boxcar App (https://boxcar.io/).
-File Sort	1.0		e64d1e4f0670b054e3ca665b07f9ee8f	Auto move a file to its corresponding folder if a part of the filename match the folder name.
-Gist	1.2	1034	f2d363d2941a92fe952b64ce60e249d0	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
-Mail Link	1.1	1029	330f221cece62472685f562243e85413	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.7	1036	91618bafb75b2d4933ae494cc04438a6	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+Sparse Image	1.0		c62d77a5503f42a09e7db7431227c876	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
+Pushover	1.1		3b7cce508ab8c7af0124f5d2aa976218	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list. 
+KDiff3	1.0	1033	fe2d45528f2506b4f391fd4672ba51fb	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
+Send iMessage With Attachment to Phone Number	1.4	1021	fafaf3d0bc6d20c4d434c455485812a9	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
+Pushbullet	1.0	1032	97e31ba3b98056874050c97c91562c8c	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
+Say Text	1.0	1023	bdd36e19e45a02782a880585c9521823	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
+FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	85c740eb37c8402b4ce203b989627d2a	Provides an action to upload your files to a FTPES Server
+Gfycat	1.0		77c75ef63ab9bfed248d2eaaa3d4f463	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	3a70edddc4c441150bbe54755b3aa5ae	Uploads images to ImageShack. Drop multiple images to create an album.
+Finder Path	1.2	1003	74a2d4e549db68b7ba1c1a1239795562	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
+Clone Git Repository	1.3	1031	b83eca0314bc5347950992a6d8f759a7	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder.
+Open iTerm at Path	1.1		a0248945061a98ca063f4536a70ec5cf	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
+Sleep	1.0	1027	25595774c3b37af4bc45543a5023cea2	Puts your Mac to sleep.
+Google Drive	1.8	1020	72aac8774b794f09f9341eadbf1e1c18	Uploads files to Google Drive.
+Zip Files	1.2	1025	375462db0cdb465d1a154b116fc3e982	Zips up the dropped files or folders and places the zip file in the chosen folder.
+Make GIF	1.0		18b35f1c845843c1ab0b13ccc3c3b9a5	This action converts videos to GIFs using ffmpeg
+Desktop Picture	1.0	1002	22b0620e3b57d4e4dc5ce64aa4b04f88	A dropped image will be set as the current desktop background.
+Create DMG File	1.0	1028	d017ff5b2ca771d89046c647a9e0853d	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
+Boxcar	1.0		0a87a6250ecb5b8765ca6dcbb46e5f29	Send message to Boxcar App (https://boxcar.io/).
+File Sort	1.0		92d81fa1c2e86e860b25e63c2476f9c4	Auto move a file to its corresponding folder if a part of the filename match the folder name.
+Gist	1.2	1034	a254db68b4af537da3d5a1d45f8a178e	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
+Mail Link	1.1	1029	25d225cd64ccff057dba0da9a8f0571f	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
+YouTube Downloader	1.7	1036	764e6e9d49f97d3bfb4c088e61345722	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		92a826809d1668e473fbd3408c83021f	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	88243556f6cc13ba02701f0833569db7	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		59afbb62adc7dba2423c6a4691bfabe3	Compare files and folders via Araxis Merge (and some AppleScript)
