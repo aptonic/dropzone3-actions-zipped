@@ -1,19 +1,19 @@
 Up1	1.1	2175601	deb958db763f87c00f9563402f88979b	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
-Sparse Image	1.0		c7cabee031d66d7f09c923afdbc2086f	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
-Pushover	1.1		8b5637cbf07e16fadd1feb00e171ce5d	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list. 
-KDiff3	1.0	1033	55a18f9479e127993f289b5a5d63e47c	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
-Send iMessage With Attachment to Phone Number	1.4	1021	eab5d9cf2d1c64a2062a0cc4e4b46ce7	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
-Pushbullet	1.0	1032	e3dd7b1aa9ae66692ec0b145abd25feb	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
-Say Text	1.0	1023	9d331d82bf82b3f0769b8eb5dba565e1	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	ffedabddfe9187b0219a191e99568f85	Provides an action to upload your files to a FTPES Server
-Gfycat	1.0		83bb0392f7d72b7152b7aabaabc6fab4	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	19633cad2d4907a22b9dce9116931156	Uploads images to ImageShack. Drop multiple images to create an album.
-Finder Path	1.2	1003	5e38ebf32d545a29b6eacfc71a8d7e65	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
-Clone Git Repository	1.3	1031	8fbb92ebdb62e276944dfec5a571cc9c	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder.
-Open iTerm at Path	1.1		b98024764b52b2bf31f93f83ebdc00a4	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
-Sleep	1.0	1027	e7f1e894aa8b6760ecf1e59366ec4de6	Puts your Mac to sleep.
-Google Drive	1.8	1020	55db1432add0b373ea28472f51b7a4ca	Uploads files to Google Drive.
-Zip Files	1.2	1025	851ef6cf26fbc1f71cdf2e1d9b830ebb	Zips up the dropped files or folders and places the zip file in the chosen folder.
+Sparse Image	1.0		920d607e77f21fd56ff8480765389e6a	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
+Pushover	1.1		a2c1296a303f6f14e0b669cf6e793c66	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list. 
+KDiff3	1.0	1033	30e45bd7447d326c767df9648f96c4ae	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
+Send iMessage With Attachment to Phone Number	1.4	1021	d10386bfc81ea0774e671a96b3b8a57c	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
+Pushbullet	1.0	1032	b66b47393bab5358d1679513a69f92b7	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
+Say Text	1.0	1023	f14658e4dac322d7e1dff3093672af38	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
+FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	4851c6bc3383a8dde933c10062a57fb8	Provides an action to upload your files to a FTPES Server
+Gfycat	1.0		dc53c8180a7c5ab8897f44f874763e8b	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	76e51fdbdc4083e52fdccf73a39e9879	Uploads images to ImageShack. Drop multiple images to create an album.
+Finder Path	1.2	1003	23660c87d940283784c9a012429d5e84	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
+Clone Git Repository	1.3	1031	3535c30b6816b0c644346c002755d900	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder.
+Open iTerm at Path	1.1		e6cab6a220f86b0587b7a7176d94c434	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
+Sleep	1.0	1027	1b5d924ea9e30a79746344e030e7fca2	Puts your Mac to sleep.
+Google Drive	1.8	1020	731510abd63f6f9f234f989a0329145d	Uploads files to Google Drive.
+Zip Files	1.2	1025	13e102982d46aaf3d6eb15c17c3334a4	Zips up the dropped files or folders and places the zip file in the chosen folder.
 Make GIF	1.0		3c0714016e3d05fc47b8ab2ac03f97e8	This action converts videos to GIFs using ffmpeg
 Desktop Picture	1.0	1002	473c352be75d15fc0ad5f25a163e6d04	A dropped image will be set as the current desktop background.
 Create DMG File	1.0	1028	c51100bf55015f7655cd6bf6db3c68cf	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
