@@ -1,21 +1,21 @@
 Up1	1.1	2175601	eb21d94f7048003ae76512013ac4a06e	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
-Sparse Image	1.0		92dbda66c5df3f3c99787a584a79c902	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
-Pushover	1.1		afb063f4cd176b30a37cb8b156fa5964	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list. 
-KDiff3	1.0	1033	10f23f931a1258483277b40b56bc9af2	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
-Send iMessage With Attachment to Phone Number	1.4	1021	beea1839d97fcab0b1363327c23f50db	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
-Pushbullet	1.0	1032	ba03ff0680867211d83348780f060052	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
-Say Text	1.0	1023	5f2dd74ff31131ac19445e8314a67ae8	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	2fc2b1210fa17b92d3e10446fe2d1164	Provides an action to upload your files to a FTPES Server
-Gfycat	1.0		2828d45ea75673eb3b44b6ccec79ac8f	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	9381a3d2e2cc15cffa222183ba5c1381	Uploads images to ImageShack. Drop multiple images to create an album.
-Finder Path	1.2	1003	12148ff2c439f9a14f93d85af707f3e5	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
-Clone Git Repository	1.3	1031	2778291d482fddb3646a0a136ecdf542	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder.
-Open iTerm at Path	1.1		9c7de90f4959afdf04c2464ce8d3545a	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
-Sleep	1.0	1027	49a950d33d2f3a6b1d2842fe49b8be94	Puts your Mac to sleep.
-Google Drive	1.8	1020	d2d5672a0c503b907b923e88e3c08e7b	Uploads files to Google Drive.
-Zip Files	1.2	1025	66692b56c05bd5cf1033bef51e9d9e1d	Zips up the dropped files or folders and places the zip file in the chosen folder.
+Sparse Image	1.0		23f6c02792e2a6459c14a45a330ad72d	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
+Pushover	1.1		a98f38a799147d9e40488dfa3d70f594	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list. 
+KDiff3	1.0	1033	13a3c6a72100484f9e61110a93936b82	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
+Send iMessage With Attachment to Phone Number	1.4	1021	a4d03085fd62eca4bf9eb2b58105c4d5	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
+Pushbullet	1.0	1032	9a30088497de6bb464a6bb915e7393e0	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
+Say Text	1.0	1023	1a2f943bb332f5c630521749c5d66b2f	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
+FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	3487165aa2963a2c7f2469116ca67344	Provides an action to upload your files to a FTPES Server
+Gfycat	1.0		df3860c9b010175e6c8a32f0a3e5acb3	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	8fd751de7d916a0e11cf33df0511f601	Uploads images to ImageShack. Drop multiple images to create an album.
+Finder Path	1.2	1003	f769ca35694b1c69318630be712eb09d	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
+Clone Git Repository	1.3	1031	c0960188795d452483f563248c34c775	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder.
+Open iTerm at Path	1.1		581004ca1cc15a4da986b15a21e5e1b3	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
+Sleep	1.0	1027	e525966f822150e507403660c069db38	Puts your Mac to sleep.
+Google Drive	1.8	1020	449749212467a43da9ee1ad36cb9aa6f	Uploads files to Google Drive.
+Zip Files	1.2	1025	79c3e882b4ad17cf12396eae5d7216f9	Zips up the dropped files or folders and places the zip file in the chosen folder.
 Make GIF	1.0		d2b880020af0335a680cb31a1618fa2b	This action converts videos to GIFs using ffmpeg
-Desktop Picture	1.0	1002	cd194c887e4e3a5df606488f59179e53	A dropped image will be set as the current desktop background.
+Desktop Picture	1.0	1002	2a0453b03414db236827be20a5b1305a	A dropped image will be set as the current desktop background.
 Create DMG File	1.0	1028	c44507460f44f3f11b08b5391f65bb7d	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
 Boxcar	1.0		378aa5f1a6ee9c632249bd9df365d733	Send message to Boxcar App (https://boxcar.io/).
 File Sort	1.0		f7a4097bd1a4a6fb744be4ec9601e4ce	Auto move a file to its corresponding folder if a part of the filename match the folder name.
