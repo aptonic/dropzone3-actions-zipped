@@ -13,25 +13,25 @@ Clone Git Repository	1.3	1031	9e6953eb43aa04b764bc8c3282ff0c59	Drag the URL of a
 Open iTerm at Path	1.1		45f69672100d874a256fe60ba0e3932f	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	9d68906f7bca843183bf5098ba9e4e7b	Puts your Mac to sleep.
 Google Drive	1.8	1020	18bc25c4391fb3c87592cb34624db95b	Uploads files to Google Drive.
-Zip Files	1.2	1025	55f03d142bd348ec0cd3b4415817c1ec	Zips up the dropped files or folders and places the zip file in the chosen folder.
-Make GIF	1.0		569651f4a6d131ae13c6fc3cc2b90ad9	This action converts videos to GIFs using ffmpeg
-Desktop Picture	1.0	1002	0992f21d268bf689b316b9c2f30e40e2	A dropped image will be set as the current desktop background.
-Create DMG File	1.0	1028	92bcf4b66ee3555d60b79491f4186d71	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
-Boxcar	1.0		2506239138a04d5e4d8e1715d27cb162	Send message to Boxcar App (https://boxcar.io/).
-File Sort	1.0		5dd3dce8574c54dbc7a42c813614e135	Auto move a file to its corresponding folder if a part of the filename match the folder name.
-Gist	1.2	1034	59067e8f2800526b08798aa7e26b1047	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
-Mail Link	1.1	1029	dfbcdf160aa20e910de1761736fca610	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
+Zip Files	1.2	1025	a96479a72d93cca882fc45ca5baef802	Zips up the dropped files or folders and places the zip file in the chosen folder.
+Make GIF	1.0		a5e802197b3f45cab80d31deb5c94bd3	This action converts videos to GIFs using ffmpeg
+Desktop Picture	1.0	1002	171ff9e8e68a483fed0a36881900be13	A dropped image will be set as the current desktop background.
+Create DMG File	1.0	1028	6ca7ec83250be459ab99a1ddffda0428	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
+Boxcar	1.0		e7d85b54fd3cedb51faef2455f05f045	Send message to Boxcar App (https://boxcar.io/).
+File Sort	1.0		6e06ea58b950e49aaf89cd91031fa9cc	Auto move a file to its corresponding folder if a part of the filename match the folder name.
+Gist	1.2	1034	065494ac3821b7849e52f025f19f142a	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
+Mail Link	1.1	1029	8f588fc39aef207fc149e05f0ff282a1	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
 YouTube Downloader	1.7	1036	86c641b38fdf98716f4ebca8a425fd77	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		35bacaa04bf1eeefe66dd56b1b9a5b17	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	8e982c5d41a459a890eea080911362ba	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		6f07295b906ac6223494aa047a37b1fb	Compare files and folders via Araxis Merge (and some AppleScript)
 Qiniu	1.3	0830	fbc839896eda31adc021380c8d099c8d	Upload images to qiniu.com
-Slack	1.1	1019	f7e54d8e7d700aeb9a9843ea187d805a	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
-Bitly	1.5	1013	09dc07bb8fe07ad873ec2fe3a10b2220	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
-TwitPic	1.0	1007	d1f05b85319662a94ab6e99581ea2705	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
-Bundle Script	1.2	1001	d2c12b457815cceea8e6db8111ed6ab9	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
-1024px	1.0		d52a20c4bafffca02beaf3cff84d0623	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
-Install Application	1.4	1011	535c5c09503def1fdf284dc659f7faa8	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
+Slack	1.1	1019	42850d479fce4788473e45201ca57799	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
+Bitly	1.5	1013	61e0175916c45d0c89e4388823bdf20b	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
+TwitPic	1.0	1007	c0eea575516dca2f3c20886e71b13d42	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
+Bundle Script	1.2	1001	99ac23c485a53ece2665f14a6f84d986	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
+1024px	1.0		1a46440238dc2a92ea4c4c3ce4b1f542	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
+Install Application	1.4	1011	1f9ee6184b795b56dfe48ec982843f73	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
 Kaleidoscope Diff	1.1	1018	2426491b96fd0b4d434a908995735bde	Drag two or more files to diff them with Kaleidoscope
 Google Maps	1.0	168438749	3c355866f95c21eaa7f49667adf5cb6d	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
 YouTube Uploader	1.7	1026	8454e539d1e8a7ec56ba8411f68cf8b8	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
