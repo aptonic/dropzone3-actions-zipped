@@ -1,11 +1,11 @@
-Up1	1.1	2175601	ca32b1b376551b1c54ad0f12cc877104	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
-Sparse Image	1.0		8a781369979cfda093bf11302e9a10f6	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
-Pushover	1.1		996b10be2d35c3bcdc2dac37a6e6a5bb	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list. 
+Up1	1.1	2175601	8344c14b33bae8d3d03c53cdbde77aa3	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
+Sparse Image	1.0		3cc0dbcdfe0785b45c68ab5cc498b00e	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
+Pushover	1.1		b1f016dec920266d8256c0bd234fae97	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list. 
 KDiff3	1.0	1033	595eae226f5d9026d20e5f4421d02dc5	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
 Send iMessage With Attachment to Phone Number	1.4	1021	128098d431218b4dec0d2b6209ec1cc3	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
 Pushbullet	1.0	1032	f342caa72d1a2c0f0affde9a4599fc98	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
-Say Text	1.0	1023	3ea092e8755250a0a9f46f07419eba65	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	775a31db84cea147063b68e47a8731fc	Provides an action to upload your files to a FTPES Server
+Say Text	1.0	1023	d58654a9e765cf56f6ed347e62c6ce36	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
+FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	0823c895b944a09310879a3287080830	Provides an action to upload your files to a FTPES Server
 Gfycat	1.0		d52923b47eb726894e880ebe702d3fb1	Uploads gif and mp4 files to gfycat
 ImageShack	1.2	1005	d28834752b75d993f160d8754e826be0	Uploads images to ImageShack. Drop multiple images to create an album.
 Finder Path	1.2	1003	5a233604e36017b9f7045ab89064ff1e	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
@@ -16,11 +16,11 @@ Google Drive	1.8	1020	05d9e96412ab0a1684bf9da180b3c288	Uploads files to Google D
 Zip Files	1.2	1025	0d675c281dc5121abd37137128696f2b	Zips up the dropped files or folders and places the zip file in the chosen folder.
 Make GIF	1.0		169e8c7558a3569ce5952ebf6933f0ba	This action converts videos to GIFs using ffmpeg
 Desktop Picture	1.0	1002	80ba0ac3953af4da38ee84d56e72dc95	A dropped image will be set as the current desktop background.
-Create DMG File	1.0	1028	eca78badf467ae8d8640b4def505869f	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
-Boxcar	1.0		eec06dd35ff9893b6f9fcc250ac46a64	Send message to Boxcar App (https://boxcar.io/).
-File Sort	1.0		86a8fdbf306e343c518070192224cd74	Auto move a file to its corresponding folder if a part of the filename match the folder name.
-Gist	1.2	1034	45ea8dbcb4a7ee56122bf8f414baa3b4	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
-Mail Link	1.1	1029	48a304b73aeaa1f453d42071770372b3	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
+Create DMG File	1.0	1028	1a86508d991c544db5e383b5c50ab1b1	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
+Boxcar	1.0		1a455518913ab8d28f57eeb7b7d622bb	Send message to Boxcar App (https://boxcar.io/).
+File Sort	1.0		2b71e47d05a605cc4a653c1e05c89715	Auto move a file to its corresponding folder if a part of the filename match the folder name.
+Gist	1.2	1034	b68919d5cf823ebf47e055ac2723d253	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
+Mail Link	1.1	1029	cd857a4661d86d6a820d6b3706982694	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
 YouTube Downloader	1.7	1036	794c6f2abf4de2a3edbb1cf9a9231a65	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		a8f5c12103ac292624a36523c392cb55	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	4c4a129e87742fecfd7f4bd96f320065	Dropped images will be searched for using Google Image Search.
