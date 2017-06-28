@@ -16,22 +16,22 @@ Google Drive	1.8	1020	65455cb763afad368db5333cf61da690	Uploads files to Google D
 Zip Files	1.2	1025	1e6f50ba6a7e0716326202b42da8d5ac	Zips up the dropped files or folders and places the zip file in the chosen folder.
 Make GIF	1.0		efcd488587272e88e0e5b7fa23a14090	This action converts videos to GIFs using ffmpeg
 Desktop Picture	1.0	1002	5c6deef76716f669511ca20681816601	A dropped image will be set as the current desktop background.
-Create DMG File	1.0	1028	56040f171dca80347390b106c82416eb	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
-Boxcar	1.0		0416147e2ad2e11d8adace10e759dfc5	Send message to Boxcar App (https://boxcar.io/).
-File Sort	1.0		ada3bab2caf5c75a8631df9217d596f0	Auto move a file to its corresponding folder if a part of the filename match the folder name.
+Create DMG File	1.0	1028	058c4b63bb23e32fbac0f9541b24a326	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
+Boxcar	1.0		232bc126c3fe1d20808eda200030159a	Send message to Boxcar App (https://boxcar.io/).
+File Sort	1.0		7a01fc4029a6ba58726881694489bc94	Auto move a file to its corresponding folder if a part of the filename match the folder name.
 Gist	1.2	1034	8f8f7d63ebffd5e2b5097a78e5f7b21a	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Mail Link	1.1	1029	e28f5b1acfa629a76bdff9245e024353	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.7	1036	3c40e4b56e724584d7c31090fa1e7948	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+YouTube Downloader	1.7	1036	c7587aed2bb65aa9a7f8b1654eb792f4	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		ad15abb690d8aaf41ecb5b08e8f4446e	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	0bbccfa58c842603807c80a33c5ca525	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		e8dcb5c185d521a22d7f2de85cfd2ce7	Compare files and folders via Araxis Merge (and some AppleScript)
 Qiniu	1.3	0830	bba7014074a779222c5dfa6398d0b13a	Upload images to qiniu.com
 Slack	1.1	1019	83d66db9dfe3217fa54baf2050d2bb87	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
-Bitly	1.5	1013	ec5d9bce50970af4a0bfd902f8235894	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
-TwitPic	1.0	1007	6954c43addb4be4918242a294b9144d0	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
-Bundle Script	1.2	1001	8193b2f6d730d7b882771ae0c814ebae	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
-1024px	1.0		1a294be3791b7e9161f57439027d5d33	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
-Install Application	1.4	1011	e8e192344c2f04ad4b563da97cb1dc06	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
+Bitly	1.5	1013	673706a3f9e12302e0247a89e4590e09	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
+TwitPic	1.0	1007	55bb36965e4d6fe1e6b1fd2a2d3933ea	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
+Bundle Script	1.2	1001	4b3febcfd2ecc3ef834f82bcd24e0e76	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
+1024px	1.0		34e3ff82c9f4afc32febc9468c0caab3	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
+Install Application	1.4	1011	19b6a3b08aac1be704078ac5624891aa	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
 Kaleidoscope Diff	1.1	1018	4b5184f16015c17c1ba4f7fe0e055125	Drag two or more files to diff them with Kaleidoscope
 Google Maps	1.0	168438749	4a6cd77fe25504fe2711ee716e394c72	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
 YouTube Uploader	1.7	1026	c0e08801e4ead29e1bef22937f31af2f	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
