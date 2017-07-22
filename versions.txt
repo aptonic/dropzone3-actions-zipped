@@ -2,8 +2,8 @@ Up1	1.1	2175601	1e4ee605bd80ecbdfe106a3cce901a47	Sends the clipboard or any drop
 Sparse Image	1.0		f7d30b81621cf401d197476e29e06524	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
 Pushover	1.1		48f2b354e23ca1201092245284851616	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list. 
 KDiff3	1.0	1033	e3691e4ad5c49c767541dd8a00ab2619	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
-Send iMessage With Attachment to Phone Number	1.4	1021	3e722794c6d07a3ab83f65cd3bf5203e	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
-Pushbullet	1.0	1032	0ee7b8e1a5fa5cd0601a138e455d17cd	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
+Send iMessage With Attachment to Phone Number	1.4	1021	cdc76dbf7d0f7dd2764428e713d323cf	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
+Pushbullet	1.0	1032	57dc7ed77b37eaaa75f8f1bf75fbdeda	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
 Say Text	1.0	1023	85bc94b544fd340e6d21e68975de79a4	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
 FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	922e9f8f92694ce430996dc2229603ec	Provides an action to upload your files to a FTPES Server
 Gfycat	1.0		198a752c33c3eaee8f27c34f985b6333	Uploads gif and mp4 files to gfycat
@@ -16,12 +16,12 @@ Google Drive	1.8	1020	e67233910561cddc71cd56dc1c79dc49	Uploads files to Google D
 Zip Files	1.2	1025	4662df13709ba9cc7a2ba3c327c26f4e	Zips up the dropped files or folders and places the zip file in the chosen folder.
 Make GIF	1.0		2edacaa44cab91853da879c8657b9982	This action converts videos to GIFs using ffmpeg
 Desktop Picture	1.0	1002	b4e4aa7a688d53f9786dbf9c3bea9b4a	A dropped image will be set as the current desktop background.
-Create DMG File	1.0	1028	c1767c3f386e83e736f6625c1529985b	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
+Create DMG File	1.0	1028	beddf231a9ceeefa1e1ad9e9aee897b6	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
 Boxcar	1.0		356fde70134e9d7a54be853228907624	Send message to Boxcar App (https://boxcar.io/).
 File Sort	1.0		8441e9d118d1f72a481270abc83a88b9	Auto move a file to its corresponding folder if a part of the filename match the folder name.
-Gist	1.2	1034	5b9c4ab623c29c45f92c7208867a1ee7	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
-Mail Link	1.1	1029	d45410a41164fb17f66b79391acc6180	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.7	1036	d18fed9412315d8390fb6b535c0c5d78	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+Gist	1.2	1034	a9360a6a8d2da8b2a4cf985b5514257d	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
+Mail Link	1.1	1029	697caf9bae085b2165cafca8038030fd	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
+YouTube Downloader	1.7	1036	8492f99dcb5b335a638fceb27f307789	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		1621765987202158c3793f79641c6305	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	fd9355cba5df6f49d775137eec3cba67	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		06dcc97f9fc288c1f8aff75abf2f0a5a	Compare files and folders via Araxis Merge (and some AppleScript)
@@ -31,8 +31,8 @@ Bitly	1.5	1013	cab4b7dd5361f0e4beaa2b2a17a71341	A dropped URL will be converted 
 TwitPic	1.0	1007	e92180bae46e9d0784ebbc57eec62c61	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
 Bundle Script	1.2	1001	bae400559a86d810f47268486dd2bd5b	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
 1024px	1.0		396b6d94242829005c9800751d52096e	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
-Install Application	1.4	1011	d06dbb774d70fae87b0b443effaa31bd	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
-Kaleidoscope Diff	1.1	1018	46df99c6113a560ab325fa30e8d4a47b	Drag two or more files to diff them with Kaleidoscope
+Install Application	1.4	1011	4f6cbf1b57659abfa8c41516546b9868	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
+Kaleidoscope Diff	1.1	1018	6b6b1abfe911917f5c41ff8ec364258f	Drag two or more files to diff them with Kaleidoscope
 Merge Directories	1.2		254a709c1df327a565221c9494f9f7c1	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
 Google Maps	1.0	168438749	2e58795190675b4bd188b78e59d3e703	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
 YouTube Uploader	1.7	1026	b276e5245dc678c73555b266d37b7251	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
