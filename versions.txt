@@ -1,4 +1,4 @@
-Up1	1.1	2175601	654684324a72d0ff0798ba7cc9e66320	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
+Up1	1.1	2175601	a7def4599e3e20352f652a8fe2b6d943	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
 Sparse Image	1.0		f4c07fa13661cd3328865fb0e98f0781	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
 Pushover	1.1		5370da6d071e8ceb213f5e80ef5f24d4	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list. 
 KDiff3	1.0	1033	8646aebe2744fe8413deb99a0dab33ee	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
@@ -12,7 +12,7 @@ Finder Path	1.2	1003	707bb0ca9ceebae75f552ef20e7a633b	Click on this action to co
 Clone Git Repository	1.3	1031	4fdd30de7ed6e15c3d6ab16fc90143d6	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder.
 Open iTerm at Path	1.1		e271edf4e6dbd9cc01167b6ac8359806	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	65af39a83d59db191315ad7764e427fe	Puts your Mac to sleep.
-Google Drive	1.8	1020	14098ccd920716fd1e45df9c7d733d1a	Uploads files to Google Drive.
+Google Drive	1.8	1020	6a9727ceb0f447211eced2d945ce27f9	Uploads files to Google Drive.
 Zip Files	1.2	1025	a7a88d281dad4a614566b1f52f61cbef	Zips up the dropped files or folders and places the zip file in the chosen folder.
 Make GIF	1.0		137c322224177cce1f9266ff062e65be	This action converts videos to GIFs using ffmpeg
 Desktop Picture	1.0	1002	e89ba1d1c894a31fcc43b3ed0ab038f6	A dropped image will be set as the current desktop background.
@@ -21,16 +21,16 @@ Boxcar	1.0		cee228bbc21df165c936285432c55069	Send message to Boxcar App (https:/
 File Sort	1.0		f280b55d7e9723126c8a77545b26b037	Auto move a file to its corresponding folder if a part of the filename match the folder name.
 Gist	1.2	1034	47cedf746a8dacc3a9afc7f2287ebae5	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Mail Link	1.1	1029	92b7827c0b18fa9731fb7a51456b28c4	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.7	1036	6c7498ac612698d17d7cb630d1764a61	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
-Node HTTP Server at Path	1.0		fa622e072004291dddb378bff8a37908	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
-Image Search	1.0	1022	fa0832d55261cd9f15c3feb26d54d521	Dropped images will be searched for using Google Image Search.
-Araxis Merge	1.0		f2a389eea6d3a47a3fd774dbd5c84e6f	Compare files and folders via Araxis Merge (and some AppleScript)
+YouTube Downloader	1.7	1036	d25ab563fa8d58ee01cf7c1203c1d2f2	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+Node HTTP Server at Path	1.0		679d98c73d5d55b322dd58b014428102	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
+Image Search	1.0	1022	f58566d8918608adf33786f7363b4741	Dropped images will be searched for using Google Image Search.
+Araxis Merge	1.0		185c4dbeee481975e9b7b979534ced7e	Compare files and folders via Araxis Merge (and some AppleScript)
 Qiniu	1.3	0830	fd9ba7431da908f481b17714754f996d	Upload images to qiniu.com
 Slack	1.1	1019	b1afd23814891ebab3ca2516aa866fd9	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
-Bitly	1.5	1013	9a5152e252264068297ac0edece8cad7	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
-TwitPic	1.0	1007	c34adc3596f713807a68f7134fb4d572	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
-Bundle Script	1.2	1001	76e2bfde081379f5a5acbffc771824cc	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
-1024px	1.0		e5f592bc2cd35e6db22dd0121553f55d	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
+Bitly	1.5	1013	826f09f0ef8ec49684f4a297d385bd7c	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
+TwitPic	1.0	1007	a0524222c65a611dd285d77574f02c25	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
+Bundle Script	1.2	1001	6a939ac11cdcab207d0377d01b5405c3	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
+1024px	1.0		06215b2e5e009a754f70e9f26f35a9d8	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
 Install Application	1.4	1011	c992e04146cb55f60aca9cd81380822d	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
 Kaleidoscope Diff	1.1	1018	e89372328d2a1462d236d97859a76c6c	Drag two or more files to diff them with Kaleidoscope
 Merge Directories	1.2		d20fffb219604d0781175c8b52790d41	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
