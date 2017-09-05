@@ -9,11 +9,11 @@ FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	97389ce5d2852d7f2e62e194
 Gfycat	1.0		bc216f039451ebe180071588ac740749	Uploads gif and mp4 files to gfycat
 ImageShack	1.2	1005	f05b8df61687df445a3ccc1a29a406a2	Uploads images to ImageShack. Drop multiple images to create an album.
 Finder Path	1.2	1003	5a7f2100797944baa99df0a3ce7da2bb	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
-Clone Git Repository	1.3	1031	e2668a2886765779b0d04eaa56026ddc	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder.
-Open iTerm at Path	1.1		5d51fc78500e5edb08abbfb4a74865e8	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
-Sleep	1.0	1027	c9b3f022c24211a9c8fe0401920e5637	Puts your Mac to sleep.
-Google Drive	1.8	1020	6232ef90f43c7ef0b57b0648f09d2d2c	Uploads files to Google Drive.
-Zip Files	1.2	1025	9a5e50efc2d689d1ca3f7a233810824c	Zips up the dropped files or folders and places the zip file in the chosen folder.
+Clone Git Repository	1.3	1031	d534995d57596d07e1cc6e13feffc2a9	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder.
+Open iTerm at Path	1.1		42aac5df3adfae9ca2a76dffe39b04c4	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
+Sleep	1.0	1027	3c70035875995deb058c63a2fd03c51a	Puts your Mac to sleep.
+Google Drive	1.8	1020	768a17081d2965526ebbc9e5fb4cb97f	Uploads files to Google Drive.
+Zip Files	1.2	1025	f646e31dd3757b4a859fada7b92530c9	Zips up the dropped files or folders and places the zip file in the chosen folder.
 Make GIF	1.0		799d2bea42108c8236e2db4f7bae74b7	This action converts videos to GIFs using ffmpeg
 Desktop Picture	1.0	1002	7a3f1d8989f7cd565e457c708066fd0f	A dropped image will be set as the current desktop background.
 Create DMG File	1.0	1028	5460a896511ea6c7078641ffd3bf3b78	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
@@ -21,9 +21,9 @@ Boxcar	1.0		b89033ed6b1e0db5fe2e50c88385e06d	Send message to Boxcar App (https:/
 File Sort	1.0		f138052d2444c4440cab48b91147d27e	Auto move a file to its corresponding folder if a part of the filename match the folder name.
 Gist	1.2	1034	ea6cecd6ed7165bdf756e8eaefe3f585	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Mail Link	1.1	1029	3c402d5e59bf137cc1b993d862b5ae3c	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.7	1036	6445c077e733e1277e3e2463ec17262c	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
-Node HTTP Server at Path	1.0		281b1d2d991cc11e09eb607251b5b426	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
-Image Search	1.0	1022	29a1019859374f20dc5dd150e3bada1a	Dropped images will be searched for using Google Image Search.
+YouTube Downloader	1.7	1036	4d2724d10807f431269703e61473aa2a	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+Node HTTP Server at Path	1.0		5376f1a12be79bc5444b94fa05d618d3	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
+Image Search	1.0	1022	507f65907531a2d4047af273a482613d	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		5ef2c5e13cfe70b6dede91f075d22e5f	Compare files and folders via Araxis Merge (and some AppleScript)
 Qiniu	1.3	0830	14a7ecbbb8e32aa9b7a53a2df94af07a	Upload images to qiniu.com
 Slack	1.1	1019	df141fe97595dcfe9177bf20353eeef1	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
