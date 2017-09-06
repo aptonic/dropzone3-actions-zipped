@@ -1,4 +1,4 @@
-Up1	1.1	2175601	e499e0bf555cf3ceab55edfe7a4cf868	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
+Up1	1.1	2175601	a9be62cb5e30d5d6b0c30cff185ea0d1	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
 Sparse Image	1.0		1ae56dd4a29bafdcb01ad2edbb3ce392	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
 Pushover	1.1		dfda0f3b3bef724a0f687fb4fe85ba70	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list. 
 KDiff3	1.0	1033	354c77b96dc5ca60bf62f0611e81efa2	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
@@ -9,10 +9,10 @@ FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	d04c901ceed71ddbb8a2a340
 Gfycat	1.0		6f726363274ef9b8d67abb1666f0faba	Uploads gif and mp4 files to gfycat
 ImageShack	1.2	1005	ca5c90e99bdc617ec15052d0e1e316e2	Uploads images to ImageShack. Drop multiple images to create an album.
 Finder Path	1.2	1003	0a46334e11784f55dac5d81e47edc66f	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
-Clone Git Repository	1.3	1031	d534995d57596d07e1cc6e13feffc2a9	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder.
-Open iTerm at Path	1.1		42aac5df3adfae9ca2a76dffe39b04c4	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
-Sleep	1.0	1027	3c70035875995deb058c63a2fd03c51a	Puts your Mac to sleep.
-Google Drive	1.8	1020	ab5d8cb24dfcb9eb941d5f6b10634f71	Uploads files to Google Drive.
+Clone Git Repository	1.3	1031	8844e1e6bec0b03abd5c0c4014bfcdeb	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder.
+Open iTerm at Path	1.1		b17200da5799be335db9d4c990dacb5a	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
+Sleep	1.0	1027	8b22142a2df04f13953f8d78a6b6f68d	Puts your Mac to sleep.
+Google Drive	1.8	1020	eafa471a3a5a102ed7a1ed26354f4358	Uploads files to Google Drive.
 Zip Files	1.2	1025	a0473478dfaa86e00281e6efe3a00fb4	Zips up the dropped files or folders and places the zip file in the chosen folder.
 Make GIF	1.0		53aab40ae7e57d892b7817cfcabe8fbf	This action converts videos to GIFs using ffmpeg
 Desktop Picture	1.0	1002	eb434c00aa6d57301d3e6437b8bac7f6	A dropped image will be set as the current desktop background.
