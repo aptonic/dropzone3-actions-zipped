@@ -13,7 +13,7 @@ Clone Git Repository	1.3	1031	da997acc4deb94bec26a15f253b92e42	Drag the URL of a
 Open iTerm at Path	1.1		8badd60c29b6dcaff6e506588833b673	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	ebc5623b8dc261eaf30c834f2e7e91e3	Puts your Mac to sleep.
 Google Drive	1.8	1020	0313c64e959c9d998ce09df94bea2784	Uploads files to Google Drive.
-Zip Files	1.2	1025	b1552fa2a8c9e3a4ad6edfc1d6541541	Zips up the dropped files or folders and places the zip file in the chosen folder.
+Zip Files	1.2	1025	fb9fb7c0d01ce2b13185b2a1e4145c9a	Zips up the dropped files or folders and places the zip file in the chosen folder.
 Make GIF	1.0		60cd8dfdb0f2d2e3787612d578f078de	This action converts videos to GIFs using ffmpeg
 Desktop Picture	1.0	1002	c9aa91671d3c5b3d08b427a6e2db8c6b	A dropped image will be set as the current desktop background.
 Create DMG File	1.0	1028	c9adb6a2ffe829bd2c313f495860a43e	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
@@ -22,9 +22,9 @@ File Sort	1.0		3a00afae6cd9c342d433cc717eeae450	Auto move a file to its correspo
 Gist	1.2	1034	47ed6317f991e567ff9f57c06129884e	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Mail Link	1.1	1029	eefe444936c23d980d74edb128139b54	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
 YouTube Downloader	1.7	1036	6fa0d46a1a62d78798c9933868ffdcd4	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
-Node HTTP Server at Path	1.0		258f8b2e3131691786f24ab643bddf81	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
-Image Search	1.0	1022	8930881f1e4a5456b5b4798233b705c5	Dropped images will be searched for using Google Image Search.
-Araxis Merge	1.0		beff6e8a054da58181f0eadcaf6818ff	Compare files and folders via Araxis Merge (and some AppleScript)
+Node HTTP Server at Path	1.0		00c8051ff28fd72e4937816448c28703	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
+Image Search	1.0	1022	2f0aae61174e0793d1f4d44c3557b87a	Dropped images will be searched for using Google Image Search.
+Araxis Merge	1.0		476d086a23f184533729c3261ea37a82	Compare files and folders via Araxis Merge (and some AppleScript)
 Qiniu	1.3	0830	947dfb21599c0ea2d46ddefdc18834f2	Upload images to qiniu.com
 Slack	1.1	1019	f3f59e9e0270ea097a3fb34341dbbc70	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
 Bitly	1.5	1013	e773a5c5c571d3989bd0d9204770a4d7	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
