@@ -6,9 +6,9 @@ Send iMessage With Attachment to Phone Number	1.4	1021	7d018cc18bca5b6d1959d94b3
 Pushbullet	1.0	1032	892a0406d1f326dfafe2fc73c769e0fe	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
 Say Text	1.0	1023	860c193a42d4c3a432ed291ab07b6593	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
 FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	73197d9d3a89bad2b6e1ed774def2c6e	Provides an action to upload your files to a FTPES Server
-Gfycat	1.0		020261fedf2bcaa098dce7cda4196917	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	da4913fbb310e778effb67a81e904e86	Uploads images to ImageShack. Drop multiple images to create an album.
-Finder Path	1.2	1003	0d1eb98161047d927782baabdbd99a60	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
+Gfycat	1.0		db2e59978e034ba844e36298a0ac63a5	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	40f85681afb32047fe401d51675cc010	Uploads images to ImageShack. Drop multiple images to create an album.
+Finder Path	1.2	1003	980a1f3a8874baaad5aafd67d2285758	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
 Clone Git Repository	1.3	1031	11821438cc09a0bcf3c1e85f1391ca96	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder.
 Open iTerm at Path	1.1		64a0c34c8b1164627f39b0af220fae6c	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	8ceeca8741bc72f6cd060839973027b0	Puts your Mac to sleep.
@@ -21,27 +21,27 @@ Boxcar	1.0		654dc0e87bae47f0abce8b466328fc79	Send message to Boxcar App (https:/
 File Sort	1.0		7a5676e5f0b0b4c5bf1d790fe60ed510	Auto move a file to its corresponding folder if a part of the filename match the folder name.
 Gist	1.2	1034	d765350af6b19afba604189aebe95b4c	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Mail Link	1.1	1029	515d4f92fa3f0909796545a8bd04e744	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.7	1036	0d7251f563baae3536e074657a443d5c	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
-Node HTTP Server at Path	1.0		0bddfa1b7604ca4d9485ed9bb57f4f6a	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
-Image Search	1.0	1022	b547eaa57da3bab84000a1f147984343	Dropped images will be searched for using Google Image Search.
-Araxis Merge	1.0		e57b729982b9a17b6f791eaeaf0e41e7	Compare files and folders via Araxis Merge (and some AppleScript)
-Qiniu	1.3	0830	609bed1b761b024620b8cc2db9ce1cf0	Upload images to qiniu.com
+YouTube Downloader	1.7	1036	79e0a229606b80a615b67ba2fba39378	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+Node HTTP Server at Path	1.0		15d6c4b8ace143e58940c74bcf40e957	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
+Image Search	1.0	1022	e0b11dc381c9d08926a391bf716a94d3	Dropped images will be searched for using Google Image Search.
+Araxis Merge	1.0		a3a9cccc838018a1006e6c16dcec5b0d	Compare files and folders via Araxis Merge (and some AppleScript)
+Qiniu	1.3	0830	dd480f26281696cff51c0a84f8d0bc21	Upload images to qiniu.com
 Slack	1.1	1019	af877415dd6d43fdfc17fd4a5f646306	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
 Bitly	1.5	1013	7e4226b684f2f0b1d19a068cd8e1a046	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
 TwitPic	1.0	1007	1e6128a219edc2978dc91c5e95897c86	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
 Bundle Script	1.2	1001	1926915196dead2ad51ec02a9ca7199e	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
 1024px	1.0		42c9eb4dc98301ce1f97a5f252d36324	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
 Install Application	1.4	1011	f98aaacce922a33bff5a777c93d5ce14	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
-Kaleidoscope Diff	1.1	1018	4f34e0119ef2907d1ea5126deec0cbed	Drag two or more files to diff them with Kaleidoscope
+Kaleidoscope Diff	1.1	1018	501b11953b8bfd6103546ecab004ba66	Drag two or more files to diff them with Kaleidoscope
 Merge Directories	1.2		8b61ec90d9ce46bb8125fc7fdf1c55e4	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
 Google Maps	1.0	168438749	eb3b5dc0a9f71323f5e19a3375579878	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
 YouTube Uploader	1.7	1026	afd8ac750c64a613290062aeb2472e3f	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
-Tinify	1.0		ed0a9df576b3a91544eb46017bd72e31	https://tinypng.com/
-Rackspace Cloud Files	2.0	1017	a11f89fe7ce0d1443e37d4440f9f2e28	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
-Flickr Upload	1.0	1004	1ef209c9d4839a862d6cb9d7c484e953	Allows images to be uploaded to Flickr. Holding down the option key while dragging copies the direct image URL.
+Tinify	1.0		a1a1221f68ae7ad099ab7bb6cee33aa8	https://tinypng.com/
+Rackspace Cloud Files	2.0	1017	e9e526520fc2f68d958cd0a562c8b108	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
+Flickr Upload	1.0	1004	facdc0cf6ab37f15d63f7081f476f0fb	Allows images to be uploaded to Flickr. Holding down the option key while dragging copies the direct image URL.
 Clean Text	1.0		b295d4357ded02123c832b529eb3eb91	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
-Strip PDF from Zip	1.0		c49b41aeca33a045f54f7d85e998ac11	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
-Renren	2.0		24798642b46e6a9b9737439cf48f8c9d	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
+Strip PDF from Zip	1.0		b7e86ab94b19599876964f9a2a736f88	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
+Renren	2.0		1a2f59ec32164e06badc5018a69ad098	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
 Share with Secure Data Space	1.7	3920135319837973180911208394894	644b94db8269f45359f666368873521a	Upload a file to SSP Secure Data Space and create a share link (URL will be placed clipboard). Holding 'Command' (⌘) or 'Option' (⌥) will expire the uploaded file and its share link after 14 days, 'Control' (^) or 'Option' (⌥) will allow you to set a password for the share link. Holding 'Shift' (⇧) just uploads the file without sharing it. Clicking on this Action copies the latest share link to the clipboard.\nIcon is owned by SSP Europe GmbH.
 Compress Image	1.1	1008	764534e110df3c108d203e15c198136c	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
 SCP Upload	1.5	1009	5ff7e70c9d5f5938189f5988fcbab476	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
