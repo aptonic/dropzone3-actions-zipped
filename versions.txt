@@ -9,19 +9,19 @@ FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	5958dc57ae25bd17ce0d6b8f
 Gfycat	1.0		2ae641063d4768547b34d05443770cf9	Uploads gif and mp4 files to gfycat
 ImageShack	1.2	1005	cc70d39b420947cce98d6db95226e8a9	Uploads images to ImageShack. Drop multiple images to create an album.
 Finder Path	1.2	1003	c22bf4fac8c89a2fb4c6c2ed3829ebaf	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
-Clone Git Repository	1.3	1031	79d60102f92b64c024d596ce861f92c7	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder.
-Open iTerm at Path	1.1		44dc7fdbbeb321e4bb1a27e05aceee71	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
+Clone Git Repository	1.3	1031	2f15d8339ab042b72641f200f4515078	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder.
+Open iTerm at Path	1.1		7532e287747ad01fd7c5032d54d3a9d5	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	3e7c76da3832fe0831b1ab5db2465fc4	Puts your Mac to sleep.
-Google Drive	1.8	1020	9b2d768376723e7fe34828ac27ddc8c7	Uploads files to Google Drive.
+Google Drive	1.8	1020	dca45bf5fd4a7cadfe94080c1e698821	Uploads files to Google Drive.
 Zip Files	1.2	1025	4ed9f5eba1549079657a14d7ec8a95ca	Zips up the dropped files or folders and places the zip file in the chosen folder.
 Make GIF	1.0		6c109f24da09463aa8984c6abf4bc529	This action converts videos to GIFs using ffmpeg
-Desktop Picture	1.0	1002	2bce6abb18753ddcd1fff42f514e098e	A dropped image will be set as the current desktop background.
-Create DMG File	1.0	1028	45668ef8e6085c3ea72d649a52b33f61	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
-Boxcar	1.0		3c568b47838b6c1548ac2d33266bcc15	Send message to Boxcar App (https://boxcar.io/).
-File Sort	1.0		4721fb5b8497729deaf95b0d2f896056	Auto move a file to its corresponding folder if a part of the filename match the folder name.
+Desktop Picture	1.0	1002	e41e4ef2e87711d6e9dfedadd79f253c	A dropped image will be set as the current desktop background.
+Create DMG File	1.0	1028	79543b3951994ae1eb8c12ed705209c2	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
+Boxcar	1.0		30c00ec6a44c95621ac47c24f53d618a	Send message to Boxcar App (https://boxcar.io/).
+File Sort	1.0		ecaecaec45fbd5d9b5ec65342f7e8115	Auto move a file to its corresponding folder if a part of the filename match the folder name.
 Gist	1.2	1034	fca3ac690af287f2594336a539c6ec2c	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Mail Link	1.1	1029	f9d2233619508730e8d45910562b6d3c	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.7	1036	70b25b8b6b78f3718e05655baf1cea00	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+YouTube Downloader	1.7	1036	446d44ed6d54be076e688ce4d42cf820	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		f67b03b07b73604b491ffc7f77e80882	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	990672bae3dda17d561ad9e1969c8eb3	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		2933f19100a064d710451912b44359db	Compare files and folders via Araxis Merge (and some AppleScript)
@@ -41,7 +41,7 @@ Rackspace Cloud Files	2.0	1017	b83c50cb5820fd48ee251ea36f43131a	Uploads files to
 Flickr Upload	1.0	1004	854e145a0ef7c1860d8c42105c41cba5	Allows images to be uploaded to Flickr. Holding down the option key while dragging copies the direct image URL.
 Clean Text	1.0		a8c40d9e6243fffd6e5b899f8654db5a	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
 Strip PDF from Zip	1.0		49d958e2f6c9e0c499b14f6224982451	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
-Renren	2.0		5df26d898ec0b9fe83bb25f076fcb0bd	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
+Renren	2.0		a64da106396e98d233238d8d718c6d8c	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
 Share with Secure Data Space	1.7	3920135319837973180911208394894	260985799560283f0c355f4d8ee90983	Upload a file to SSP Secure Data Space and create a share link (URL will be placed clipboard). Holding 'Command' (⌘) or 'Option' (⌥) will expire the uploaded file and its share link after 14 days, 'Control' (^) or 'Option' (⌥) will allow you to set a password for the share link. Holding 'Shift' (⇧) just uploads the file without sharing it. Clicking on this Action copies the latest share link to the clipboard.\nIcon is owned by SSP Europe GmbH.
 Compress Image	1.1	1008	54dff0fa2257ac5d49f6c339ca48f559	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
 SCP Upload	1.5	1009	cf1bd12d562f2c9492fb8943a7a334aa	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
