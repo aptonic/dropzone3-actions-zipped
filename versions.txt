@@ -1,31 +1,31 @@
-Up1	1.1	2175601	80e17470987f06284988ecddf92a524b	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
-Sparse Image	1.0		caf37b48c1737deac045f2cbdf42f86e	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
-Pushover	1.1		4417a7781ef7b3656c6d8545a77639c9	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list. 
-KDiff3	1.0	1033	7e4cb7ffc5fc5a0a8440373958a6d6e4	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
-Send iMessage With Attachment to Phone Number	1.4	1021	489782565625caacde75e234a1c370b3	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
-Pushbullet	1.0	1032	2a1e4264b85e7ee2a3e45bb9af3edae6	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
+Up1	1.1	2175601	b7df3aa89f55a2cac20705770a1e5dec	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
+Sparse Image	1.0		183a0097fcdda43929c89a6bb21bb99f	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
+Pushover	1.1		04fbdf1a8f564ff93bd75ae298441d7f	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list. 
+KDiff3	1.0	1033	c085349f0436c81f81919a46790ccca7	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
+Send iMessage With Attachment to Phone Number	1.4	1021	16a57aa051889eb6012a3fa486ff52d1	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
+Pushbullet	1.0	1032	f99fa2e66bcea310617f9cb9fc590f54	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
 Say Text	1.0	1023	a41cb92bd4c5bf644f22130daa5df0e2	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
 FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	fbf732d934b694b67d710a3480ae20a7	Provides an action to upload your files to a FTPES Server
-Gfycat	1.0		49c4369dae815fbeb2c2913e6be467c8	Uploads gif and mp4 files to gfycat
+Gfycat	1.0		86b78d1d9da8ff7bfd51f9ca22e55699	Uploads gif and mp4 files to gfycat
 ImageShack	1.2	1005	ff8ac5219772602937a00a917f0b55d7	Uploads images to ImageShack. Drop multiple images to create an album.
 Finder Path	1.2	1003	fbbdd5b18369c1ed74a77185fcf1e5db	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
 Clone Git Repository	1.3	1031	e79b5ad4f5d5129aaf8a75b136e7f016	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder.
 Open iTerm at Path	1.1		d16624eb78e2d93a99b93a216fa8b001	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	c9689fabc99d81cbc360a8006e18a297	Puts your Mac to sleep.
 Google Drive	1.8	1020	b1bf8a3ec17ab4194e92cb595206b628	Uploads files to Google Drive.
-Zip Files	1.2	1025	faedc3262a6f9346bf1f6bc38aac3f6e	Zips up the dropped files or folders and places the zip file in the chosen folder.
-Make GIF	1.0		074b4c0e586f804a3cfdb23de402adb8	This action converts videos to GIFs using ffmpeg
-Desktop Picture	1.0	1002	86d8822a9e0a9ea23b09cb5d11bc58a5	A dropped image will be set as the current desktop background.
+Zip Files	1.2	1025	2742bc596744f7634bc997839680dd87	Zips up the dropped files or folders and places the zip file in the chosen folder.
+Make GIF	1.0		8f24cc10f2d23879bc5339b1aa3b2e61	This action converts videos to GIFs using ffmpeg
+Desktop Picture	1.0	1002	cf09690346ad0e2fcabb7354cc753e56	A dropped image will be set as the current desktop background.
 Create DMG File	1.0	1028	42ed8b59039385010ef764c7ae281678	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
 Boxcar	1.0		a8f169d5383873f211665a69e98ab66b	Send message to Boxcar App (https://boxcar.io/).
 File Sort	1.0		853844ad930260b9dfe56ac1831d72bc	Auto move a file to its corresponding folder if a part of the filename match the folder name.
 Gist	1.2	1034	583d1c45833ce6f8c3d8691d4b0a3ad8	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Mail Link	1.1	1029	f6e3eded8d8bac59e31254cff2dcfa57	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.7	1036	1dc8631c715c1e12ab5dad35713419d8	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+YouTube Downloader	1.7	1036	9e860da28c97ffa05caa1878d419884d	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		933621d7ff9e5803d2522c585bffb506	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
-Image Search	1.0	1022	af1716f4c5e6baecb06f075337829aaa	Dropped images will be searched for using Google Image Search.
-Araxis Merge	1.0		8bfe2cf3c7c23567cd623469bae673df	Compare files and folders via Araxis Merge (and some AppleScript)
-Qiniu	1.3	0830	689fd3f3df0269638515b1131c267427	Upload images to qiniu.com
+Image Search	1.0	1022	8f27385c03209a31085c8f5e221c64b5	Dropped images will be searched for using Google Image Search.
+Araxis Merge	1.0		ce150c415a29482c9e3dc4e8d68b03e7	Compare files and folders via Araxis Merge (and some AppleScript)
+Qiniu	1.3	0830	c457fe205f1a71e3efc498f91ec5f223	Upload images to qiniu.com
 Slack	1.1	1019	db8afa6512a86dd788b200c9c6a67233	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
 Bitly	1.5	1013	663d431b03981900880df9e31700f8a6	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
 TwitPic	1.0	1007	8ab50a83962771753b43731cc950f073	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
