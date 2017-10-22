@@ -1,15 +1,15 @@
-Up1	1.1	2175601	1c378fdb00e3f79dee11acbfe3619e65	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
-Sparse Image	1.0		c1403b2fa1aae4a629c3e3e8616d7b20	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
-Pushover	1.1		03ad4e73512ae998c3af7da7962e98db	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list. 
-KDiff3	1.0	1033	9e7cef6c9221d98970e308b675541c1a	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
-Send iMessage With Attachment to Phone Number	1.4	1021	b3b18f036d7d1d3d0f701d39126574a8	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
-Pushbullet	1.0	1032	9f639538762529d2b0d6d6563d29f066	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
+Up1	1.1	2175601	eb14a15b1ad4f217bc94da505ab26e09	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
+Sparse Image	1.0		70bc05034f7b28d1d6bfcfd87875286d	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
+Pushover	1.1		2ecf27a091109b28bdab915feec6a504	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list. 
+KDiff3	1.0	1033	2f72ba4deb6702d60859d87530c908d6	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
+Send iMessage With Attachment to Phone Number	1.4	1021	de7da513b560d6c68885a5e3e9196634	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
+Pushbullet	1.0	1032	312a5f884d40efd682db59b600dfa925	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
 Say Text	1.0	1023	996d7565290edf624d461270ce95f37f	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	ee4b7f606ba0bd4dacc393c69e367712	Provides an action to upload your files to a FTPES Server
-Gfycat	1.0		1327698a2b770da048ee7a63d278e485	Uploads gif and mp4 files to gfycat
+FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	26dc81ef6775a2ec9ece3b0bc0b5ff3d	Provides an action to upload your files to a FTPES Server
+Gfycat	1.0		6e719b2ef4cab18dd23c7e712f39f945	Uploads gif and mp4 files to gfycat
 ImageShack	1.2	1005	3637e52e6340ed879fc1482f315cc694	Uploads images to ImageShack. Drop multiple images to create an album.
 Finder Path	1.2	1003	9b98d1e8a0049fc10967c36bde25354d	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
-Clone Git Repository	1.3	1031	d63447c976fd9d6265e5eb6c2d8b2312	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder.
+Clone Git Repository	1.3	1031	4f7c16935907e7fd17aed1243f138ef5	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder.
 Open iTerm at Path	1.1		98970c0f1a5e4216e776c64aeb439754	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	cb7b67eb5a4478acedc004dcb2d4326b	Puts your Mac to sleep.
 Google Drive	1.8	1020	5fd20a507f6d136af4c014c8533b380b	Uploads files to Google Drive.
@@ -20,19 +20,19 @@ Create DMG File	1.0	1028	58bcf26078fc5b621b273b352c1df043	Creates a DMG file wit
 Boxcar	1.0		13614b70f1e9457da0ae336cfe2fedea	Send message to Boxcar App (https://boxcar.io/).
 File Sort	1.0		e0d68aaa70594f5a57edd032a99c6141	Auto move a file to its corresponding folder if a part of the filename match the folder name.
 Gist	1.2	1034	1d76e229ad0923595a763ee11b0fa3e8	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
-Mail Link	1.1	1029	e33dc556bc4a16e9ee239e170d068918	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.7	1036	f6b9253408178b34fa6b4c93ff7c479b	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+Mail Link	1.1	1029	aa4ea5a6f4cb9cd75c5d72707cba9dc9	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
+YouTube Downloader	1.7	1036	9cb0a2b45a6143f0b4ec86012451092f	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		ff32c5a5b717ef2efbcd294d6b13ac88	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	c9dca8b3d0094889724161bedd9d64d4	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		b86a722231eef495f1ad8b47df06a4c8	Compare files and folders via Araxis Merge (and some AppleScript)
 Qiniu	1.3	0830	6432cef9472dcf7a3eba68c90ab26948	Upload images to qiniu.com
 Slack	1.1	1019	bf47740c17e9035f94111d4c11ef366a	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
-Bitly	1.5	1013	e37ac16a236746fc020e322a78a0e48c	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
-TwitPic	1.0	1007	4fb5d7933283b63bf3885d299d9e2fe9	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
-Bundle Script	1.2	1001	337015184cc65320c720c0272cd9b364	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
-1024px	1.0		c5ab76fee0fee3ee9256077ac018322a	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
-Install Application	1.4	1011	8abc2021f7334ae613e1f52c637d2691	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
-Kaleidoscope Diff	1.1	1018	f53c2a6a80c401f1119c0af177e1def3	Drag two or more files to diff them with Kaleidoscope
+Bitly	1.5	1013	819cb7d006ff26950e7ceae9dc3094cb	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
+TwitPic	1.0	1007	6dd581d7774df044eee9c2d22804f332	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
+Bundle Script	1.2	1001	eb6ad657e02d1af3a47b09407d5e76be	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
+1024px	1.0		dd98f37137a271f20e3837fd18acf5a0	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
+Install Application	1.4	1011	5bf1906c57ac4182f607e37a145b47f7	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
+Kaleidoscope Diff	1.1	1018	ad592a7ad02c1e5bcc347c4c8d36b2e8	Drag two or more files to diff them with Kaleidoscope
 Merge Directories	1.2		5dee8afb6b9410177e4b33ef7f0a739b	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
 Google Maps	1.0	168438749	074e8442c1127f377eb422fc762926ad	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
 YouTube Uploader	1.7	1026	6d7fd9236a0655c1b1978264cd9c8c5c	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
