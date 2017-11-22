@@ -8,10 +8,10 @@ Say Text	1.0	1023	c3db292b9855071d5ba376ebd295f03d	Text dragged onto this action
 FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	55bb9358b6ec9f19a0966bcd7e445d84	Provides an action to upload your files to a FTPES Server
 Gfycat	1.0		b144d1735fb8728125d567f13ec49b6d	Uploads gif and mp4 files to gfycat
 ImageShack	1.2	1005	c442ad8f16e22701cb1d05007da31389	Uploads images to ImageShack. Drop multiple images to create an album.
-Finder Path	1.2	1003	123dedd7abdce30f84c1f501167fd10f	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
-Clone Git Repository	1.4	1031	7ff1f467aaff5bc6afaf1b080afd24ac	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
-Open iTerm at Path	1.1		cfc29388b6b1719403621ff5fc98765c	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
-Sleep	1.0	1027	c89b8a1a5e822f97e3dc5f90b7ef4970	Puts your Mac to sleep.
+Finder Path	1.2	1003	fe59fac517827ccc072c22aab66f144c	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
+Clone Git Repository	1.4	1031	bce2b8b7c9e98222ef782c9712bee561	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
+Open iTerm at Path	1.1		4a8f688fb24baa446b6cbebd2ec9e9f3	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
+Sleep	1.0	1027	0035c6b5314c44b31282e8e3314b4fb9	Puts your Mac to sleep.
 Google Drive	1.9	1020	14f93bd9267784a56f57f0c794dfa1c1	Uploads files to Google Drive.
 Zip Files	1.2	1025	f821e576999419ca3cb6b9fd07f1d06a	Zips up the dropped files or folders and places the zip file in the chosen folder.
 Make GIF	1.0		1041a65c8fdb835cc84ef1edcb42c98b	This action converts videos to GIFs using ffmpeg
@@ -25,7 +25,7 @@ YouTube Downloader	1.7	1036	819a726d7ceb498501fb7c654a2c7ef1	Allows you to quick
 Node HTTP Server at Path	1.0		ee59fc569238abb311444f11770bfec1	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	8b5506d953765d5da5f1fab37e99784b	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		42e3b05fd295ec1fe2a71e4d6c3fcf0d	Compare files and folders via Araxis Merge (and some AppleScript)
-Qiniu	1.3	0830	c3058afd428643b2545ec9fff2d1bc0c	Upload images to qiniu.com
+Qiniu	1.3	0830	9e7b31ba98f6b26bfc13bc61c26d1d6f	Upload images to qiniu.com
 Slack	1.1	1019	0bfb05c10b075fc3c0222a62873bb8d9	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
 Bitly	1.6	1013	9dce0006c4ccc71d9955fe910ff61ed3	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
 TwitPic	1.0	1007	34533a483b01dd8bec1dd74111d1822f	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
@@ -47,8 +47,8 @@ Compress Image	1.1	1008	ec98bbe95221867463abddda8e864883	This destination is for
 SCP Upload	1.6	1009	691ed61b1d7aa5463d0b85d4e7a7be35	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
 Dropbox	1.2	1010	52c62b9a2d595cf9d67451c455b69aa0	Share files via Dropbox by copying them to your Dropbox Public folder and putting the URL on the clipboard.
 Strip PDF Front	1.0		0d05bd8c8f295e840e02697d2a87f549	This actions takes PDF files, copies out the front cover picture, and scales it to the given size and the type given. Set the width and extension by clicking on the action. It uses the ImageMagick programs and the XPDF programs. Both are installable using HomeBrew. "brew install imagemagick" and "brew install xpdf".
-Goo.gl	1.9	1024	0e8d67132e32ae8d08ba7a806812feea	A dropped URL will be converted to a shortened Goo.gl URL.\nYou can also drop shortened URLs to get the expanded URL.\n\nWhen clicked, the action will attempt to shorten or expand a URL on the clipboard.\n\nAuthorization is optional, use it if you want to track the shortened URLs at http://goo.gl using your Google account.
-Print	1.1	1012	babd4c33beb3e20042623c36e8468512	Dropped files will be printed. If you have multiple printers, you will be prompted for which printer you wish to use.\n\nNote this action is intended as just a quick and dirty way to quickly print an image, PDF, Pages or MS Office document. It is not intended to let you configure print settings.
-Cathode at Path	1.0	672351102879648003471169204215	b3dd9b1340f358d467091cb27dc717b5	Drop a file or folder on this action to open a new Cathode window at the files path. You can also drop a textual path.
+Goo.gl	1.9	1024	b53d430cc3c7bcda48da493ecfd35149	A dropped URL will be converted to a shortened Goo.gl URL.\nYou can also drop shortened URLs to get the expanded URL.\n\nWhen clicked, the action will attempt to shorten or expand a URL on the clipboard.\n\nAuthorization is optional, use it if you want to track the shortened URLs at http://goo.gl using your Google account.
+Print	1.1	1012	71406fbda9fc7f0e4ae629e74b453eac	Dropped files will be printed. If you have multiple printers, you will be prompted for which printer you wish to use.\n\nNote this action is intended as just a quick and dirty way to quickly print an image, PDF, Pages or MS Office document. It is not intended to let you configure print settings.
+Cathode at Path	1.0	672351102879648003471169204215	4242d2fc0e26723d03c50775d56a65d2	Drop a file or folder on this action to open a new Cathode window at the files path. You can also drop a textual path.
 Open Terminal at Path	1.2	1030	9c872859d0037f9115163fb37881661f	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
 Screensaver	1.0	1006	07ddbe820ea204656df930bcd3b6885e	Starts the screensaver.
