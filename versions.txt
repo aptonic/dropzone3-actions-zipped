@@ -1,17 +1,17 @@
-Up1	1.2	2175601	1771acc2921c9c0e9e223880742a73b3	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
-Sparse Image	1.0	7003	ef277df96335a1160672a2386a5e3d77	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
-Pushover	1.1	7002	f985d54fafaff602a7f037e62fce7c9b	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list.
-KDiff3	1.0	1033	78f05fa1b7e930fa82f5ff6eb7c88d3f	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
+Up1	1.2	2175601	b4bedc89f56832c74fc9e6b36f394758	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
+Sparse Image	1.0	7003	db15446e7792ed5ee06077cb1c198fa7	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
+Pushover	1.1	7002	53933abde3ed35276c28a045506d9a7c	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list.
+KDiff3	1.0	1033	0da7fc85802a481c0881bf7f9a976a7a	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
 Send iMessage With Attachment to Phone Number	1.4	1021	3938ad48307947e544f39d517b6ae083	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
 Pushbullet	1.0	1032	a3775fbbd1eb5b91524fe91de356cf80	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
 Say Text	1.0	1023	6133af41986e15c8656b607228691e42	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	6df24a2e9493ef64d312db20515d4872	Provides an action to upload your files to a FTPES Server
-Gfycat	1.0		15dbb5774c66891b293e3a7dd7938db4	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	075041f84687ce8aeaa0e416b04773f5	Uploads images to ImageShack. Drop multiple images to create an album.
-Finder Path	1.2	1003	a7c3ffafa547f950b05ce8504b747fd1	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
-Clone Git Repository	1.4	1031	82887ff5b32487ea2dc006835e85e530	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
-Open iTerm at Path	1.1		0e5b6267c3ad208d9fa760be2cfb47a3	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
-Sleep	1.0	1027	ef1268000e694426ea85715332157d7f	Puts your Mac to sleep.
+FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	267ca842d04eaa9c5cd8f3ebec754909	Provides an action to upload your files to a FTPES Server
+Gfycat	1.0		a404dbf61e92d96515fdaf5b76d7fa5e	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	9235576cfb79d415343e90730033562f	Uploads images to ImageShack. Drop multiple images to create an album.
+Finder Path	1.2	1003	72567e84f1f89a6685a332184ec6eaeb	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
+Clone Git Repository	1.4	1031	c97748bd96029b0e9d35389a0499d733	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
+Open iTerm at Path	1.1		6597f1c1fa66758170f367f6f50e6d84	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
+Sleep	1.0	1027	09b6ac5d66d5e0b458d82f3f381f660b	Puts your Mac to sleep.
 Google Drive	1.9	1020	296dfe377fddb31152a570b29ca05966	Uploads files to Google Drive.
 Zip Files	1.2	1025	bc2a54a4da3a26d0b6cec3f19ac116ab	Zips up the dropped files or folders and places the zip file in the chosen folder.
 Make GIF	1.0		e386bc5b2768b9ef841d87a3c74901de	This action converts videos to GIFs using ffmpeg
@@ -25,7 +25,7 @@ YouTube Downloader	1.7	1036	92126ae0d278f4756ec4090113364206	Allows you to quick
 Node HTTP Server at Path	1.0		de4406a688c237a0b21c5fad7e5c327f	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	1a9405ff96aea9ec868fc37c989cb83f	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		28f59e0c2e92d25665dc1b0bac8ff3e1	Compare files and folders via Araxis Merge (and some AppleScript)
-Qiniu	1.3	0830	e474ee4a3feda89fa7fcc429d96029f4	Upload images to qiniu.com
+Qiniu	1.3	0830	5584e3da0cecaa0e7c8743477952e88e	Upload images to qiniu.com
 Slack	1.1	1019	781afda42478c3efaa9e49a925b91b3b	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
 Bitly	1.6	1013	4967bfacc99442e69ffa4c50adc8920f	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
 TwitPic	1.0	1007	8cb1e4c7cc9b006b98658169f5a38a83	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
