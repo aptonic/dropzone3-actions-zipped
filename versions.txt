@@ -8,13 +8,13 @@ Say Text	1.0	1023	d0ab716d7f7b51bb46fa5730cf948d80	Text dragged onto this action
 FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	b7104c3717d7971ffc96ebb4e41cd929	Provides an action to upload your files to a FTPES Server
 Gfycat	1.0		e45155d40631fcc41a170a1d656118d6	Uploads gif and mp4 files to gfycat
 ImageShack	1.2	1005	23110a97c99d673f478fce00c82a3409	Uploads images to ImageShack. Drop multiple images to create an album.
-Finder Path	1.2	1003	f7fbaecb20bed0840153103e1a655836	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
-Clone Git Repository	1.4	1031	b4099356dca9ce2b277629f5a648d083	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
-Open iTerm at Path	1.1		4df20965a58912bae4a498ece922bcbf	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
-Sleep	1.0	1027	43ba0d571dcad0d3595c24b288bc29b0	Puts your Mac to sleep.
+Finder Path	1.2	1003	37b76bf006715a41484a83d160c66fe1	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
+Clone Git Repository	1.4	1031	c8ca1270ef2e05786ba0e0a6a4d03e1f	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
+Open iTerm at Path	1.1		cc9851e6d99453afd9acfe5e8c390a89	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
+Sleep	1.0	1027	8cff4f2cf75ac726cc161cd0650c4b83	Puts your Mac to sleep.
 Google Drive	1.9	1020	ac7962f7c30ff85c5e31f3b9caeaa6f3	Uploads files to Google Drive.
-Zip Files	1.2	1025	0f859664bbc1e72bbb1eb51afedc33b1	Zips up the dropped files or folders and places the zip file in the chosen folder.
-Make GIF	1.0		bbc5847334bd198d13002678fe369037	This action converts videos to GIFs using ffmpeg
+Zip Files	1.2	1025	fc2d2aa82053de395c67130449dafc6e	Zips up the dropped files or folders and places the zip file in the chosen folder.
+Make GIF	1.0		3dea19946e11b3a393971c2d74feb387	This action converts videos to GIFs using ffmpeg
 Desktop Picture	1.0	1002	59506b21c3da61a0442d707377b0c593	A dropped image will be set as the current desktop background.
 Create DMG File	1.0	1028	56a1ead63b22cc8a2ab3f1668748432d	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
 Boxcar	1.0	7000	a68098d6fbc987d8bfbc71727ebee2d0	Send message to Boxcar App (https://boxcar.io/).
@@ -25,7 +25,7 @@ YouTube Downloader	1.7	1036	6f7fca89cd3215023f12a6d3f8185546	Allows you to quick
 Node HTTP Server at Path	1.0		98ac2b2a0ba29d380c2c690f2bb9bd80	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	52537e825f3b43c556c9c55dd1299d5e	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		9176c01611743233d034508ed5d4d0a0	Compare files and folders via Araxis Merge (and some AppleScript)
-Qiniu	1.3	0830	19fe55760bd2428f916007143d99681b	Upload images to qiniu.com
+Qiniu	1.3	0830	8a93fed0f8f7370e10b233bdb9b9e408	Upload images to qiniu.com
 Slack	1.1	1019	271a30da9c8cfc1c1b7dd07f4f9fd13a	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
 Bitly	1.6	1013	d26b545cadef4d5e6a7c224bc14ac194	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
 TwitPic	1.0	1007	ff19bb0e0cc0103247ebd8d2046086c0	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
