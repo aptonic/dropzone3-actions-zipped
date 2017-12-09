@@ -1,3 +1,4 @@
+Amazon S3 Copy	1.0		bdaca2ab4e2537ead3006e7c39cc89a6	Allows you to upload files to an Amazon S3 bucket.
 Up1	1.2	2175601	4b355f5fb38d2eca1364324bb464d988	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
 Sparse Image	1.0	7003	be20b4df98022bef77a4797335afc578	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
 Pushover	1.1	7002	071c3cebe8550bc9b1a4f1958f36d494	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list.
@@ -12,11 +13,11 @@ Finder Path	1.2	1003	604d508ede4961cfabfaf331a1c82a56	Click on this action to co
 Clone Git Repository	1.4	1031	37d5d0dac41bc1d09fb34e83ac1ebcfb	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
 Open iTerm at Path	1.1		b117894e8d9823555f0c0c70c54456e7	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	7047ca47b8411eaee6fe44b1b78b780a	Puts your Mac to sleep.
-Google Drive	1.9	1020	915be1b7129438f7b181eb0a50530e11	Uploads files to Google Drive.
+Google Drive	2.0	1020	64948ef9e98a32a1f5868edccc77e4a9	Uploads files to Google Drive.
 Zip Files	1.2	1025	5c62f2d03424d8e04c6175ea97d8626f	Zips up the dropped files or folders and places the zip file in the chosen folder.
 Make GIF	1.0		b010b0af00a4a7dab5d8f6fb3cb05ee1	This action converts videos to GIFs using ffmpeg
-Desktop Picture	1.0	1002	173d24d5c8ae37fe8d879e930e39bf68	A dropped image will be set as the current desktop background.
-Create DMG File	1.0	1028	bc58fb6392787ae4cf84e6f0ca88ddf3	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
+Desktop Picture	1.0	1002	2e23332196ca10bb1ac278dc79c8755d	A dropped image will be set as the current desktop background.
+Create DMG File	1.0	1028	eb62f63c3441091f50bc5a2c3f96e6be	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
 Boxcar	1.0	7000	f39c25b0907d05ffddfea0c4289ae5cb	Send message to Boxcar App (https://boxcar.io/).
 File Sort	1.1	7001	53e48716fff3145126d3af11dd3812d8	Auto move a file to its corresponding folder if a part of the filename match the folder name.
 Gist	1.3	1034	fd2b958122e3f7e3c34a23bc03ed724c	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
@@ -25,7 +26,7 @@ YouTube Downloader	1.7	1036	4fe8d2cb97633cb67458a3c091dd179e	Allows you to quick
 Node HTTP Server at Path	1.0		3fa56d4ff9a30994b8d5840e48eaa63a	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	1be97e5da4c23984458ced3de21229a8	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		c668a8121ad2cbffc85ad5cb105c0e8a	Compare files and folders via Araxis Merge (and some AppleScript)
-Qiniu	1.3	0830	74851116d10a60981eeede72220e4f24	Upload images to qiniu.com
+Qiniu	1.3	0830	44901750a64100a17f4e744616c8b030	Upload images to qiniu.com
 Slack	1.1	1019	6690ead2fd51146f0c51ffdcb39c9795	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
 Bitly	1.6	1013	38c3fc70ccd8d94c3ac720eecaea7f35	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
 TwitPic	1.0	1007	bb1f39b50a0db914b25edd53a0e945a9	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
