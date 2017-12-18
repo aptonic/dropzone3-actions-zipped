@@ -11,21 +11,21 @@ ImageShack	1.2	1005	a2ce6d2d9294106ad7131523ef02d84d	Uploads images to ImageShac
 Finder Path	1.2	1003	8d5a8d79b3b3c1c2cd1edb6b0e7261e1	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
 Clone Git Repository	1.4	1031	f7e7a3aa9ad1ff329e753158113a6cde	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
 Open iTerm at Path	1.1		05d471ff709d5d014ad6fcb08f2a926f	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
-Sleep	1.0	1027	89df93257eadffc20338b0f14cfd6bc1	Puts your Mac to sleep.
-Google Drive	2.0	1020	540946e9f00c9273d179a3fd6b2b1ff1	Uploads files to Google Drive.
-Zip Files	1.2	1025	b06a7531fc5b4075e770f0d84e955f12	Zips up the dropped files or folders and places the zip file in the chosen folder.
-Make GIF	1.0		6c43741bcf4af16d3cf6570d9495ed05	This action converts videos to GIFs using ffmpeg
-Desktop Picture	1.0	1002	1c1e57a873c46a9edaaa411af6f0f2e2	A dropped image will be set as the current desktop background.
-Create DMG File	1.0	1028	2a2aa2d1ae9eef1ea136bac6be49bded	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
+Sleep	1.0	1027	d15d4d7901107421a28d949f78d26dbe	Puts your Mac to sleep.
+Google Drive	2.0	1020	6e1b6576bedc8f450fe74fa1282debf2	Uploads files to Google Drive.
+Zip Files	1.2	1025	b8bd66306acbb4691f4b07fb93dae51a	Zips up the dropped files or folders and places the zip file in the chosen folder.
+Make GIF	1.0		a40b8a3fb76710b25649871045556c1f	This action converts videos to GIFs using ffmpeg
+Desktop Picture	1.0	1002	9d851a492482fa3239fbd24c622b45da	A dropped image will be set as the current desktop background.
+Create DMG File	1.0	1028	344fb56465fa7f5604db9487313772b7	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
 Boxcar	1.0	7000	9f8478477af69f8cb5f39a9fbd6c9e42	Send message to Boxcar App (https://boxcar.io/).
 File Sort	1.1	7001	e8106df55ef2e7591baedb780ce43a1c	Auto move a file to its corresponding folder if a part of the filename match the folder name.
 Gist	1.3	1034	aac09f0db6d535905383fa2c03988d99	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Mail Link	1.1	1029	711858427a0511119750f63878ca4c6e	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.7	1036	ff8fbe229dc5d2b6a9015789507d4f66	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
-Node HTTP Server at Path	1.0		6bf144e1daaf3b81809bffafcfb03d38	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
-Image Search	1.0	1022	6411cb660ae9d534a7f2a8ead278a8a2	Dropped images will be searched for using Google Image Search.
+YouTube Downloader	1.7	1036	d833fae15ae13e267c62507ce46d9bf2	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+Node HTTP Server at Path	1.0		785e891e347cf2c5b72806ae68c0a7eb	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
+Image Search	1.0	1022	8ba287de5fa825576fe53844df15df41	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		548d80e7337a223fdd647bdcb5acf276	Compare files and folders via Araxis Merge (and some AppleScript)
-Qiniu	1.3	0830	3c29ce7ae1188f542eed48013d9b87ce	Upload images to qiniu.com
+Qiniu	1.3	0830	527144dddf37f29aad7bdd4b820b3850	Upload images to qiniu.com
 Slack	1.1	1019	e20b08bf8e538ba995545779857c4966	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
 Bitly	1.6	1013	e81496d0b1d985196d31e31ef66c71b0	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
 TwitPic	1.0	1007	570cd2eb86b8c69d7037299b25f83880	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
@@ -42,7 +42,7 @@ Rackspace Cloud Files	2.1	1017	d67fc05473c071b6a29040895dd527bb	Uploads files to
 Flickr Upload	1.0	1004	ed5eb0a1d2a8b53fbe70f182b357fb5b	Allows images to be uploaded to Flickr. Holding down the option key while dragging copies the direct image URL.
 Clean Text	1.0		6def0bcd43049fbacc52a3e61ce542ec	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
 Strip PDF from Zip	1.0		4f344e586e1fa0d1a5e45225567bd871	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
-Renren	2.0		01993e77c3a338a19d5915d931ec0e28	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
+Renren	2.0		cd0bb984ddd78be646d63051cfaee541	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
 Compress Image	1.1	1008	f4dd0c179006eae6b3e8c79b432b7f2f	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
 SCP Upload	1.6	1009	f58d6a73ed8928c9eb10b388916f627c	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
 Dropbox	1.2	1010	8d968b3f31ba501b4207bc855f88b5f0	Share files via Dropbox by copying them to your Dropbox Public folder and putting the URL on the clipboard.
