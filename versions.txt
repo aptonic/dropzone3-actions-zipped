@@ -24,8 +24,8 @@ Mail Link	1.1	1029	289df23d907d52ed0899a8e253a7d40e	Drag and drop a link onto th
 YouTube Downloader	1.7	1036	000b954cec78697dccbfba9b6e9e3b1f	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		6c88a2f99319e155ce8bea27d7eb0c0b	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	54ad081715d6aaf9bbec8eb26ae8dfca	Dropped images will be searched for using Google Image Search.
-Araxis Merge	1.0		71a65138bf8b1a1101f977b723ad30a8	Compare files and folders via Araxis Merge (and some AppleScript)
-Qiniu	1.3	0830	1abd6e5aa14670579b68bd3c0fe4e210	Upload images to qiniu.com
+Araxis Merge	1.0		7bb8260a84f7c08eb5b5ecb7aec6904d	Compare files and folders via Araxis Merge (and some AppleScript)
+Qiniu	1.3	0830	41619a30195e5ff1e4105ddf870fe508	Upload images to qiniu.com
 Slack	1.1	1019	0244b119faf69f6a99d1bcdf33e62dda	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
 Bitly	1.6	1013	115f906e50509c430b5530abcde83678	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
 TwitPic	1.0	1007	6230f6d5e4ffd73cbebce94d3a513c67	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
@@ -36,8 +36,8 @@ Install Application	1.4	1011	43dda670565fc9c3adfe2f9545159f60	Drop an applicatio
 Kaleidoscope Diff	1.1	1018	dab6129d33ff2704daac2706285e9c78	Drag two or more files to diff them with Kaleidoscope
 Merge Directories	1.2		659d34af938f70a049cd3b46a55b4b0e	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
 Google Maps	1.0	168438749	eca3d49ccdd9b19fcf09f4054ad4c440	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
-YouTube Uploader	2.0	1026	1878a8aab3180db5814b0269d2b51e78	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
-Tinify	1.0		cb6ac2de2836bd3e482e417e0a2ed3ed	https://tinypng.com/
+YouTube Uploader	2.0	1026	8163d7c2f770655c621f40cef2f03e23	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
+Tinify	1.0		01527a76da6dea6cded68bdeacfbc0a2	https://tinypng.com/
 Rackspace Cloud Files	2.1	1017	93c6938c4e4f299c0e613c321edce9bd	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
 Flickr Upload	1.0	1004	bb4cb05bb95c9b2306386d9308590565	Allows images to be uploaded to Flickr. Holding down the option key while dragging copies the direct image URL.
 Clean Text	1.0		626886f12ce963a83631f9d74a1fbdb3	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
@@ -47,8 +47,8 @@ Compress Image	1.1	1008	22db46543094169b167b9f57e5f0d31f	This destination is for
 SCP Upload	1.6	1009	2b7d0370d2dd23598a367a2728600fe4	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
 Dropbox	1.2	1010	8be9677d8190d0ecd3d39b48d066582a	Share files via Dropbox by copying them to your Dropbox Public folder and putting the URL on the clipboard.
 Strip PDF Front	1.0		07bedfc283b5b49dbcd4266b9636988a	This actions takes PDF files, copies out the front cover picture, and scales it to the given size and the type given. Set the width and extension by clicking on the action. It uses the ImageMagick programs and the XPDF programs. Both are installable using HomeBrew. "brew install imagemagick" and "brew install xpdf".
-Goo.gl	1.9	1024	40d21249cf4f7a9a14010e69fff21163	A dropped URL will be converted to a shortened Goo.gl URL.\nYou can also drop shortened URLs to get the expanded URL.\n\nWhen clicked, the action will attempt to shorten or expand a URL on the clipboard.\n\nAuthorization is optional, use it if you want to track the shortened URLs at http://goo.gl using your Google account.
-Print	1.1	1012	7f1e8d787edf7427dc538fefdd3e010b	Dropped files will be printed. If you have multiple printers, you will be prompted for which printer you wish to use.\n\nNote this action is intended as just a quick and dirty way to quickly print an image, PDF, Pages or MS Office document. It is not intended to let you configure print settings.
+Goo.gl	1.9	1024	21fd2aa40bc3e8e7fc4d2ec5c8c49227	A dropped URL will be converted to a shortened Goo.gl URL.\nYou can also drop shortened URLs to get the expanded URL.\n\nWhen clicked, the action will attempt to shorten or expand a URL on the clipboard.\n\nAuthorization is optional, use it if you want to track the shortened URLs at http://goo.gl using your Google account.
+Print	1.1	1012	af7e99aa7903918d2e2c6fff8f747c11	Dropped files will be printed. If you have multiple printers, you will be prompted for which printer you wish to use.\n\nNote this action is intended as just a quick and dirty way to quickly print an image, PDF, Pages or MS Office document. It is not intended to let you configure print settings.
 Cathode at Path	1.0	672351102879648003471169204215	b36df893066637bf660edd844a9ca604	Drop a file or folder on this action to open a new Cathode window at the files path. You can also drop a textual path.
 Open Terminal at Path	1.2	1030	58e7c48049647af5e3f353de2682d6b9	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
 Screensaver	1.0	1006	6499cb188b9f99897cb8d05180142253	Starts the screensaver.
