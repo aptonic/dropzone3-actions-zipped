@@ -13,15 +13,15 @@ Clone Git Repository	1.4	1031	27f49e051cf152aacebcb4155f53484b	Drag the URL of a
 Open iTerm at Path	1.1		d12d707ef817246694e6b0f1f058a74f	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	484d53575a8e6f212fb685cb8f8877c2	Puts your Mac to sleep.
 Google Drive	2.0	1020	a7496cf70f25b1a641f29f7d0b31a049	Uploads files to Google Drive.
-Zip Files	1.2	1025	0d0ca028a6fffd58b480cb6adb799637	Zips up the dropped files or folders and places the zip file in the chosen folder.
-Make GIF	1.0		bffbe91c75cae41b11727286cfa4c2df	This action converts videos to GIFs using ffmpeg
-Desktop Picture	1.0	1002	cb900fb09157fb6c0776c8b34387e72f	A dropped image will be set as the current desktop background.
+Zip Files	1.2	1025	9985408f6fa991e6a6f3c673ea34b8b7	Zips up the dropped files or folders and places the zip file in the chosen folder.
+Make GIF	1.0		9da6857c9af7c9aaa664d0969bdb1abd	This action converts videos to GIFs using ffmpeg
+Desktop Picture	1.0	1002	3bd19d5e732f26969cdf7edaf7e73a96	A dropped image will be set as the current desktop background.
 Create DMG File	1.0	1028	015156fe828f0096cedb36dff3c9dbba	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
 Boxcar	1.0	7000	5b1a1c7ec3e6b8a19ba85ff3622f8c97	Send message to Boxcar App (https://boxcar.io/).
 File Sort	1.1	7001	44580dc8a1e70d33cc661de7c9ac707e	Auto move a file to its corresponding folder if a part of the filename match the folder name.
 Gist	1.3	1034	80a7a7718f6b269015aef4f28f814d73	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Mail Link	1.1	1029	6e4f32d959899e008438fa9ffd4ee78a	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.7	1036	c89a92cda0274603a12c8e712016fe9e	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+YouTube Downloader	1.7	1036	0c01695eb08e675519b7ef02b373e814	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		889f3051b5c645849c994676996d25a8	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	6b00faf7ec48cde21072638ed1e7ddc2	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		d585844860190a06edccc79d6eb49070	Compare files and folders via Araxis Merge (and some AppleScript)
@@ -35,7 +35,7 @@ Bundle Script	1.2	1001	36dc4b17b08e72cb00c0767ac32595c4	Converts dropped .dropzo
 Install Application	1.4	1011	5b91ac6396eb1e74c6da83c40c0ec8f2	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
 Kaleidoscope Diff	1.1	1018	5b3151e0b0b29164c19d87258cbd96d1	Drag two or more files to diff them with Kaleidoscope
 Merge Directories	1.2		ad7a62d681f1d3c8d31977a9bf7f9248	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
-Google Maps	1.0	168438749	95af5d8f8a878b51e22b89944d5feaf7	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
+Google Maps	1.0	168438749	558eac44e80e181c73d44b531a078509	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
 YouTube Uploader	2.0	1026	ab1d54e54dee4593f121137986dad7d2	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
 Tinify	1.0		e99d7bf92a8d6a4a20c557cffc47e690	https://tinypng.com/
 Rackspace Cloud Files	2.1	1017	90c9f658f332407a03b588acfb12cbd4	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
