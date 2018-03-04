@@ -6,9 +6,9 @@ Send iMessage With Attachment to Phone Number	1.4	1021	21713530fcb3009c497d7747e
 Pushbullet	1.0	1032	213d2533777b0936f083c1ad2c97bce9	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
 Say Text	1.0	1023	d8405141860521dbb9bd92ddff63ddf3	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
 FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	150d5accf95db2aee0e6fb8ca2fa9756	Provides an action to upload your files to a FTPES Server
-Gfycat	1.0		0cff6afa0e170dfcc745f0be19874e13	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	fca8c448162e682068e465c3b3f5a7bc	Uploads images to ImageShack. Drop multiple images to create an album.
-Finder Path	1.2	1003	26bc0507d25418bb06cca0160672eca1	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
+Gfycat	1.0		1ff089f770a486d9bfab4226625861c8	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	4b02cd576a86598841a9b949a5f9422c	Uploads images to ImageShack. Drop multiple images to create an album.
+Finder Path	1.2	1003	1f20eda0ed5773edac212eeb70b7c0ac	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
 Clone Git Repository	1.4	1031	da54992dfccc2b04fdca65c8ffcbc1c1	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
 Open iTerm at Path	1.1		c446e229015cacc64026415c96a78264	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	ade111aea5236a2e50b5e108e9114242	Puts your Mac to sleep.
@@ -27,13 +27,13 @@ Image Search	1.0	1022	9fd4e212f158b8c089380107eea03e6f	Dropped images will be se
 Araxis Merge	1.0		61f10b13af811ede12003ede67a83081	Compare files and folders via Araxis Merge (and some AppleScript)
 Qiniu	1.3	0830	bc73bfcc527ca8c7f9b54bfb01116644	Upload images to qiniu.com
 Slack	1.1	1019	0ca137de8dcd72c3da3c56dd9fbdd48d	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
-Bitly	1.6	1013	bb195dad23fec07f41df3edb1956fbd2	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
-TwitPic	1.0	1007	7e745ec6a52efab42cc6517513fb0ccf	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
-DRACOON	1.8	3920135319837973180911208394894	8887d8395eebd4a8154662d7c9027148	Upload a file to DRACOON and create a Download Share (URL will be placed in clipboard). Holding 'Command' (⌘) or 'Option' (⌥) will expire the uploaded file and its Download Share after 14 days, 'Control' (^) or 'Option' (⌥) will allow you to set a password for the Download Share. Holding 'Shift' (⇧) just uploads the file without sharing it. Clicking on this Action copies the latest Share Link to the clipboard.\nIcon is property of DRACOON GmbH.
-Bundle Script	1.2	1001	dfd14edd5bdb8a55495387cbd5b7af61	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
-1024px	1.0		44d06974c8fe2e9eebdb9ccda12553b1	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
-Install Application	1.4	1011	8c60808c8f3bf06af3724cb88f63f0ac	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
-Kaleidoscope Diff	1.1	1018	34a3cea7d21c34c1cba7e3df1a8ab99e	Drag two or more files to diff them with Kaleidoscope
+Bitly	1.6	1013	a49c1c2d1bafe9410185fd021cfc5c40	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
+TwitPic	1.0	1007	4e1ed4611eef4aab6448691ac0eaf159	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
+DRACOON	1.8	3920135319837973180911208394894	34e8a9a6fca10a6e026a1fc2857b6c2a	Upload a file to DRACOON and create a Download Share (URL will be placed in clipboard). Holding 'Command' (⌘) or 'Option' (⌥) will expire the uploaded file and its Download Share after 14 days, 'Control' (^) or 'Option' (⌥) will allow you to set a password for the Download Share. Holding 'Shift' (⇧) just uploads the file without sharing it. Clicking on this Action copies the latest Share Link to the clipboard.\nIcon is property of DRACOON GmbH.
+Bundle Script	1.2	1001	17260413ae2b3ea1b906f79c59596c0d	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
+1024px	1.0		a5f62131c321afa13279e0d9942be03f	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
+Install Application	1.4	1011	c18250032b9f04ed2818840377820ecf	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
+Kaleidoscope Diff	1.1	1018	e80d982ceb9db97774d37e9c2715abfb	Drag two or more files to diff them with Kaleidoscope
 Merge Directories	1.2		d4e1c6a966fd7ca31e8d8735f24fd1e4	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
 Google Maps	1.0	168438749	72cb5a592c23a70a362ef47666da89fc	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
 YouTube Uploader	2.0	1026	9cd11220386b0c9540dfce03510ff02f	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
