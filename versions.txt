@@ -1,15 +1,15 @@
-Up1	1.2	2175601	699ba6ddae7a02596991c07b7715b68c	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
-Sparse Image	1.0	7003	91a237c19b4970194118cabe3520a680	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
-Pushover	1.1	7002	b75152208f48f3d442129626f2684738	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list.
-KDiff3	1.0	1033	3ecd4c3461c080cf0505144bbf085033	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
-Send iMessage With Attachment to Phone Number	1.4	1021	a241ac6438a07be61f4ffdb5ce164cfe	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
-Pushbullet	1.0	1032	585073eb5db93d6e0001f43748652eb0	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
-Say Text	1.0	1023	d20d4afc78848a64b6f88e80a8b9faf3	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	2b553e6ae8f0cad661d1044bd681606a	Provides an action to upload your files to a FTPES Server
-Gfycat	1.0		b8e8327f7cf6cbd04efc28fac608f43c	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	8cda64047ae9bc764b101cc3dbb9fdcb	Uploads images to ImageShack. Drop multiple images to create an album.
-Finder Path	1.2	1003	c997353a0af08755d674128ae92b0d6a	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
-Clone Git Repository	1.4	1031	66ee6e4ef36daa1acee323f41431e437	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
+Up1	1.2	2175601	b9ff77a343e7af90703c23360aaa793a	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
+Sparse Image	1.0	7003	0abac7c520ab81ec14e3e4d2cfb11e71	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
+Pushover	1.1	7002	e6cc4f6528c55692fc0732b19f80d640	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device or Shift Key to refresh devices list.
+KDiff3	1.0	1033	0b059eb28c949f9ed0db166db7b6c576	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
+Send iMessage With Attachment to Phone Number	1.4	1021	4ee5a16c2edcde648049dcfb7e72fd17	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
+Pushbullet	1.0	1032	302959cdebb316fb1d5f36f04d67f073	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
+Say Text	1.0	1023	ceafdd67ed8a47699a6ef45e11a70e73	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
+FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	fdd77e5fe7ae2bbe68c15fe40e5e1949	Provides an action to upload your files to a FTPES Server
+Gfycat	1.0		0ad321f4dcbfb96781ee7bfd39737498	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	1b6d4f4d351a577638e928b675c03a8d	Uploads images to ImageShack. Drop multiple images to create an album.
+Finder Path	1.2	1003	b0d9613a191fb4475a05d6c1213a87cc	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
+Clone Git Repository	1.4	1031	b3411e536f618673b7a1f23b00ac9780	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
 Open iTerm at Path	1.1		94ac65b11a45b0871b849d89a0cd86e9	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	2cf996ac358ac06e6c5c1aaebbe2064c	Puts your Mac to sleep.
 Google Drive	2.0	1020	93a73e963d108cbdab4e549e9313de26	Uploads files to Google Drive.
@@ -30,19 +30,19 @@ Slack	1.1	1019	57e5a9de0ee91183ac4d9913e3ddea46	Uploads files to a Slack channel
 Bitly	1.6	1013	0f5564e2cbf7c4caf026a992076cc64c	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
 TwitPic	1.0	1007	1117f8472854943e29cfe040af3a7376	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
 DRACOON	1.8	3920135319837973180911208394894	96638e825c02345188214e4c99c9820b	Upload a file to DRACOON and create a Download Share (URL will be placed in clipboard). Holding 'Command' (⌘) or 'Option' (⌥) will expire the uploaded file and its Download Share after 14 days, 'Control' (^) or 'Option' (⌥) will allow you to set a password for the Download Share. Holding 'Shift' (⇧) just uploads the file without sharing it. Clicking on this Action copies the latest Share Link to the clipboard.\nIcon is property of DRACOON GmbH.
-Bundle Script	1.2	1001	6a7da3a9da11070e35d99bb7cf6e0fb0	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
-1024px	1.0		253b95428ed146db78cada2aa367e320	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
-Install Application	1.4	1011	a1e65d6c62acb566338b6078fa2e47a9	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
-Kaleidoscope Diff	1.1	1018	2720d81d8430e659e3d64f4cea6c01a8	Drag two or more files to diff them with Kaleidoscope
-Merge Directories	1.2		461b98fcaad6dfd021cd8481c724e578	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
-Google Maps	1.0	168438749	65534e71cab8ad01ba2f828c3549570d	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
-YouTube Uploader	2.0	1026	cf0cf1367cd343375ab3785071d07f02	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
-Tinify	1.0		2f1b16b9f9f3de066ff5ee1177e21f85	https://tinypng.com/
-Rackspace Cloud Files	2.1	1017	93b7e5096e6858a58df861894e15aa5f	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
-Flickr Upload	1.0	1004	ea216eb4600efadc78f54771a5a86ad7	Allows images to be uploaded to Flickr. Holding down the option key while dragging copies the direct image URL.
-Clean Text	1.0		9d50cab1cf0f15da48d670c2ab6b9b18	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
-Strip PDF from Zip	1.0		ce5f5726284b659b014fac28ef137e79	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
-Renren	2.0		fa0e292a5c483271353450dcf42506e1	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
+Bundle Script	1.2	1001	aac1fa1c53be11d7eef8ee6385f06cbf	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
+1024px	1.0		b6dee58ffd36057ace46e02130414911	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
+Install Application	1.4	1011	fd0e9cadfc99c36e24dbe43fdb751559	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
+Kaleidoscope Diff	1.1	1018	adf2712a5f2a93cc414045cb3607f7cc	Drag two or more files to diff them with Kaleidoscope
+Merge Directories	1.2		2ba096bfbd075c244e087a0b9fd8467a	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
+Google Maps	1.0	168438749	b85d2767fbd40bfc28624b1ddf8b3d05	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
+YouTube Uploader	2.0	1026	86bd369937638aff5d17e4321195d1c9	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
+Tinify	1.0		4d734e2b73ecbf62e99d5b7541b680ff	https://tinypng.com/
+Rackspace Cloud Files	2.1	1017	eef5979826e7dd4dc18764239727eb04	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
+Flickr Upload	1.0	1004	6c3bbb69dc4918eaf7e9fa7eb426822d	Allows images to be uploaded to Flickr. Holding down the option key while dragging copies the direct image URL.
+Clean Text	1.0		c4071d1a0723b04d638adc7a2d627f25	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
+Strip PDF from Zip	1.0		5f1223833ddfffc892f1b7eb956274c5	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
+Renren	2.0		73e41d92aec02c3e8dce9bb39e1e36d5	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
 Compress Image	1.1	1008	dac78d8c754b6e51019a7b6a0182008b	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
 SCP Upload	1.6	1009	2c6fc767b67edc61a91b1e0469c665bc	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
 Dropbox	1.2	1010	00a1410b6907b7e626447d8f72e0ac18	Share files via Dropbox by copying them to your Dropbox Public folder and putting the URL on the clipboard.
