@@ -28,13 +28,13 @@ Image Search	1.0	1022	af6a3087feba7e7f7afd6d510476f33e	Dropped images will be se
 Araxis Merge	1.0		8be7beea50445dc50717d2f0b92c21af	Compare files and folders via Araxis Merge (and some AppleScript)
 Qiniu	1.3	0830	ebbd83714517b43205da665960af09b7	Upload images to qiniu.com
 Slack	1.1	1019	bcbbe740aa4d2c3e45a6ff98fa7534de	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
-Bitly	1.6	1013	c74e13f1a126ee4781866e316200866c	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
+Bitly	1.6	1013	6dc4ccb9bbd86044d2e925a94532dd06	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
 TwitPic	1.0	1007	12bfd8ad5e45ef84a6f17d9a9d0f9dba	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
 DRACOON	1.8	3920135319837973180911208394894	3318bae9b0cb47d323d5d0f2481a290e	Upload a file to DRACOON and create a Download Share (URL will be placed in clipboard). Holding 'Command' (⌘) or 'Option' (⌥) will expire the uploaded file and its Download Share after 14 days, 'Control' (^) or 'Option' (⌥) will allow you to set a password for the Download Share. Holding 'Shift' (⇧) just uploads the file without sharing it. Clicking on this Action copies the latest Share Link to the clipboard.\nIcon is property of DRACOON GmbH.
 Bundle Script	1.2	1001	4f7d55c172a6f41e7c2b6c5d643412f5	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
 1024px	1.0		5643e5707cd1cbb3719574feb94288ae	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
 Install Application	1.4	1011	9c63c479588485b38c1d620c89abe878	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
-Kaleidoscope Diff	1.1	1018	b2b0e2c0390d4509590937f26634791a	Drag two or more files to diff them with Kaleidoscope
+Kaleidoscope Diff	1.1	1018	04c3dd3e1d90e12760204f55389fdb38	Drag two or more files to diff them with Kaleidoscope
 Merge Directories	1.2		f3baeebcfc9802a3565aa7fcf4a416d6	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
 Google Maps	1.0	168438749	75338fb442de405abdcbf1ce0811dd5d	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
 YouTube Uploader	2.0	1026	2b1a38cc8e23ec1cc5f3ef92831d4142	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
@@ -43,13 +43,13 @@ Rackspace Cloud Files	2.1	1017	fb6ecf5e98b81112f5fd976a44a2c8c3	Uploads files to
 Flickr Upload	1.0	1004	8932da091810e839e28aca7019585f30	Allows images to be uploaded to Flickr. Holding down the option key while dragging copies the direct image URL.
 Clean Text	1.0		a01041b6f9e50b0c65cacf27bceb7653	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
 Strip PDF from Zip	1.0		ea58411be934f72c06252f9f3039e965	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
-Renren	2.0		74beaabb8a76e06f1ec44f7a1427bcc9	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
-Compress Image	1.1	1008	e1f94e9762906450f52b5cfa4dc82071	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
-SCP Upload	1.6	1009	6a9496a4f9ff7bc006bab53427a26c58	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
-Dropbox	1.2	1010	d7d4da31dcf6dde4b7a4be703674cacd	Share files via Dropbox by copying them to your Dropbox Public folder and putting the URL on the clipboard.
-Strip PDF Front	1.0		0bdffd5680a603d9205ace06c8c70e90	This actions takes PDF files, copies out the front cover picture, and scales it to the given size and the type given. Set the width and extension by clicking on the action. It uses the ImageMagick programs and the XPDF programs. Both are installable using HomeBrew. "brew install imagemagick" and "brew install xpdf".
+Renren	2.0		a02d2694eadab3c7dcaac4da392205a2	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
+Compress Image	1.1	1008	ed0ecaa96992bb3f7a12c6efc40fe1a5	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
+SCP Upload	1.6	1009	1be4f99ce4088858b3902631649653b4	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
+Dropbox	1.2	1010	08abc63a6902a317e4c887f05c108e50	Share files via Dropbox by copying them to your Dropbox Public folder and putting the URL on the clipboard.
+Strip PDF Front	1.0		0f167929fd47a9ad8fb933be673970e2	This actions takes PDF files, copies out the front cover picture, and scales it to the given size and the type given. Set the width and extension by clicking on the action. It uses the ImageMagick programs and the XPDF programs. Both are installable using HomeBrew. "brew install imagemagick" and "brew install xpdf".
 Goo.gl	1.9	1024	a50845456adb550ddd712d9c5675e260	A dropped URL will be converted to a shortened Goo.gl URL.\nYou can also drop shortened URLs to get the expanded URL.\n\nWhen clicked, the action will attempt to shorten or expand a URL on the clipboard.\n\nAuthorization is optional, use it if you want to track the shortened URLs at http://goo.gl using your Google account.
 Print	1.1	1012	6e191119ec755730d9cf71b05abac2fe	Dropped files will be printed. If you have multiple printers, you will be prompted for which printer you wish to use.\n\nNote this action is intended as just a quick and dirty way to quickly print an image, PDF, Pages or MS Office document. It is not intended to let you configure print settings.
-Cathode at Path	1.0	672351102879648003471169204215	d476156e0cc0c41594790e83757db30a	Drop a file or folder on this action to open a new Cathode window at the files path. You can also drop a textual path.
-Open Terminal at Path	1.2	1030	4e7407ab571fc2a2a7d1283f17f67807	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
-Screensaver	1.0	1006	11561d0ade471cbcfda7a5f106ce7fa8	Starts the screensaver.
+Cathode at Path	1.0	672351102879648003471169204215	13d4af443b518b1a54e99e3455f26515	Drop a file or folder on this action to open a new Cathode window at the files path. You can also drop a textual path.
+Open Terminal at Path	1.2	1030	1a9dc869ad7262f541bb951d52078fd5	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
+Screensaver	1.0	1006	3e5197cb585fdf9cc74e92610a8a5ef7	Starts the screensaver.
