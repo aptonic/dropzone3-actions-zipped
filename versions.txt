@@ -15,16 +15,16 @@ Convert to MP4	1.0	23451	8d96abc66503c43e5cca4dad72e9d11f	Converts the dropped v
 Open iTerm at Path	1.1		d068f25eb316be60217931b2a056ba8c	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	8a290ce6ebd2af48f464cd3ffc37a16e	Puts your Mac to sleep.
 Google Drive	2.1	1020	963f0106c4921124367d8790dc936ac4	Uploads files to Google Drive.
-Zip Files	1.3	1025	bf4e76d9679fe598d1f2e71fcd34523c	Zips up the dropped files or folders and places the zip file in the chosen folder.
-Make GIF	1.0		591b86e4789d03de61c42c5ce89ab2b0	This action converts videos to GIFs using ffmpeg
-Desktop Picture	1.0	1002	16b5daf8060431f856d0111d3feb3798	A dropped image will be set as the current desktop background.
+Zip Files	1.3	1025	7a0b4cf80b0b43727f6a3035b8d5ed32	Zips up the dropped files or folders and places the zip file in the chosen folder.
+Make GIF	1.0		ac0f7c5b7216afe2d2d4e5cb3e3a3a20	This action converts videos to GIFs using ffmpeg
+Desktop Picture	1.0	1002	a902405c8e1676cdd6f021c55a644819	A dropped image will be set as the current desktop background.
 Create DMG File	1.0	1028	5d9c15e20c1d99ac23431cef98521167	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
 Boxcar	1.0	7000	f19e7cb7cb69895d330829206b60232d	Send message to Boxcar App (https://boxcar.io/).
 File Sort	1.1	7001	0c89359733f2b435f6f854f666b58b79	Auto move a file to its corresponding folder if a part of the filename match the folder name.
 Gist	1.3	1034	264a1c5b1fd2ae016ca69daaed5a0b57	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Decode Base64	1.0	23452	3ed256a54feda8aa7749f8fd67107aef	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
 Mail Link	1.1	1029	f440bd94f99afb3615785f2749401439	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.8	1036	150ffaab461e8c120f9049df947623d9	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+YouTube Downloader	1.8	1036	ca5dc5cae36ff4914042eb4c576ea130	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		441274587624fd3850dc1b0efe560003	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	70156b9b2de93e7a7d0e89fa2d69e7e7	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		9e48d51386092ddee5da3ea19a5593db	Compare files and folders via Araxis Merge (and some AppleScript)
@@ -36,7 +36,7 @@ TwitPic	1.0	1007	a42724c797d32936753266c3ecad3703	Share photos via the TwitPic s
 md5 Filename	1.0.0		92aa5dd3426319244682767441d2f376	Renames any dragged file(s) to a random, eight-characters-long md5 string.
 Show Image Size	1.0.0		33e9403628069835c488f30890a0481a	Displays the width and height of a local or remote image file.
 DRACOON	1.8	3920135319837973180911208394894	846b7fb4bab12e74ebb22c3365e17143	Upload a file to DRACOON and create a Download Share (URL will be placed in clipboard). Holding 'Command' (⌘) or 'Option' (⌥) will expire the uploaded file and its Download Share after 14 days, 'Control' (^) or 'Option' (⌥) will allow you to set a password for the Download Share. Holding 'Shift' (⇧) just uploads the file without sharing it. Clicking on this Action copies the latest Share Link to the clipboard.\nIcon is property of DRACOON GmbH.
-Bundle Script	1.2	1001	3df22ab7c89dd0c9da0826bd4e94924a	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
+Bundle Script	1.2	1001	a6158ce7ba7d540b469d43d747ef335a	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
 1024px	1.0		9cdd52965cea99524d4cada58599e8f0	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
 Install Application	1.4	1011	82314bf82443f177b5dc6615600fc55b	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
 Kaleidoscope Diff	1.1	1018	f7c8769f907e92223c305beef419bb54	Drag two or more files to diff them with Kaleidoscope
