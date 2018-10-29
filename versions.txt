@@ -1,9 +1,9 @@
 Up1	1.2	2175601	5ec34d9d5e1242aa0aa0428b1483b6a3	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
 Sparse Image	1.1	7003	aeec0cac5e34c4601c7a5e3fda4ac22a	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
 Pushover	1.2	7002	f0c8bca6b6f7489d71720947a0954872	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device, Shift Key to refresh devices list and Command key to reset settings.
-KDiff3	1.0	1033	c526520a303865bcae66a3d97cc81530	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
-Zip by Parent Name	1.2		8d4a88af65da9e5a8a21a5686a0b19e7	Zip up multiple files and naming by the parent directory's name.
-Send iMessage With Attachment to Phone Number	1.4	1021	c306921a53705d24595cd0a3fd9f2c85	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
+KDiff3	1.0	1033	a593b1fc8871b49f16303cd09dc4cee6	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
+Zip by Parent Name	1.2		37e504e459c1fb008e0de1d76fa13f7c	Zip up multiple files and naming by the parent directory's name.
+Send iMessage With Attachment to Phone Number	1.4	1021	c6cc1709409f93a24ea172387418ff00	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
 Pushbullet	1.1	1032	4b81f3e157338f18067c2f95f9430242	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
 Say Text	1.0	1023	419695ee4ec8aeebab02fb6a3aebaa1f	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
 FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	6f10a5b8914a5bda3deef0fb92393047	Provides an action to upload your files to a FTPES Server
@@ -61,6 +61,6 @@ NotePad	1.2	394873920485738920	5b32139afd185c1a241baec41fbe286f	This action will
 Goo.gl	1.9	1024	c1ed6fee2082b9c84a20bd524c95d74f	A dropped URL will be converted to a shortened Goo.gl URL.\nYou can also drop shortened URLs to get the expanded URL.\n\nWhen clicked, the action will attempt to shorten or expand a URL on the clipboard.\n\nAuthorization is optional, use it if you want to track the shortened URLs at http://goo.gl using your Google account.
 MD to HTML Presentation Converter	1.2		3642d340a859b17b616b69731cd97cd7	This function is called with Dropzone has files dropped on this action.
 Print	1.2	1012	290c7e7d73647f0d2c8254fc8b26095b	Dropped files will be printed. If you have multiple printers, you will be prompted for which printer you wish to use.\n\nNote this action is intended as just a quick and dirty way to quickly print an image, PDF, Pages or MS Office document. It is not intended to let you configure print settings.
-Cathode at Path	1.0	672351102879648003471169204215	6643f5dda05d6c0b92e93b0404a9e0d9	Drop a file or folder on this action to open a new Cathode window at the files path. You can also drop a textual path.
+Cathode at Path	1.0	672351102879648003471169204215	33852107ee504c509d903653d603d5fb	Drop a file or folder on this action to open a new Cathode window at the files path. You can also drop a textual path.
 Open Terminal at Path	1.2	1030	533bd926fb28ef5899ab2fc1350c13b9	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
 Screensaver	1.0	1006	f652186b93de0a195cc2f077d7357821	Starts the screensaver.
