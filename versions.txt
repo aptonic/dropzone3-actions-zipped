@@ -6,7 +6,7 @@ Zip by Parent Name	1.2		da5524c1b717de09efdf9ff283a1db63	Zip up multiple files a
 Send iMessage With Attachment to Phone Number	1.4	1021	72a7b50673a0e119d9ec088cae956c65	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
 Pushbullet	1.1	1032	7b9b25e2378ea98aaa28e946d48ca4ee	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
 Say Text	1.0	1023	b687a642118e7d367915c6d7b866c999	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	d93700b7c9d4cb87dd761737f8b7c774	Provides an action to upload your files to a FTPES Server
+FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	94ec4dc9755cb2bbedb0cd14051443ee	Provides an action to upload your files to a FTPES Server
 Gfycat	1.0		7e8210e22e964354360fbf33dbc1c932	Uploads gif and mp4 files to gfycat
 ImageShack	1.2	1005	f147b95fecf63823d27c7fce592a56cd	Uploads images to ImageShack. Drop multiple images to create an album.
 Unbundle Zip by Name	1.0	1008	7f439d21be4a5e124b161ab9ea8b082d	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
@@ -28,13 +28,13 @@ File Sort	1.1	7001	2a30089a4b8029fce27c0d27e3bcde76	Auto move a file to its corr
 Gist	1.3	1034	d205e1fce723295cb943516065338c17	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Decode Base64	1.0	23452	84c3c8ade8c6053e8e71455c41d72162	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
 Mail Link	1.1	1029	e6c67c0e48575621ee5a43e0db53dc5e	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.8	1036	40f2cf48bcd25c697534be4fc3654b50	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+YouTube Downloader	1.8	1036	a52093d6b3bef6d6bdd57efe8f0feee8	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		873c6a362c1837706663dfbefb849af8	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	0b5932e58057625fb152eb2fb106427c	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		864719c21f3d1f92bf8f80495ff2fcd3	Compare files and folders via Araxis Merge (and some AppleScript)
-Qiniu	1.3	0830	ba336defe225a57d99eb63c7b235571a	Upload images to qiniu.com
-                Quick image converter and compressor	             1.1.0		57e880508840cc38e987507e7b042b5d	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
-Slack	1.1	1019	3643e2585e5538cfd656cbc76722d31f	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
+Qiniu	1.3	0830	8d2c25c5f805685ccc6afaa347c63d00	Upload images to qiniu.com
+                Quick image converter and compressor	             1.1.0		e05ad3135fa2f7a4ec99787bde83cc57	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
+Slack	1.1	1019	82a5afbdca7ff898906d00f65d910935	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
 Bitly	1.6	1013	1c3646d4ede96c3c64958eb5a5935b2b	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
 TwitPic	1.0	1007	fc3daa31c74b180da771ace3ef1dde66	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
 md5 Filename	1.0.0		d166674002727ca7c8df32c12f2a82f6	Renames any dragged file(s) to a random, eight-characters-long md5 string.
@@ -49,10 +49,10 @@ Google Maps	1.0	168438749	3f691b49334ba3c42c6264318233cf6d	Localise an address w
 YouTube Uploader	2.1	1026	dadb6f9cd5b6a5a2a02ac3474de7a2b7	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
 Tinify	1.0		b52887c7a6b6d3aa11566f4e68b9b458	https://tinypng.com/
 Rackspace Cloud Files	2.1	1017	f5da58831103b843582fe57d86c8f688	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
-Flickr Upload	1.0	1004	5c9c24fc0d41fa17174f1369ccfa2ac2	Allows images to be uploaded to Flickr. Holding down the option key while dragging copies the direct image URL.
-Clean Text	1.0		74257bf4c79f40fa91d77e32d761872c	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
-Strip PDF from Zip	1.0		bdc9b3ff1180fe67835adcb00a5abe9d	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
-Renren	2.0		b0701d6a8f4803adc78f81c1476fce20	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
+Flickr Upload	1.0	1004	e0551e3872e1cb263f57dbc4596e9a0f	Allows images to be uploaded to Flickr. Holding down the option key while dragging copies the direct image URL.
+Clean Text	1.0		b1dbfad017fd16687d413f5dff19561c	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
+Strip PDF from Zip	1.0		4ecea03fdc9c2f9595118e158c793720	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
+Renren	2.0		41c0e2c129f2f990ce7d8472edba1925	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
 Compress Image	1.2	1008	3b53aad701f9961196ee457a198fe795	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
 SCP Upload	1.6	1009	cad3521fae8954c61b38e8cf54ae3d71	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
 Dropbox	1.2	1010	65706be04449ee0fc70f557edd6f44bc	Share files via Dropbox by copying them to your Dropbox Public folder and putting the URL on the clipboard.
