@@ -24,16 +24,16 @@ Make GIF	1.0		88c87889f2723fbd3cf8c0a13b21ea5c	This action converts videos to GI
 Desktop Picture	1.0	1002	3dad6c3117075cfc29d3d2ee38a8542b	A dropped image will be set as the current desktop background.
 Create DMG File	1.1	1028	4deb99eefe7290e137fe4967a5e1448c	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
 Boxcar	1.0	7000	bba967cf0b433ba063c93ea9958f9ebc	Send message to Boxcar App (https://boxcar.io/).
-File Sort	1.1	7001	007d52dd206af8f344f4e78d38aaa315	Auto move a file to its corresponding folder if a part of the filename match the folder name.
-Gist	1.3	1034	c812f2d105dc7bf248245bfcafd78c84	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
-Decode Base64	1.0	23452	9fcae2eefffff4269596103116ce6e31	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
-Mail Link	1.1	1029	907377528f323e39436a75bb577000d9	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.8	1036	079515a6bc181a9dbd333e883df744ce	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+File Sort	1.1	7001	75a05c631201a474903ba3dc08bd8fa7	Auto move a file to its corresponding folder if a part of the filename match the folder name.
+Gist	1.3	1034	a5b705677979020477b1a22295dd7107	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
+Decode Base64	1.0	23452	46a8664e980b2e5f130e2380059208b2	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
+Mail Link	1.1	1029	6eba9e5ea377007fa5f93b8a122d9978	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
+YouTube Downloader	1.8	1036	e7a46fc944fde3405bbefddc2a2392a7	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		1891910d27026fef5db5df7d255caa53	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	abda9e49e796f305ebd4b77126b0458a	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		6e5f0f10fbf06f85ca40653ca375e4c5	Compare files and folders via Araxis Merge (and some AppleScript)
-Qiniu	1.3	0830	63502109b3f8a83e20a3686ab2c9c061	Upload images to qiniu.com
-                Quick image converter and compressor	             1.1.0		1494d9a3b56044801443ca3205607402	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
+Qiniu	1.3	0830	d72ee7963e4d49f0b9cf0da9ec618e21	Upload images to qiniu.com
+                Quick image converter and compressor	             1.1.0		9f0b05c5a2072deee496a14a3afa4287	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
 Slack	1.1	1019	a9521f42ceb2d598e670c373fd4ac6b1	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
 Bitly	1.6	1013	e8de3d1ed4123be789b21952936d651d	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
 TwitPic	1.0	1007	2bcc5249128877df7ffe202508ade3a1	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
@@ -51,8 +51,8 @@ Tinify	1.0		8ff92ec500ddccbe115f580efbeb82f9	https://tinypng.com/
 Rackspace Cloud Files	2.1	1017	95e0868bfa60e94c4f500c3492f5b862	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
 Flickr Upload	1.0	1004	d7841d42d7d6e185fdc9e9c399bd9010	Allows images to be uploaded to Flickr. Holding down the option key while dragging copies the direct image URL.
 Clean Text	1.0		9b1442bec8e52f53ac69313747d4ee93	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
-Strip PDF from Zip	1.0		799c99d85135ffe1d44d6c8928a94ca0	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
-Renren	2.0		b8f3f8b17289c8f729cc418d2328ef29	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
+Strip PDF from Zip	1.0		f9a755de9d0fa0a2c3ce82e7c3374d9f	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
+Renren	2.0		7577939839693393afab9aaf56d377e8	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
 Compress Image	1.2	1008	766a196f5502f4f87af35db740d58283	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
 SCP Upload	1.6	1009	8632d4530bc805f65fb51b2df8361750	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
 Dropbox	1.2	1010	f92fb5e1ed9805629a6a3b9a8c92a5d3	Share files via Dropbox by copying them to your Dropbox Public folder and putting the URL on the clipboard.
