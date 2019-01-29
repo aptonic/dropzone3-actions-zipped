@@ -22,13 +22,13 @@ Google Drive	2.1	1020	0410c7b89849428268264e0da7307108	Uploads files to Google D
 Zip Files	1.3	1025	78b9a76972aed1351affe1063cfb17c8	Zips up the dropped files or folders and places the zip file in the chosen folder.
 Make GIF	1.0		20a020ded38021523d947e1f77a662e0	This action converts videos to GIFs using ffmpeg
 Desktop Picture	1.0	1002	cd24b805ca18845f494055fd48b559ed	A dropped image will be set as the current desktop background.
-Create DMG File	1.1	1028	01db81b27b1970c4605185993e30c1b3	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
-Boxcar	1.0	7000	b59daa88bf726bd6fc7e7359cdd40f1f	Send message to Boxcar App (https://boxcar.io/).
-File Sort	1.1	7001	f0dcfcaec6cfa48a2bba5f3ff55735e4	Auto move a file to its corresponding folder if a part of the filename match the folder name.
-Gist	1.3	1034	ac66e2f95f09d865b06a64a50e86fb3f	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
-Decode Base64	1.0	23452	96c24236ea49f5f6d5905145cd46cb48	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
-Mail Link	1.1	1029	91241983378e9910ac912ecfea12b1e4	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.8	1036	312b41a4f734705b0f475a3604029d1f	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+Create DMG File	1.1	1028	3a79108e5a78ce08257aab3919d6ebe5	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
+Boxcar	1.0	7000	4155818ab4b4ba9779752d8465208b30	Send message to Boxcar App (https://boxcar.io/).
+File Sort	1.1	7001	12c47531618073ef3ca087737e08a0c9	Auto move a file to its corresponding folder if a part of the filename match the folder name.
+Gist	1.3	1034	9d35e3b86e59e8edd139b919ec07d53a	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
+Decode Base64	1.0	23452	13352f6f5ec96c5e698272f8e90ee4c9	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
+Mail Link	1.1	1029	7480e8a0e88a31f399952afff55a972d	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
+YouTube Downloader	1.8	1036	2b276d4d216ecd6a20f1af59b3015bcd	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		a6e664bf52742ae971ad3701d0319759	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	0e9aa60a46d1839f118c29009c997f83	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		ed8a2bdb112c1273fec7b5fc1781d1ad	Compare files and folders via Araxis Merge (and some AppleScript)
@@ -51,8 +51,8 @@ Tinify	1.0		d23fbc6583058251f7ec93ab00f1e001	https://tinypng.com/
 Rackspace Cloud Files	2.1	1017	596050e2babc4d1f5f9f2e556be85144	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
 Flickr Upload	1.0	1004	99d58c5e569d830399965c7b741f88f6	Allows images to be uploaded to Flickr. Holding down the option key while dragging copies the direct image URL.
 Clean Text	1.0		a150d55df8671d9bc2e536aca30177c2	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
-Strip PDF from Zip	1.0		02234873be89d6b5275b983fbc5b5dbf	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
-Renren	2.0		3638c72e8522fb6b95730f97d4e0f1ca	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
+Strip PDF from Zip	1.0		c74ae881abb678fffe7655b043e24949	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
+Renren	2.0		8a6ee88b3287131bdd2ac45265e1492d	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
 Compress Image	1.2	1008	3b33f9a523ae2863f08f9b72315940af	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
 SCP Upload	1.6	1009	3c69ac76e937a2496623c38f68344317	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
 Dropbox	1.2	1010	0e84f3e64f3a0d10ba87fe70f9cb20ff	Share files via Dropbox by copying them to your Dropbox Public folder and putting the URL on the clipboard.
