@@ -9,10 +9,10 @@ Say Text	1.0	1023	bd56c78bdc41160e70eefa676f604977	Text dragged onto this action
 FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	17872421a739d8bcd9011f09de38c403	Provides an action to upload your files to a FTPES Server
 Gfycat	1.0		a95f1411236860affecba1915cafdec3	Uploads gif and mp4 files to gfycat
 ImageShack	1.2	1005	ed72e96c949bfedacf1a3f63e4951aa0	Uploads images to ImageShack. Drop multiple images to create an album.
-Unbundle Zip by Name	1.0	1008	086e219a6a1531f9afb5d7cedcdc0c4d	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
-Screenshot	1.0	1037	d738dab22d834b8a3dee244385bb2aa2	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
-Finder Path	1.2	1003	de52e8fb344674373fdc2ea5ad698bef	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
-Clone Git Repository	1.5	1031	5358d4dfd17966ee20f40839ea8de68f	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
+Unbundle Zip by Name	1.0	1008	5f24c69acde7bfc395615aca279616f6	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
+Screenshot	1.0	1037	ac5718d6a815160fdf25e227d573813c	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
+Finder Path	1.2	1003	91fa7d842891944beaee089b638d2a0d	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
+Clone Git Repository	1.5	1031	c8a6e8db634e0c6f49692f1e6197c35a	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
 Trash	1.0		3d5c4d16bd645e1a68af63743bc3136d	An action to throw items into the trash if Finder is running. Otherwise,
 Convert to MP4	1.1	23451	b1ecca3f86feaf64d779752529e94f8c	Converts the dropped videos to the MP4 format using ffmpeg. Alt-Drag to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
 AutoRemote	1.0	7004	06d0f0ecad83ccef91688b05ff2a6254	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
@@ -35,11 +35,11 @@ Araxis Merge	1.0		a467cdca53b66dddf9791a5d6f824a79	Compare files and folders via
 Qiniu	1.3	0830	e8faf6613bdf836df861fa441e1846d0	Upload images to qiniu.com
                 Quick image converter and compressor	             1.1.0		df612bc388e601347ec879bef9c11d6b	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
 Slack	1.1	1019	f34d148ebb3946b815fa6f96d08d408c	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
-Bitly	1.6	1013	4035dcef950baf8252ec8abad64a34a4	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
+Bitly	1.6	1013	da4cbf2e865b90d237b4fd87f1d6c6f4	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
 TwitPic	1.0	1007	8dcca8c1b9342989f255ee5ab6c7d221	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
 md5 Filename	1.0.0		307b9d188081a8485045fe746f89da1f	Renames any dragged file(s) to a random, eight-characters-long md5 string.
-Show Image Size	1.0.0		65afe956356e43173a0fc4079ca8fbb6	Displays the width and height of a local or remote image file.
-DRACOON	1.8	3920135319837973180911208394894	ee8776404b21eb8559a048bf49425f4b	Upload a file to DRACOON and create a Download Share (URL will be placed in clipboard). Holding 'Command' (⌘) or 'Option' (⌥) will expire the uploaded file and its Download Share after 14 days, 'Control' (^) or 'Option' (⌥) will allow you to set a password for the Download Share. Holding 'Shift' (⇧) just uploads the file without sharing it. Clicking on this Action copies the latest Share Link to the clipboard.\nIcon is property of DRACOON GmbH.
+Show Image Size	1.0.0		96b865585e115ccac8f023ccaf8b4a98	Displays the width and height of a local or remote image file.
+DRACOON	1.8	3920135319837973180911208394894	5aa98c12c55fe3f5e0631b91cb514fa8	Upload a file to DRACOON and create a Download Share (URL will be placed in clipboard). Holding 'Command' (⌘) or 'Option' (⌥) will expire the uploaded file and its Download Share after 14 days, 'Control' (^) or 'Option' (⌥) will allow you to set a password for the Download Share. Holding 'Shift' (⇧) just uploads the file without sharing it. Clicking on this Action copies the latest Share Link to the clipboard.\nIcon is property of DRACOON GmbH.
 Bundle Script	1.2	1001	63b85af5dc7646b819dc877299364bed	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
 1024px	1.0		afdbb8a2d6a9abda1eeb8eac07006dbe	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
 Install Application	1.4	1011	a696d55c533138d4fc448d63f9d65030	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
@@ -53,7 +53,7 @@ Flickr Upload	1.0	1004	3a07c872c56214dc9e5c2b090253d5a1	Allows images to be uplo
 Clean Text	1.0		2b899badda0186f1da3e9f1e7eddf64b	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
 Strip PDF from Zip	1.0		dce69c23bf2dc24baea5742f888c1d96	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
 Renren	2.0		49d1d8c0c18b4b2faaf0e14acbf6cc00	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
-Compress Image	1.2	1008	6564a92591cd274021cd427dfd5c7c53	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
+Compress Image	1.2	1008	bb8bc079e3f7720108be0242860728bc	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
 SCP Upload	1.6	1009	89e94e167e05d96301123f134f4b1e16	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
 Dropbox	1.2	1010	cc66f960d4124e25392d379976f465c3	Share files via Dropbox by copying them to your Dropbox Public folder and putting the URL on the clipboard.
 Strip PDF Front	1.0		9ee7dd3692b92c1282de24cb80966f7b	This actions takes PDF files, copies out the front cover picture, and scales it to the given size and the type given. Set the width and extension by clicking on the action. It uses the ImageMagick programs and the XPDF programs. Both are installable using HomeBrew. "brew install imagemagick" and "brew install xpdf".
