@@ -29,10 +29,10 @@ Gist	1.3	1034	3cc13315d8d5019d4148eaf0f6070b18	Sends the dropped text or files t
 Decode Base64	1.0	23452	39d6956a06696ec55cfed7dafcce85bc	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
 Mail Link	1.1	1029	63bc0342973907069a76b38236339f71	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
 YouTube Downloader	1.8	1036	73711b8374a86e77a736da1472cf8048	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
-Node HTTP Server at Path	1.0		3429b6f17d5f367df5b7715487b87c59	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
-Image Search	1.0	1022	09bf9711ff2cf3af96ff7d4f489e080c	Dropped images will be searched for using Google Image Search.
-Araxis Merge	1.0		e9426d704f1b737f1e794167c06ea160	Compare files and folders via Araxis Merge (and some AppleScript)
-Qiniu	1.3	0830	cd91b5e48c71c5a3db3c411b2b9eff41	Upload images to qiniu.com
+Node HTTP Server at Path	1.0		3f33fce9032502dec14f1f1235f4bd55	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
+Image Search	1.0	1022	dc98157864ac603a680def69e0e5b37e	Dropped images will be searched for using Google Image Search.
+Araxis Merge	1.0		bcb5e07b2f698bb41a25776dcc0d62dd	Compare files and folders via Araxis Merge (and some AppleScript)
+Qiniu	1.3	0830	6536426302caf2529b6f07b3937876da	Upload images to qiniu.com
                 Quick image converter and compressor	             1.1.0		8ef551da1c3dd918dac9308794adbd8f	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
 Slack	1.1	1019	6dcd1c222e34e3a81da0ee2f5ade8223	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
 Bitly	1.6	1013	bea89eec6f9483c732da8c40a650fbef	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
@@ -44,9 +44,9 @@ Bundle Script	1.2	1001	1a2a5cebbdd2b939c05c9fc96a4e1838	Converts dropped .dropzo
 1024px	1.0		5113f9175367e144b67dd6f25eb828b5	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
 Install Application	1.4	1011	2ad188e372a33b3499d7dfb963104ba0	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
 Kaleidoscope Diff	1.1	1018	9ddf36670507be16a92131ee6bea49f3	Drag two or more files to diff them with Kaleidoscope
-Merge Directories	1.2		ddcb8b5f79458a01e99cd3ef4ed524ba	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
-Google Maps	1.0	168438749	6fda677e734df556beeb4cd104a79110	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
-YouTube Uploader	2.1	1026	ab1e08b0671683d8c6e4726d8a9d649e	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
+Merge Directories	1.2		890d06ed1d139333078cfd320891a8cb	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
+Google Maps	1.0	168438749	3fe6638383158f059cdad41febca401f	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
+YouTube Uploader	2.1	1026	f95ae1ce737ca63e28e6a8a53e800046	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
 Tinify	1.0		367df8e2246c9e62d2b2d0076a0e5c43	https://tinypng.com/
 Rackspace Cloud Files	2.1	1017	32e42109563996f073f9c0ce5244491a	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
 Flickr Upload	1.0	1004	20d713fc9ebaeef388d2cef9fd63c127	Allows images to be uploaded to Flickr. Holding down the option key while dragging copies the direct image URL.
@@ -62,5 +62,5 @@ Goo.gl	1.9	1024	43b7c52f5aa2dd9fde682328db5db38c	A dropped URL will be converted
 MD to HTML Presentation Converter	1.2		04fd72121da7538f06de79518589a72e	This function is called with Dropzone has files dropped on this action.
 Print	1.2	1012	a8e06e1a2b8333756179bdf89b5e1183	Dropped files will be printed. If you have multiple printers, you will be prompted for which printer you wish to use.\n\nNote this action is intended as just a quick and dirty way to quickly print an image, PDF, Pages or MS Office document. It is not intended to let you configure print settings.
 Cathode at Path	1.0	672351102879648003471169204215	ec8e0d1c427208e7b0454bf6e8e63acc	Drop a file or folder on this action to open a new Cathode window at the files path. You can also drop a textual path.
-Open Terminal at Path	1.2	1030	f25dd8835ee3418cb01158ba36b99316	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
-Screensaver	1.0	1006	1e1f66224348f23469f815eb42b9e6b9	Starts the screensaver.
+Open Terminal at Path	1.2	1030	a78fcb7ef5c818984a07cc2a07ae667f	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
+Screensaver	1.0	1006	bdd439806b1de89bcb41925ec32a9f7a	Starts the screensaver.
