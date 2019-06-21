@@ -1,5 +1,5 @@
-Up1	1.2	2175601	c3746647905307e1fa53074e465cbe66	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
-Sparse Image	1.1	7003	21d81341e8b5ce9d0d96d0ac263989c3	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
+Up1	1.2	2175601	8024cc5b19c012b4bbd1c7574332b01f	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
+Sparse Image	1.1	7003	8e2139597e36b4ffcdc1e610a35dc2f9	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
 Pushover	1.2	7002	60a5ab4e45c4b4c237de95ff9989e77d	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device, Shift Key to refresh devices list and Command key to reset settings.
 KDiff3	1.0	1033	0d9c935f3f83d70069da9a7cb85bc09d	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
 Zip by Parent Name	1.2		aac9d58994b6f096a8f9cf29810a39da	Zip up multiple files and naming by the parent directory's name.
@@ -43,11 +43,11 @@ DRACOON	1.8	3920135319837973180911208394894	3615d15a0febbfd91e9e40c4f8a118cb	Upl
 Bundle Script	1.2	1001	3b1e0b09bef63274d849dd1ce361a0c3	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
 1024px	1.0		1b6947efc2c88b52d45afe49b0bf1b9c	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
 Install Application	1.4	1011	0e5c4d424caa3037943f261a0657b38f	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
-Kaleidoscope Diff	1.1	1018	5a9a59dd02a9b386be12781cf201dab8	Drag two or more files to diff them with Kaleidoscope
-Merge Directories	1.2		35ac03c0dc6fd51244ad9b0ed2c81c95	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
-Google Maps	1.0	168438749	237080bc094ef3a5d1a7d7460be9f73d	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
-YouTube Uploader	2.1	1026	db39a42ef1971610556e2221e384cdfb	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
-Tinify	1.0		36e86c8184294e4dd53842106e14651c	https://tinypng.com/
+Kaleidoscope Diff	1.1	1018	f34c382a60095cf4298b22969c72fb68	Drag two or more files to diff them with Kaleidoscope
+Merge Directories	1.2		5323e99c31c5844e364a653e0ec2b5c1	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
+Google Maps	1.0	168438749	401b2f90fe4c89fee697d7eac23f8918	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
+YouTube Uploader	2.1	1026	dccdb2002f943c616d65b7e20e6f9f44	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
+Tinify	1.0		b0f760f043227823975f19383fe8f6d3	https://tinypng.com/
 Rackspace Cloud Files	2.1	1017	5213801e05ad8c2f2a135c8ba5d24754	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
 Flickr Upload	1.0	1004	9deba8a9b37698efc7ecc5323dd9375f	Allows images to be uploaded to Flickr. Holding down the option key while dragging copies the direct image URL.
 Clean Text	1.0		467894ee1b20737999a69013e1cce34c	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
