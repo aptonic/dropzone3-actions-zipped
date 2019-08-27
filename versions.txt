@@ -6,7 +6,7 @@ Zip by Parent Name	1.2		6d0992a147106f308218c5f8bbec45cd	Zip up multiple files a
 Send iMessage With Attachment to Phone Number	1.4	1021	6e2c603f291696e6cf044c9b27d80225	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
 Pushbullet	1.1	1032	4ad014a0e6ec012fa6b71e4632c83e32	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
 Say Text	1.0	1023	8bd8801763f37de8082609e9cab649d3	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	2a5777c1ef65fbb0fcef93aa80c8375d	Provides an action to upload your files to a FTPES Server
+FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	61a8afb040aea5e095df6ed6ffe97b65	Provides an action to upload your files to a FTPES Server
 Gfycat	1.0		6eebd722de4a1c1f8a9d966d57f3aa56	Uploads gif and mp4 files to gfycat
 ImageShack	1.2	1005	a8266b0352d57f4d33bd2e11c8636ba4	Uploads images to ImageShack. Drop multiple images to create an album.
 Unbundle Zip by Name	1.0	1008	ce5ae95cae3f847bca186a5effbd133e	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
@@ -18,7 +18,7 @@ Convert to MP4	1.1	23451	0d6348d47d6071b5ee77ef47fdc519a9	Converts the dropped v
 AutoRemote	1.0	7004	6faab4f9cbd52550e6d818f25775db78	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
 Open iTerm at Path	1.1		626f4dca852481e32004adaa94f4ce35	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	54bbf9adae9df2d8c05bfe5db205f1f1	Puts your Mac to sleep.
-Google Drive	2.1	1020	8369d10b3374290822216bb148b1aa01	Uploads files to Google Drive.
+Google Drive	2.1	1020	f998c215c7a4dd059a07f5142381037c	Uploads files to Google Drive.
 Zip Files	1.3	1025	2686752af59a32e4e835cb8e063aa7af	Zips up the dropped files or folders and places the zip file in the chosen folder.
 Make GIF	1.0		146b209f30990d20ea1f82ad4fe9cd33	This action converts videos to GIFs using ffmpeg
 Desktop Picture	1.0	1002	5dd3cbb7e8b1231a981a280b01183708	A dropped image will be set as the current desktop background.
@@ -29,7 +29,7 @@ File Sort	1.1	7001	1403d3ef6a817de0252adbcb7e670eb4	Auto move a file to its corr
 Gist	1.3	1034	7e2e49dd03dab3410c4a166021c6dfb8	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Decode Base64	1.0	23452	81605f0eec7e3cbd8d31c66b4e2c319b	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
 Mail Link	1.1	1029	e6170deacfc466f4fd81c16cd78d5c04	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.8	1036	bccbfef74bc6eb6061b6c98bc617e09c	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+YouTube Downloader	1.8	1036	a86d27021b6689ded3b2c7f5119b6632	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		5bcc1a4c8d3ad12b938f0d3b6eed8864	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	42a461cdd188c4166596d80e16bd1e15	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		cc06a80f9fd4a7b9ff13c5570b736900	Compare files and folders via Araxis Merge (and some AppleScript)
@@ -41,9 +41,9 @@ TwitPic	1.0	1007	aef672c8174ff58e2bff959b2e6dd012	Share photos via the TwitPic s
 md5 Filename	1.0.0		884200b3023f47d297e4bbac14385918	Renames any dragged file(s) to a random, eight-characters-long md5 string.
 Show Image Size	1.0.0		b1b15406c7eb4b1299fd46575e613ad9	Displays the width and height of a local or remote image file.
 DRACOON	1.8	3920135319837973180911208394894	c1e03e2cb199b07b912218730f207e15	Upload a file to DRACOON and create a Download Share (URL will be placed in clipboard). Holding 'Command' (⌘) or 'Option' (⌥) will expire the uploaded file and its Download Share after 14 days, 'Control' (^) or 'Option' (⌥) will allow you to set a password for the Download Share. Holding 'Shift' (⇧) just uploads the file without sharing it. Clicking on this Action copies the latest Share Link to the clipboard.\nIcon is property of DRACOON GmbH.
-Bundle Script	1.2	1001	1bbb8831588eb463701fd42b6584696b	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
-1024px	1.0		af03377165a5f275290b7a158c867317	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
-Install Application	1.4	1011	b5593ec8917e977183d0315cb75c1729	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
+Bundle Script	1.2	1001	d089ff26a9be377a49ea09f19bf800c8	Converts dropped .dropzone script files written for Dropzone 2 into shiny new .dzbundle packages for Dropzone 3.\n\nYou must choose a destination folder for the bundle output.
+1024px	1.0		79c6774aa8b67193b6ec2eef371ff80d	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
+Install Application	1.4	1011	bc95d9430de0c151abb978c2538e7fb8	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
 Kaleidoscope Diff	1.1	1018	6c246f8508d38a2adc13ea1fb62aec7e	Drag two or more files to diff them with Kaleidoscope
 Merge Directories	1.2		45af36b7e7303dfc750383ddb96f3771	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
 Google Maps	1.0	168438749	e8e22a404e5affaef7443e00027f5194	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
