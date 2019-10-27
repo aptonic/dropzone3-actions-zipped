@@ -26,7 +26,7 @@ Create DMG File	1.1	1028	a066fbb9fbc2aaeb2194f959fe77f4a2	Creates a DMG file wit
 Boxcar	1.0	7000	46220d8254e394fedeb8aecbd9d089f1	Send message to Boxcar App (https://boxcar.io/).
 Open iTerm tab at Path	1.0	6969696969	49dab5c570e969a548488fdc592ed9ce	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new iTerm tab at the files path. If iTerm is open but no windows exist, a new iTerm window is created. You can also drop a textual path. Slightly modified version of the "Open Terminal at Path" action by Dennis Kuypers and "Open iTerm at Path" action by Sam Turner.
 File Sort	1.1	7001	5e0bf3acf50bdc29d19de4da1327906c	Auto move a file to its corresponding folder if a part of the filename match the folder name.
-Gist	1.3	1034	bd419dfe137d9ca0bf0894f21aa981eb	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
+Gist	1.3	1034	1323897b4f83c1e026c1c375da5c3d47	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Decode Base64	1.0	23452	e07c011a14416fc852e73bc36207a1d4	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
 Mail Link	1.1	1029	76b9ca16b00c6e7cc6617a10a5c29a21	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
 YouTube Downloader	1.8	1036	e8d231dcc5995fc39d082e7ac0e366a0	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
@@ -45,15 +45,15 @@ Bundle Script	1.2	1001	698e86c91deab6f8b36b1bc9e5d05cf2	Converts dropped .dropzo
 1024px	1.0		ba1e532d8e26cfca32ab9442e0bead50	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
 Install Application	1.4	1011	3403565385e783c6b421838e068f5b62	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
 Kaleidoscope Diff	1.1	1018	3f5cfe90396e23afb81f813bccc3ec0d	Drag two or more files to diff them with Kaleidoscope
-Merge Directories	1.2		d74d04d1e17bbf4856b780bebabbbf81	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
-Google Maps	1.0	168438749	2e67428efebbbb5cef4ea4149bec8cd7	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
-YouTube Uploader	2.1	1026	b29d00481ad2a62478af24d269f87e83	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
+Merge Directories	1.2		3aa832d4c5c7b9254aff8c020b73e022	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
+Google Maps	1.0	168438749	aad22ec2386c79fe4f1c5c1ceedac6f5	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
+YouTube Uploader	2.1	1026	1a573e3b2e758e3723b5370935152a0a	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
 Tinify	1.0		82c7400ce37cd1135d071030491b1dd4	https://tinypng.com/
 Rackspace Cloud Files	2.1	1017	e4253fbbe318cf1a4e4aa813fc679677	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
 Flickr Upload	1.0	1004	530172b299de6b6399d8d854ebbdeee2	Allows images to be uploaded to Flickr. Holding down the option key while dragging copies the direct image URL.
 Clean Text	1.0		55c5f4eceb3447d80f97e4074e812bc7	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
 Strip PDF from Zip	1.0		47583cbae0b60f227463ab3795ec5c97	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
-Renren	2.0		447d21ce9ea34abcb01ca248d26a0fd9	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
+Renren	2.0		90c276bd373221e8529bf573cc6793a1	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
 Compress Image	1.2	1008	cf92dc03a663f66fe4611cc4e91f1d9a	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
 SCP Upload	1.6	1009	d7bae1ed42223d67d93309a77321e441	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
 Dropbox	1.2	1010	08439659c4b4d9405fb3d765b7f3b6c4	Share files via Dropbox by copying them to your Dropbox Public folder and putting the URL on the clipboard.
