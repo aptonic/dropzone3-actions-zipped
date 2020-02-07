@@ -5,7 +5,7 @@ KDiff3	1.0	1033	60e109e6e0cbbb45aacc3e554219f986	Drag 2 or 3 files or folders to
 Zip by Parent Name	1.2		fa701a6a08cd135a1ca7860c2b39d656	Zip up multiple files and naming by the parent directory's name.
 Send iMessage With Attachment to Phone Number	1.4	1021	d7ce9646f8c5cec92cc6d127601febd2	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
 Pushbullet	1.1	1032	5f59e068260baa1c873369ccab9c06ac	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
-Say Text	1.2	1023	9993cccca327fbef2369d9a9477b52e7	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
+Say Text	1.2	1023	b54e36ba9f888055d1998ca0ef560155	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
 FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	d3d1d94b3e301023ddc7a00534c170ca	Provides an action to upload your files to a FTPES Server
 Gfycat	1.0		7667f34ffad23ff1ba65713ac3cb8ebe	Uploads gif and mp4 files to gfycat
 ImageShack	1.2	1005	6c7beb19788fe61eb4f1df3ff2d4de2b	Uploads images to ImageShack. Drop multiple images to create an album.
@@ -33,11 +33,11 @@ YouTube Downloader	1.8	1036	ef8d2eddbc228ec82933506cdc0e00b2	Allows you to quick
 Node HTTP Server at Path	1.0		51d41e2060136283f9ecb77d19733288	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	b4a8a9a4ff7d9756664fb3c3507368bf	Dropped images will be searched for using Google Image Search.
 Araxis Merge	1.0		9fc366c0cc37ea489340d05201446978	Compare files and folders via Araxis Merge (and some AppleScript)
-Qiniu	1.3	0830	eab727f7ef6db5b871428074244e6141	Upload images to qiniu.com
-                Quick image converter and compressor	             1.1.0		03eb525bd81354fb0815522efc3b390c	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
-Slack	1.1	1019	33736d5e02ccf58c095bcb5955cc2b25	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
-Bitly	2.0	1013	971229ab21a5c7b9b1d37f9f88abd02c	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
-TwitPic	1.0	1007	a8272dd9889eb9f6bd68379f5b3891aa	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
+Qiniu	1.3	0830	8c91480230de74f8348838ff143c972e	Upload images to qiniu.com
+                Quick image converter and compressor	             1.1.0		bc24f9aded217f8d3c92fdc6f2d8de18	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
+Slack	1.1	1019	3f1ff28cd465fba0842f22259cde89de	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
+Bitly	2.0	1013	52147fdb5231da73f1802cf4be2c108b	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
+TwitPic	1.0	1007	b5713e325145cdb7ec1954fb8d9ccaa4	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
 md5 Filename	1.0.0		bf7b3deb80e209496480ea55d2842572	Renames any dragged file(s) to a random, eight-characters-long md5 string.
 Show Image Size	1.0.0		37be616ccb55c15f2e6f8ad0de530d4f	Displays the width and height of a local or remote image file.
 DRACOON	1.8	3920135319837973180911208394894	7c49a08b2a181789528817048d132b64	Upload a file to DRACOON and create a Download Share (URL will be placed in clipboard). Holding 'Command' (⌘) or 'Option' (⌥) will expire the uploaded file and its Download Share after 14 days, 'Control' (^) or 'Option' (⌥) will allow you to set a password for the Download Share. Holding 'Shift' (⇧) just uploads the file without sharing it. Clicking on this Action copies the latest Share Link to the clipboard.\nIcon is property of DRACOON GmbH.
@@ -54,10 +54,10 @@ Flickr Upload	1.0	1004	653448857580b746e09af4a5cbbf2be1	Allows images to be uplo
 Clean Text	1.0		a44e15939a0627acd611e98b60c0b2c4	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
 Strip PDF from Zip	1.0		97cd94b01cd8ed5853bf445032047913	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
 Renren	2.0		575d211bd5912ec19ab74b344420ba6d	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
-Compress Image	1.2	1008	29a5edf040d7046d920797c64b8f63e7	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
-SCP Upload	1.6	1009	c454b111acd713c030b4389179e47ca3	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
-Dropbox	1.2	1010	ed02a50801f9ac6577e8d7d4520e3da0	Share files via Dropbox by copying them to your Dropbox Public folder and putting the URL on the clipboard.
-Strip PDF Front	1.0		8c5e382951526016ca7e53b3b0be747a	This actions takes PDF files, copies out the front cover picture, and scales it to the given size and the type given. Set the width and extension by clicking on the action. It uses the ImageMagick programs and the XPDF programs. Both are installable using HomeBrew. "brew install imagemagick" and "brew install xpdf".
+Compress Image	1.2	1008	63c6f349548895eaa54282f681f635c6	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
+SCP Upload	1.6	1009	6795e835c7f0159c590ee091617f6ee4	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
+Dropbox	1.2	1010	012364678a7097db1ac500047e4125bb	Share files via Dropbox by copying them to your Dropbox Public folder and putting the URL on the clipboard.
+Strip PDF Front	1.0		172d8ebc10a307b1dc9a7fa6148d0bca	This actions takes PDF files, copies out the front cover picture, and scales it to the given size and the type given. Set the width and extension by clicking on the action. It uses the ImageMagick programs and the XPDF programs. Both are installable using HomeBrew. "brew install imagemagick" and "brew install xpdf".
 NotePad	1.2	394873920485738920	d67f0826604bc96f7478921a1dffb86d	This action will copy the contents of the file dropped or the text dropped and place it into the designated [NotePad](https://github.com/raguay/TextBarScripts) note. NotePad is a script for [TextBar](http://richsomerfield.com/apps/textbar/).
 Goo.gl	1.9	1024	c9fdefb855b38a66900b873d9a0e7b91	A dropped URL will be converted to a shortened Goo.gl URL.\nYou can also drop shortened URLs to get the expanded URL.\n\nWhen clicked, the action will attempt to shorten or expand a URL on the clipboard.\n\nAuthorization is optional, use it if you want to track the shortened URLs at http://goo.gl using your Google account.
 MD to HTML Presentation Converter	1.2		17a9d71ad5b4eb8659cbbf04809620ee	This function is called with Dropzone has files dropped on this action.
