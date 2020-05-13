@@ -9,14 +9,14 @@ Say Text	1.2	1023	4d525476bce61eb03de28d32432f1b14	Text dragged onto this action
 FTPES Upload	1.0.1	f3d989b9-a5a5-4697-9c32-c81efa7a4ee6	ae4c9bdf4c3b9bf30c4799874ab8a046	Provides an action to upload your files to a FTPES Server
 Gfycat	1.0		00625177609e4f39adda0e5985e972df	Uploads gif and mp4 files to gfycat
 ImageShack	1.2	1005	8a7ed829a41775653af74903262667b6	Uploads images to ImageShack. Drop multiple images to create an album.
-Unbundle Zip by Name	1.0	1008	8964169e48401dd569f9c1a775a51e8a	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
-Screenshot	1.0	1037	ec5121814a9c57f592bf277553916167	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
-Finder Path	1.2	1003	79d45911786d9111c45aeb3d6577b8a1	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
-Clone Git Repository	1.5	1031	d37e9f08bf19a79ea02126df9c62d63e	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
-Trash	1.0		b0454d9c276fbc55b4b943a156354ba3	An action to throw items into the trash if Finder is running. Otherwise,
-Convert to MP4	1.1	23451	507fc681b2b08a4d397badbc68e0a5be	Converts the dropped videos to the MP4 format using ffmpeg. Alt-Drag to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
-AutoRemote	1.0	7004	93d7b7a70416c30c7795524497100b05	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
-Open iTerm at Path	1.1		3bad1794ec7b8d23f9a6f1ae3cd68fc9	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
+Unbundle Zip by Name	1.0	1008	c50b1959a39126b4d7afb1448d1dbf6d	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
+Screenshot	1.0	1037	4428322c00387bf36994b05159dfc830	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
+Finder Path	1.2	1003	b6d58654f89cca1c45da93e5fa1fd71a	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
+Clone Git Repository	1.5	1031	bd4a8f8051f55ef415aada4a322a531c	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
+Trash	1.0		43a2d5ed4760667b160f01b106ffce7a	An action to throw items into the trash if Finder is running. Otherwise,
+Convert to MP4	1.1	23451	45fac067c0fe9347116cd515f9d84fdc	Converts the dropped videos to the MP4 format using ffmpeg. Alt-Drag to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
+AutoRemote	1.0	7004	267c86aab7439d95a32587b644b3f1e9	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
+Open iTerm at Path	1.1		624da9357662cb4ed142e3090c08ae11	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	65fcc0fa8d2a1b49766006406741d937	Puts your Mac to sleep.
 Google Drive	2.1	1020	7c76f4c88b33e36fec6a3cea2615c41d	Uploads files to Google Drive.
 Zip Files	1.3	1025	399ea29cdb385e4f18b924da0c3f7507	Zips up the dropped files or folders and places the zip file in the chosen folder.
@@ -25,18 +25,18 @@ Desktop Picture	1.0	1002	438e02648f4c7e95b10fa2dfc178adf0	A dropped image will b
 Create DMG File	1.1	1028	2f641747abe29e1052dde74b68dd96f4	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
 Boxcar	1.0	7000	09d83fdcd7f5b6a4cdb4aa8504df0808	Send message to Boxcar App (https://boxcar.io/).
 Open iTerm tab at Path	1.0	6969696969	2a8f5bfbd52871c944b11146d8441005	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new iTerm tab at the files path. If iTerm is open but no windows exist, a new iTerm window is created. You can also drop a textual path. Slightly modified version of the "Open Terminal at Path" action by Dennis Kuypers and "Open iTerm at Path" action by Sam Turner.
-File Sort	1.1	7001	629439bbcb083de219565e9d89306501	Auto move a file to its corresponding folder if a part of the filename match the folder name.
-Gist	1.4	1034	73e229b079710ffb1642bdc51e7f8ded	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
-Decode Base64	1.0	23452	4daa9c28da7591ad5f751a665a713f71	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
-Mail Link	1.1	1029	eb5558e354030113d690f911576ec9e8	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.8	1036	5cf7db7ca956b66569189a003d60d2c3	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
-Node HTTP Server at Path	1.0		81cdbbd63681bcc138eff8a7c51c5c24	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
-Image Search	1.0	1022	b2d06fa19e1db3124fbdc2a1e37d0c91	Dropped images will be searched for using Google Image Search.
-Araxis Merge	1.0		6efa32e713d5feac57f413f02203298c	Compare files and folders via Araxis Merge (and some AppleScript)
-Qiniu	1.3	0830	9157c1a939ddf3483f56f82de6bfab5a	Upload images to qiniu.com
-                Quick image converter and compressor	             1.1.0		37745b695373c674e00f8a04b51c6589	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
-Slack	1.1	1019	8c856fa7bed6b0df515f533e7b636a4d	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
-Bitly	2.0	1013	ab9e01d5eb967b933856663e024b1384	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
+File Sort	1.1	7001	27e6cbed8144d7f698d68688f7190cde	Auto move a file to its corresponding folder if a part of the filename match the folder name.
+Gist	1.4	1034	6c5018c882ecf6a127557324acaaf912	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
+Decode Base64	1.0	23452	b6b15d117ea2750ec543554b162c08fc	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
+Mail Link	1.1	1029	3cb1e0bd23d7d967c4a19182193e9332	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
+YouTube Downloader	1.8	1036	c23cd21f4ceb6dff50114bd2458ff886	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+Node HTTP Server at Path	1.0		004f4664c3b697c1be32591386195f2f	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
+Image Search	1.0	1022	718e74c9a8f96cb612fe6d9d0d61ea28	Dropped images will be searched for using Google Image Search.
+Araxis Merge	1.0		3372b16438f10ee7574c9633a2a21d26	Compare files and folders via Araxis Merge (and some AppleScript)
+Qiniu	1.3	0830	2a155697c3e5ad4c02d92475bc7e8d7e	Upload images to qiniu.com
+                Quick image converter and compressor	             1.1.0		f23655d2e5e04d67638ce3f8f9426288	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
+Slack	1.1	1019	6b3758a889834ee4a2f70cb175457dbe	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
+Bitly	2.0	1013	fbb66a66100960f4f01d3b01f4643a7a	A dropped URL will be converted to a Bit.ly URL. Password is your API key which can be found at http://bit.ly/a/your_api_key
 TwitPic	1.0	1007	d141295f74c5c7f7a5d27c805e2ec1ed	Share photos via the TwitPic service. Copies the TwitPic URL to the clipboard. Does not tweet automatically.
 md5 Filename	1.0.0		9af0dc24b7c18854f102801f4549f664	Renames any dragged file(s) to a random, eight-characters-long md5 string.
 Show Image Size	1.0.0		161f854c6f3d49561a19c63b1b2be35c	Displays the width and height of a local or remote image file.
@@ -45,23 +45,23 @@ Bundle Script	1.2	1001	f8c7c74312a0ef23fd83074d7784dce1	Converts dropped .dropzo
 1024px	1.0		321500f912c4348b07622e6a216014c0	Resize all images to a maximum width of 1024 pixels.  Uses built in Mac Commands.  No prerequisites to install.
 Install Application	1.4	1011	0f2ac526631472eea873c3e89336e9c5	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
 Kaleidoscope Diff	1.1	1018	b0b4b3a4efdbf5485b458c4443f2c361	Drag two or more files to diff them with Kaleidoscope
-Merge Directories	1.2		22a5172da35908aab75c1475500bb347	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
-Google Maps	1.0	168438749	747501f8662aad5541c2845783f4be39	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
-YouTube Uploader	2.3	1026	9a99bf56e4f9a2e2644a7be06d1ee01e	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
-Tinify	1.0		1cc0bdfb311815b0111a03038e94a815	https://tinypng.com/
-Rackspace Cloud Files	2.1	1017	731c96ae82a5ba1612367f967c4802f9	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
-Flickr Upload	1.0	1004	5ed1d3e525481251bbec6fb06cbb4a02	Allows images to be uploaded to Flickr. Holding down the option key while dragging copies the direct image URL.
-Clean Text	1.0		d4959aa75f7d2758bad2ce52317a1979	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
-Strip PDF from Zip	1.0		870d048bbe75e0d1420c2756426c3dae	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
-Renren	2.0		7cb27113a3226b56ef08fe4ffbc3cd8d	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
-Compress Image	1.2	1008	4fcd5ee0e8ef0320bae3ca8bacb98908	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
-SCP Upload	1.6	1009	95393160a620f7198410ae01924f1153	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
-Dropbox	1.2	1010	362bbf51d984318468e37eae1513a59e	Share files via Dropbox by copying them to your Dropbox Public folder and putting the URL on the clipboard.
-Strip PDF Front	1.0		c16e9624dbd161ee04c14e63435efaea	This actions takes PDF files, copies out the front cover picture, and scales it to the given size and the type given. Set the width and extension by clicking on the action. It uses the ImageMagick programs and the XPDF programs. Both are installable using HomeBrew. "brew install imagemagick" and "brew install xpdf".
-NotePad	1.2	394873920485738920	9d28c42d7613d7ad4e5bf85dc8f7df06	This action will copy the contents of the file dropped or the text dropped and place it into the designated [NotePad](https://github.com/raguay/TextBarScripts) note. NotePad is a script for [TextBar](http://richsomerfield.com/apps/textbar/).
+Merge Directories	1.2		50377c3ad3918b724a051f83d7732f77	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
+Google Maps	1.0	168438749	87cebd3cb8b8d0f590f374f4c07103d0	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
+YouTube Uploader	2.3	1026	c166f606610131c8096709424c9ed7f6	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
+Tinify	1.0		1ad61507652c658772024639cc548322	https://tinypng.com/
+Rackspace Cloud Files	2.1	1017	be2dde09c6f7e6c5b8416e03dd83d159	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
+Flickr Upload	1.0	1004	ef20dfca16ec9227a6382ceaca872a47	Allows images to be uploaded to Flickr. Holding down the option key while dragging copies the direct image URL.
+Clean Text	1.0		555d606bad6f6061723d694dda3c9e64	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
+Strip PDF from Zip	1.0		334c1408b8258d31897ed97671bdbd43	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
+Renren	2.0		ddf2d8f31836f0632dfff604e3cfa6a1	点击发布人人状态、拖拽上传人人图片。使用前请点击以下链接查看使用说明。
+Compress Image	1.2	1008	28022ee1c5bc14e569a19b2873bb5ae7	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
+SCP Upload	1.6	1009	15e02a3b6ae310e1eec60cb1b50da60f	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
+Dropbox	1.2	1010	f9557e66cf5d9fad26f073ab3e018bb0	Share files via Dropbox by copying them to your Dropbox Public folder and putting the URL on the clipboard.
+Strip PDF Front	1.0		fc003694eb62195463e17a447e1723ea	This actions takes PDF files, copies out the front cover picture, and scales it to the given size and the type given. Set the width and extension by clicking on the action. It uses the ImageMagick programs and the XPDF programs. Both are installable using HomeBrew. "brew install imagemagick" and "brew install xpdf".
+NotePad	1.2	394873920485738920	9c0460dbdba59b3d3126e6f4d9d65a9d	This action will copy the contents of the file dropped or the text dropped and place it into the designated [NotePad](https://github.com/raguay/TextBarScripts) note. NotePad is a script for [TextBar](http://richsomerfield.com/apps/textbar/).
 Goo.gl	1.9	1024	e90cc7b32efefc6275c82c6c9b198f07	A dropped URL will be converted to a shortened Goo.gl URL.\nYou can also drop shortened URLs to get the expanded URL.\n\nWhen clicked, the action will attempt to shorten or expand a URL on the clipboard.\n\nAuthorization is optional, use it if you want to track the shortened URLs at http://goo.gl using your Google account.
 MD to HTML Presentation Converter	1.2		6883d8ed3ea77a154a75f765fa77dc1e	This function is called with Dropzone has files dropped on this action.
 Print	1.2	1012	d506045a3c3e7b18c6868026ba8fdc4b	Dropped files will be printed. If you have multiple printers, you will be prompted for which printer you wish to use.\n\nNote this action is intended as just a quick and dirty way to quickly print an image, PDF, Pages or MS Office document. It is not intended to let you configure print settings.
 Cathode at Path	1.0	672351102879648003471169204215	685d55db1d525adbd890da50ebbd1264	Drop a file or folder on this action to open a new Cathode window at the files path. You can also drop a textual path.
-Open Terminal at Path	1.2	1030	1aae508da1647849c166b7c2e2f57b6d	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
-Screensaver	1.0	1006	7ffb3745e3d2682a74681c3749a78e8a	Starts the screensaver.
+Open Terminal at Path	1.2	1030	b43254a7637d53ce51b8f855cfe4c160	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
+Screensaver	1.0	1006	dc84addc161d63a66a2f6f4ff93bfb2a	Starts the screensaver.
