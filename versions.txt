@@ -5,7 +5,7 @@ KDiff3	1.0	1033	843256f6d6e36d91d7186cc6640bdeae	Drag 2 or 3 files or folders to
 Zip by Parent Name	1.2		3692425207e9f355e4392df9977f96e1	Zip up multiple files and naming by the parent directory's name.
 Send iMessage With Attachment to Phone Number	1.4	1021	5f7a77ffd123d8e58df2344ff52f2652	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
 Pushbullet	1.1	1032	50d68d4885432ed09ac4f68adc72bf0d	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
-Say Text	1.2	1023	099ea8b66130ae6fd91136ce4c31e4e3	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
+Say Text	1.2	1023	8e81356c0aed91bcdfdd412f3d244365	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
 Gfycat	1.0		7883e2220ffc0d0f1feb25d0a1915efc	Uploads gif and mp4 files to gfycat
 ImageShack	1.2	1005	39bffd113bed8dd6a020d184c0c15214	Uploads images to ImageShack. Drop multiple images to create an album.
 Unbundle Zip by Name	1.0	1008	b5d7862f3d3ce44318468c33211a1871	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
@@ -14,7 +14,7 @@ Finder Path	1.2	1003	1df5275469befc7af2a4f883ca237e91	Click on this action to co
 Clone Git Repository	1.5	1031	79b74ec6d2c6877cde9063c56875b1d7	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
 Trash	1.0		fd8a877f11b91071d7352e5a75624337	An action to throw items into the trash if Finder is running. Otherwise,
 Convert to MP4	1.2	23451	e338c3f0f68b896b3fe814f948b62984	Converts the dropped videos to the MP4 format using ffmpeg. Hold down Option to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
-AutoRemote	1.0	7004	56a36f6e88691cb64ee7d1097ad69fbc	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
+AutoRemote	1.0	7004	43c39f808fbf92b3295b27671b5e2238	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
 Open iTerm at Path	1.1		afcd17f0e514f066ebe583acf99fd7c0	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	42c43e1bb7c7d7b557379234d3b043ff	Puts your Mac to sleep.
 Zip Files	1.3	1025	df58a14dd5fa421072926af3d041784a	Zips up the dropped files or folders and places the zip file in the chosen folder.
@@ -27,7 +27,7 @@ File Sort	1.1	7001	71415f24f894f6906b04e032bb699204	Auto move a file to its corr
 Gist	1.4	1034	916d5fc3865c8ac730d5e7349acc7765	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Decode Base64	1.0	23452	ff83314f433910e2e498e45fa3c6f5b9	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
 Mail Link	1.1	1029	fcf3089ab73a5de30bf69acc63636dca	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.8	1036	d9af398eee75102c1ab07aa1feeab9a2	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+YouTube Downloader	1.8	1036	0c7aa55376d6f33a0bf36f864ef2fdf1	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		7fceece435173c8815075d22f0a24ecb	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	3ba42b176bdf7e26f26a1e4983593e5a	Dropped images will be searched for using Google Image Search.
 Qiniu	1.3	0830	7a0ad0ca7db96968d8e8807048001961	Upload images to qiniu.com
@@ -36,7 +36,7 @@ Slack	1.1	1019	c6341d86187555d6cd6615aba37f6bd4	Uploads files to a Slack channel
 md5 Filename	1.0.0		51a487b77e2ddca23ace8522ac58337b	Renames any dragged file(s) to a random, eight-characters-long md5 string.
 Show Image Size	1.0.0		69323261fb4e0030cb2ef8e117795a03	Displays the width and height of a local or remote image file.
 Install Application	1.4	1011	404d319fa1f765c42ecb06d9a2146d4a	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
-Kaleidoscope Diff	1.1	1018	cc272358e8d1ddedbcf893804095f110	Drag two or more files to diff them with Kaleidoscope
+Kaleidoscope Diff	1.1	1018	e2a10ae40e40104f57b9d09059c9bd3b	Drag two or more files to diff them with Kaleidoscope
 Merge Directories	1.2		6195e26cca99d54010b5ce35d0c37aab	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
 Google Maps	1.0	168438749	ce43ff1f37418108bf275d266d4b906d	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
 YouTube Uploader	2.4	1026	e25db0f92ae39efc115e2c875befab72	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
