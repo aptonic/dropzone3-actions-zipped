@@ -6,15 +6,15 @@ Zip by Parent Name	1.2		3c429fb6cbfe539418c431610c50b05c	Zip up multiple files a
 Send iMessage With Attachment to Phone Number	1.4	1021	36afab6ef434b9d192468e365ea9d822	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
 Pushbullet	1.1	1032	fa613721437aa644e0ca61854e33ab04	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
 Say Text	1.2	1023	11f1fe75ccdfbcb6a7e63a8be1606836	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-Gfycat	1.0		94b524defa69afe8f20ab2110c30b2ca	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	bfdc3eb54b79473255edd062a6ecda1c	Uploads images to ImageShack. Drop multiple images to create an album.
-Unbundle Zip by Name	1.0	1008	ff79c0c3b048d5b8b5ed63817c44d162	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
-Screenshot	1.0	1037	a26060525b7cd58327218a2101da1faa	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
-Finder Path	1.2	1003	58b1ba41f19d4e1ab7d5501a18320b40	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
-Clone Git Repository	1.5	1031	448cdb67a0fcf348fac40fde1fbff616	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
-Trash	1.0		dd8813b15453a314ec90f70a7351365a	An action to throw items into the trash if Finder is running. Otherwise,
+Gfycat	1.0		0c80dc177dddb4e50e553c7872ea975b	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	e3e1b53248b634a82fc143e9139d2fa9	Uploads images to ImageShack. Drop multiple images to create an album.
+Unbundle Zip by Name	1.0	1008	6f589a0667a21666a83e5fd9e4d8b17c	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
+Screenshot	1.0	1037	de0ed7993dadce0a1a2b35958dbc4226	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
+Finder Path	1.2	1003	fe3ed0df103f60ee85ccec3e5714933e	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
+Clone Git Repository	1.5	1031	9c0ff788d1a6f2def1f91dc8dadd6907	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
+Trash	1.0		e9743650c6d7ad00257908e7c78c5690	An action to throw items into the trash if Finder is running. Otherwise,
 Convert to MP4	1.2	23451	70b77608c9b10c38c09a07cfb4513809	Converts the dropped videos to the MP4 format using ffmpeg. Hold down Option to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
-AutoRemote	1.0	7004	cdd097abcb059331424cd779efdc9f4f	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
+AutoRemote	1.0	7004	13a92114805d91f6ac5ce51c6c740524	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
 Open iTerm at Path	1.1		59490306505e39ee864625be704cc6bf	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	acfbd2b859f84e57b6a896614308b972	Puts your Mac to sleep.
 Zip Files	1.3	1025	873f0f2d1d1bc96afd4ed39de0efd74f	Zips up the dropped files or folders and places the zip file in the chosen folder.
@@ -27,15 +27,15 @@ File Sort	1.1	7001	e568a8d2a8ce883ef4ebcb5117a59d26	Auto move a file to its corr
 Gist	1.4	1034	7b50d8ce449467921a23b4a80ed75715	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Decode Base64	1.0	23452	2cbf50b9bbab8be9dd84e26fa6529fd2	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
 Mail Link	1.1	1029	4253b11bb8906897543789f4f8a841cb	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.8	1036	f7aa96e5f4ee77e8fb793ced21f21135	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+YouTube Downloader	1.8	1036	31344ea6978031bdd165c9bfce2067fb	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		899b1c98741c022f1082d157f0ad1907	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
-Image Search	1.0	1022	a48f7cf8961f416bda3eabd61bb3f028	Dropped images will be searched for using Google Image Search.
-Qiniu	1.3	0830	f058c0df180bf358c6ee5eb89114bbb6	Upload images to qiniu.com
-                Quick image converter and compressor	             1.1.0		8b743a97692a021402494bed2f458361	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
-Slack	1.1	1019	94f504a7df98cfd5d84356623058aef9	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
-md5 Filename	1.0.0		9d752bb3443ce4f75a23dfa1cd543f8b	Renames any dragged file(s) to a random, eight-characters-long md5 string.
-Show Image Size	1.0.0		cf860b8a955b89d56e3cfa83bd6d4df3	Displays the width and height of a local or remote image file.
-Install Application	1.4	1011	7a930c693980bed0b1edbaeda7057858	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
+Image Search	1.0	1022	649d880b3976528283eb6a4f8c542d8b	Dropped images will be searched for using Google Image Search.
+Qiniu	1.3	0830	5a077969e6d4d3fa4d440ca0abbff25f	Upload images to qiniu.com
+                Quick image converter and compressor	             1.1.0		28b6f87416c3e21dbfe618e55cb6215f	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
+Slack	1.1	1019	5c7ac22fc9864aa7200e847babc10deb	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
+md5 Filename	1.0.0		b80fc9ae1e6c4f60a311f4588daf4ecc	Renames any dragged file(s) to a random, eight-characters-long md5 string.
+Show Image Size	1.0.0		8a870e3de996f9f311f8594517d56455	Displays the width and height of a local or remote image file.
+Install Application	1.4	1011	330ece9efe47838f7d0c80e3b3e6f310	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
 Kaleidoscope Diff	1.1	1018	9e8de608537b8c22a4dcefd75c70e44d	Drag two or more files to diff them with Kaleidoscope
 Merge Directories	1.2		7af3d471487fe7b0c187077624ff86fd	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
 Google Maps	1.0	168438749	04d829f98231a2eafd503cbce11e672f	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
