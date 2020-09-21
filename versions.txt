@@ -5,15 +5,15 @@ KDiff3	1.0	1033	e1423116cf6bda58b23e10a2d67eb862	Drag 2 or 3 files or folders to
 Zip by Parent Name	1.2		fb109f1db0e9da6cc76267e323eb5757	Zip up multiple files and naming by the parent directory's name.
 Send iMessage With Attachment to Phone Number	1.4	1021	3dbae5a898b0e4252c36cadcb61c7455	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
 Pushbullet	1.1	1032	90246acaef5f801ad33aa0d6f4b5c957	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
-Say Text	1.2	1023	5b5feeeb0c319d8f43dfa17a640eb275	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-Gfycat	1.0		986ba2f5c84af08dae93234087853d04	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	ce1fa1510841769cdbbb829114157600	Uploads images to ImageShack. Drop multiple images to create an album.
+Say Text	1.2	1023	897f763bc04728fef0b36531d6772ad9	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
+Gfycat	1.0		a734ff9e3b203ffaa2694b16fb760cf8	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	002f639009e4fda1fc8fcdf0ef386ead	Uploads images to ImageShack. Drop multiple images to create an album.
 Unbundle Zip by Name	1.0	1008	97f8540f105fc8343af1097e06eb0817	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
 Screenshot	1.0	1037	636e140c7cd00c9a5e1664572d7b901c	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
 Finder Path	1.2	1003	f6aad499357d0bc30fa25ee84e472ab8	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
 Clone Git Repository	1.5	1031	4a9b4a4b8a465c7e50924025e1dd54e6	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
-Trash	1.0		a610594f980575d0dd43366dc9b04c04	An action to throw items into the trash if Finder is running. Otherwise,
-Convert to MP4	1.2	23451	05295c45a862b5922a86de998be1cca2	Converts the dropped videos to the MP4 format using ffmpeg. Hold down Option to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
+Trash	1.0		b8830696d6d1af63b777b06339b1d947	An action to throw items into the trash if Finder is running. Otherwise,
+Convert to MP4	1.2	23451	9f5d69e95fad42e1c2979683e4b00cf9	Converts the dropped videos to the MP4 format using ffmpeg. Hold down Option to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
 AutoRemote	1.0	7004	8feb5609589a37b2077898233cc53356	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
 Open iTerm at Path	1.1		b15940afae139ff3d819ebd4d30ca3c2	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	3de7a01e591c8d17b227f49bc3bbf7e3	Puts your Mac to sleep.
@@ -30,10 +30,10 @@ Mail Link	1.1	1029	eda5ba411b9c04e6e63a4e60be1cec8c	Drag and drop a link onto th
 YouTube Downloader	1.9	1036	6c56d4ce7a47edb6113c536929277ee8	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		1ffe7a0d3080acdabce58fe2cb7b2124	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	cebbcdf969e6ac60ec2f4b753e834205	Dropped images will be searched for using Google Image Search.
-Qiniu	1.3	0830	668126e820a835fd29f19b4b2ac27978	Upload images to qiniu.com
-                Quick image converter and compressor	             1.1.0		c5dce4742233fa1a72d16b64045ac994	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
-Slack	1.1	1019	6f2fd6c48ea5e412ded08985e5e8449f	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
-md5 Filename	1.0.0		d899944c9d484040da0c8c1b21d02f95	Renames any dragged file(s) to a random, eight-characters-long md5 string.
+Qiniu	1.3	0830	81a252be3d98c535daa2e42a21571721	Upload images to qiniu.com
+                Quick image converter and compressor	             1.1.0		ef0b8ef81cb3c5102c9c26dfb0151823	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
+Slack	1.1	1019	e261c4d6bf1acb32d8c11f11f9cdc9b0	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
+md5 Filename	1.0.0		d47658af05bef52661d291277bd1e716	Renames any dragged file(s) to a random, eight-characters-long md5 string.
 Show Image Size	1.0.0		0775447ae2d436381c055d13e9317e7a	Displays the width and height of a local or remote image file.
 Install Application	1.4	1011	0a6bb79aafb323d18a82f9abbfea6508	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
 Kaleidoscope Diff	1.1	1018	47be616acfef5e6b33cb19b0534307bc	Drag two or more files to diff them with Kaleidoscope
@@ -41,14 +41,14 @@ Merge Directories	1.2		b52ef096aecb57dd4cb0a74c5f6eb06b	Takes directories as the
 Google Maps	1.0	168438749	35c6bf0fec81bedcaa96217310eb0080	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
 YouTube Uploader	2.4	1026	1c5ba6792fc67b853c32db6b0c3c9350	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
 Tinify	1.0		cea8d935122cdf62de43ce42235393db	https://tinypng.com/
-Rackspace Cloud Files	2.1	1017	e0571bc885458d9d386daa08ab1c01fc	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
-Clean Text	1.0		3304ed7c6e698ee3f150ea158e3b11fd	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
-Strip PDF from Zip	1.0		0e691079c20c0bab5b746ba35b93341d	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
+Rackspace Cloud Files	2.1	1017	6d7aa4c036626c5f8eccddfd8e03567e	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
+Clean Text	1.0		00523de610aacc2e5d6d601475916069	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
+Strip PDF from Zip	1.0		61a0f2cb966a282d911e58d682bfc6fe	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
 Compress Image	1.2	1008	d0f860a1138be0113aadc3e58df67b4b	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
 SCP Upload	1.6	1009	45637e7dc844c00fe5893ed859b569bc	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
 Strip PDF Front	1.0		4c893112f4ef2684c030948ed39c660e	This actions takes PDF files, copies out the front cover picture, and scales it to the given size and the type given. Set the width and extension by clicking on the action. It uses the ImageMagick programs and the XPDF programs. Both are installable using HomeBrew. "brew install imagemagick" and "brew install xpdf".
-NotePad	1.2	394873920485738920	368f569e1b727ff507e98f970d0a34e0	This action will copy the contents of the file dropped or the text dropped and place it into the designated [NotePad](https://github.com/raguay/TextBarScripts) note. NotePad is a script for [TextBar](http://richsomerfield.com/apps/textbar/).
-MD to HTML Presentation Converter	1.2		9186255606cf0d9c281366de9b972738	This function is called with Dropzone has files dropped on this action.
-Print	1.2	1012	975f433e976fd52ac83992402037afd4	Dropped files will be printed. If you have multiple printers, you will be prompted for which printer you wish to use.\n\nNote this action is intended as just a quick and dirty way to quickly print an image, PDF, Pages or MS Office document. It is not intended to let you configure print settings.
-Open Terminal at Path	1.2	1030	510f2328ebb81f446ca081e12205ee5f	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
-Screensaver	1.0	1006	ba7f3091605ed0e664bf3660e96e3a1a	Starts the screensaver.
+NotePad	1.2	394873920485738920	ae9fedf870b2420936aa2f0483611ccd	This action will copy the contents of the file dropped or the text dropped and place it into the designated [NotePad](https://github.com/raguay/TextBarScripts) note. NotePad is a script for [TextBar](http://richsomerfield.com/apps/textbar/).
+MD to HTML Presentation Converter	1.2		f5458f4a97ad36f18b5a0fd185556b00	This function is called with Dropzone has files dropped on this action.
+Print	1.2	1012	ff7387a1fb5da9693957b045133722c8	Dropped files will be printed. If you have multiple printers, you will be prompted for which printer you wish to use.\n\nNote this action is intended as just a quick and dirty way to quickly print an image, PDF, Pages or MS Office document. It is not intended to let you configure print settings.
+Open Terminal at Path	1.2	1030	c27cb5cd11d09a81cf05c0b5e3e28b3d	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
+Screensaver	1.0	1006	d424853a6b8aeedb97145ffd7f86b1c6	Starts the screensaver.
