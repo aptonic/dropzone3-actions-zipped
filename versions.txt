@@ -12,9 +12,9 @@ Unbundle Zip by Name	1.0	1008	25bd62700af3b63d5241c144b54d7098	This action will 
 Screenshot	1.0	1037	33ebae72702b6a36f011ff2cbb50ab6a	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
 Finder Path	1.2	1003	afcbf6087cc4dca4e5e50f194876ca13	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
 Clone Git Repository	1.5	1031	8cac9fa1d29a5b87418718522009bc0b	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
-Trash	1.0		2fd91d782b34e3a969d3495582447263	An action to throw items into the trash if Finder is running. Otherwise, it simply deletes them using the command line.
-Convert to MP4	1.2	23451	d494781177cb101fe632731afd517d28	Converts the dropped videos to the MP4 format using ffmpeg. Hold down Option to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
-AutoRemote	1.0	7004	9d16ba13b83183defa2100acee5f0518	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
+Trash	1.1		7f782dfba8c4638b0d6c96cfb29b21c8	An action to throw items into the trash if Finder is running. Otherwise, it simply deletes them using the command line.
+Convert to MP4	1.2	23451	fcf9c7c03e7b548f169c38d2d3f55824	Converts the dropped videos to the MP4 format using ffmpeg. Hold down Option to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
+AutoRemote	1.0	7004	b6b7ea3c7e30b3b012b687ada9dcdfde	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
 Open iTerm at Path	1.1		3dd729a2921b902a40929f28e6aeb11a	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	cead6baa2ebf22ae9936089ca4d956ad	Puts your Mac to sleep.
 Zip Files	1.3	1025	5b5449c79381b3028193802904ea0375	Zips up the dropped files or folders and places the zip file in the chosen folder.
@@ -36,10 +36,10 @@ Slack	1.1	1019	751aec93f546c128ced02a53b1479ab8	Uploads files to a Slack channel
 md5 Filename	1.0.0		1297b81fe25667669576f442e82e8a73	Renames any dragged file(s) to a random, eight-characters-long md5 string.
 Show Image Size	1.0.0		85afcfb6fe37365b7b33a165feeb23c3	Displays the width and height of a local or remote image file.
 Install Application	1.4	1011	c45c08f9fb51f48d57a744a386923f17	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
-Kaleidoscope Diff	1.1	1018	32986c261516dc8180422520e37f3cfd	Drag two or more files to diff them with Kaleidoscope
+Kaleidoscope Diff	1.1	1018	81c7e9d2cc066e7e319bba8c504c8c0a	Drag two or more files to diff them with Kaleidoscope
 Merge Directories	1.2		efec5a0d6293c4b975aa56292c7715a2	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
-Google Maps	1.0	168438749	7d88e19a5fd0391b906be9a1a7ce9928	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
-YouTube Uploader	2.4	1026	7e2f496bb09ed78332ff5e07ca3955b6	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
+Google Maps	1.0	168438749	b2d7c206b20bf92063e1412cc0abb2e6	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
+YouTube Uploader	2.4	1026	7ab9f5fa0b210b10c2a0743f49e7b0b4	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
 Tinify	1.0		80d099ae38e717aa152e4db6fe1eaeef	https://tinypng.com/
 Rackspace Cloud Files	2.1	1017	e5801f54f37bb5d7c206c31135598c3a	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
 Clean Text	1.0		17e2f2885b7181ea84fab1ec739a72c0	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
