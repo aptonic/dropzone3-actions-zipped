@@ -12,11 +12,11 @@ Unbundle Zip by Name	1.0	1008	5a0686091f2d63ea3f86851607192cec	This action will 
 Screenshot	1.0	1037	061db9f551c34c0e82cdf7c5d3249e92	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
 Finder Path	1.2	1003	67db86d4387cdf58a8a3f53aad6d5d32	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
 Clone Git Repository	1.5	1031	37b49ad80ef6ba688cf0bdca35e8b120	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
-Trash	1.1		880bab0482c8bb3a72d694b89738481c	An action to throw items into the trash if Finder is running. Otherwise, it simply deletes them using the command line.
-Convert to MP4	1.2	23451	545c0bf94332f5de4de39512177a74cf	Converts the dropped videos to the MP4 format using ffmpeg. Hold down Option to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
+Trash	1.1		51a4aa0b5f9eece18aa1ed1928086f10	An action to throw items into the trash if Finder is running. Otherwise, it simply deletes them using the command line.
+Convert to MP4	1.2	23451	3ee76bb77394c9f4d6e92cef586944e4	Converts the dropped videos to the MP4 format using ffmpeg. Hold down Option to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
 AutoRemote	1.0	7004	626115375a2cc3ddcafd49311014e38c	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
-Open iTerm at Path	1.1		8560e64529088e9652ec932ada261b0e	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
-Sleep	1.0	1027	595384b34907af6c56f96a12ccf668be	Puts your Mac to sleep.
+Open iTerm at Path	1.1		f6f400ab1757ab4797e51655f60bd5de	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
+Sleep	1.0	1027	2668c68115d1761f4b86881a45c2338e	Puts your Mac to sleep.
 Zip Files	1.3	1025	253327ba32e21cb924112fbf713ea6b1	Zips up the dropped files or folders and places the zip file in the chosen folder.
 Make GIF	1.0		7f9a63084cd7539023bf2bb1f710838f	This action converts videos to GIFs using ffmpeg
 Desktop Picture	1.0	1002	a2ed08bdbd967b08f3fb79903ed44077	A dropped image will be set as the current desktop background.
@@ -32,11 +32,11 @@ Node HTTP Server at Path	1.0		408b4b2ad5f5a441352e7f4520497008	Creates a Node HT
 Image Search	1.0	1022	643a616bf62ef3c220e2585c8111d761	Dropped images will be searched for using Google Image Search.
 Qiniu	1.3	0830	1a92b97eeea8b50ae993d8d3685cebb9	Upload images to qiniu.com
                 Quick image converter and compressor	             1.1.0		0a63a60b563adcb1834ea5662412729e	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
-Slack	1.1	1019	28fb36255f7608a43f49f7b994f2b747	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
-md5 Filename	1.0.0		a08e5ebd8dc1c597cd2019dbcd7896c3	Renames any dragged file(s) to a random, eight-characters-long md5 string.
-Show Image Size	1.0.0		fd46edc7a61c1276f2f5e424dcd5c87b	Displays the width and height of a local or remote image file.
-Install Application	1.4	1011	99f57ee001dc21b99e58d86ab1c714fb	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
-Kaleidoscope Diff	1.1	1018	5fdbe060afe2c789332ff30fb81ce75e	Drag two or more files to diff them with Kaleidoscope
+Slack	1.1	1019	38e1b1d51433a8c63aefba90eaed50a9	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
+md5 Filename	1.0.0		786bc719dcfff6ea92aeffac05cea249	Renames any dragged file(s) to a random, eight-characters-long md5 string.
+Show Image Size	1.0.0		a7d8b2d5a6cf97f617004408492fcecb	Displays the width and height of a local or remote image file.
+Install Application	1.4	1011	92e2a5d751a20029fc6fd03436d15f34	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
+Kaleidoscope Diff	1.1	1018	f53f3eea536f912cfaa17f380394a0de	Drag two or more files to diff them with Kaleidoscope
 Merge Directories	1.2		6a7b306df30b30c2c2d61e52389cc649	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
 Google Maps	1.0	168438749	ea664af0db64560c272a61d126a7b040	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
 YouTube Uploader	2.4	1026	a0e51b441bd9e6c19f7082e158b3622b	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
