@@ -1,8 +1,8 @@
 Up1	1.2	2175601	90910352942b260007d4ffe1f9531033	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
-Sparse Image	1.1	7003	2084d98d021bb5adfe71fb58647aaa22	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
-Pushover	1.2	7002	4e9d7722edd23cd413fd3b3ac1fc01fb	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device, Shift Key to refresh devices list and Command key to reset settings.
-KDiff3	1.0	1033	2d4445f44c8c35149e1de05e1fdf06ac	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
-Zip by Parent Name	1.2		eeb63d8b713ce6cfb0a85fb964fd3729	Zip up multiple files and naming by the parent directory's name.
+Sparse Image	1.1	7003	cb342c9022aecd5b2aa6144d80ba6190	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
+Pushover	1.2	7002	0b337710c0f73ed7141010295ace63b5	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device, Shift Key to refresh devices list and Command key to reset settings.
+KDiff3	1.0	1033	7a928c4c70a1a86b6d14b711258bb43c	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
+Zip by Parent Name	1.2		35499741bb768bee8be67fbda2ab2a1b	Zip up multiple files and naming by the parent directory's name.
 Send iMessage With Attachment to Phone Number	1.4	1021	931b95e3249a4c6efabf65c477442ac4	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
 Pushbullet	1.1	1032	52d5709a6fd4c62005d55963fbd4a26a	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
 Say Text	1.2	1023	c7f65366abeafa3bc85b0da2fb604f6e	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
@@ -15,11 +15,11 @@ Clone Git Repository	1.5	1031	527573dae93f573c893864a3b0cf66ec	Drag the URL of a
 Trash	1.1		90d8a229fd7df1258be2a74106b6b741	An action to throw items into the trash if Finder is running. Otherwise, it simply deletes them using the command line.
 Convert to MP4	1.2	23451	01067dc07d791c5169c7ffbaeb41e0d3	Converts the dropped videos to the MP4 format using ffmpeg. Hold down Option to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
 AutoRemote	1.0	7004	e5ba56f7bc472a1ea47f76b35d60bcf4	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
-Open iTerm at Path	1.1		e3a86d3f4ee81ef106de552e4d686a90	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
-Sleep	1.0	1027	24375ab699908346bdd4abf9650cfaa0	Puts your Mac to sleep.
+Open iTerm at Path	1.1		40ac87e41d147a1d562c8f8f4e37ddf4	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
+Sleep	1.0	1027	157c470a624acf5b78b655245d5ec88e	Puts your Mac to sleep.
 Zip Files	1.3	1025	3bb7a8f5d334a9bee93d16c1a104d425	Zips up the dropped files or folders and places the zip file in the chosen folder.
 Make GIF	1.0		20e22be172b7b57cb7c53eecde6e4777	This action converts videos to GIFs using ffmpeg
-Desktop Picture	1.0	1002	07f3882251d32f82bda9a7a3bdbe846c	A dropped image will be set as the current desktop background.
+Desktop Picture	1.0	1002	b2b89ecc1aa9fba34837b2449150f35b	A dropped image will be set as the current desktop background.
 Create DMG File	1.1	1028	8c6e4d2a1e68a200ba1dfc5fc86d3585	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
 Boxcar	1.0	7000	8799ef380418af733b8fa1468acf98a5	Send message to Boxcar App (https://boxcar.io/).
 Open iTerm tab at Path	1.0	6969696969	6c4ac69de4f231e0a80e975487b83d59	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new iTerm tab at the files path. If iTerm is open but no windows exist, a new iTerm window is created. You can also drop a textual path. Slightly modified version of the "Open Terminal at Path" action by Dennis Kuypers and "Open iTerm at Path" action by Sam Turner.
@@ -43,12 +43,12 @@ YouTube Uploader	2.4	1026	d44a4c793efecb783f9bc9fbd70261af	Uploads dragged video
 Tinify	1.0		cf68413e80de91143902e09b4219f9ad	https://tinypng.com/
 Rackspace Cloud Files	2.1	1017	2f4b8035fc51dc5702ac90a4a0e989be	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
 Clean Text	1.0		b008e17535deec23a33db24a52b2d02f	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
-Strip PDF from Zip	1.0		86fe9731bda0a6927105daa24bae9d01	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
-Compress Image	1.2	1008	fa098b88ae37da406d6acad379334406	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
-SCP Upload	1.6	1009	52269dcb7fd53e1fd1b4d770c7730ffb	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
-Strip PDF Front	1.0		440f4a6227d10f1f99513e467a4b2afb	This actions takes PDF files, copies out the front cover picture, and scales it to the given size and the type given. Set the width and extension by clicking on the action. It uses the ImageMagick programs and the XPDF programs. Both are installable using HomeBrew. "brew install imagemagick" and "brew install xpdf".
-NotePad	1.2	394873920485738920	42b002c35a1713714ae88d88eed4bad4	This action will copy the contents of the file dropped or the text dropped and place it into the designated [NotePad](https://github.com/raguay/TextBarScripts) note. NotePad is a script for [TextBar](http://richsomerfield.com/apps/textbar/).
-MD to HTML Presentation Converter	1.2		2b9f7eafd8a9a23a8829294655390103	This function is called with Dropzone has files dropped on this action.
-Print	1.2	1012	261723a37a22ba01825a09ebcd300203	Dropped files will be printed. If you have multiple printers, you will be prompted for which printer you wish to use.\n\nNote this action is intended as just a quick and dirty way to quickly print an image, PDF, Pages or MS Office document. It is not intended to let you configure print settings.
-Open Terminal at Path	1.2	1030	22b213385598a8d9efed8e78714ce4bd	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
-Screensaver	1.0	1006	7dd7e60d576145d8775cd0f29a3ec2c4	Starts the screensaver.
+Strip PDF from Zip	1.0		f0c495f1985aa7b8a9ad0fa1db591136	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
+Compress Image	1.2	1008	00d047e6e651906fb3c5f092e3aed8d4	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
+SCP Upload	1.6	1009	56bef0c00e8cd5ef12a8d6d7b041d429	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
+Strip PDF Front	1.0		03c7d6c5bae41d10b7ce40d3c3a72de9	This actions takes PDF files, copies out the front cover picture, and scales it to the given size and the type given. Set the width and extension by clicking on the action. It uses the ImageMagick programs and the XPDF programs. Both are installable using HomeBrew. "brew install imagemagick" and "brew install xpdf".
+NotePad	1.2	394873920485738920	f72c587a2b736735722fa04ebd830beb	This action will copy the contents of the file dropped or the text dropped and place it into the designated [NotePad](https://github.com/raguay/TextBarScripts) note. NotePad is a script for [TextBar](http://richsomerfield.com/apps/textbar/).
+MD to HTML Presentation Converter	1.2		1f60e131cf96a049f97a979d93de20b7	This function is called with Dropzone has files dropped on this action.
+Print	1.2	1012	5bd412d3663772590f4adef495c5a16d	Dropped files will be printed. If you have multiple printers, you will be prompted for which printer you wish to use.\n\nNote this action is intended as just a quick and dirty way to quickly print an image, PDF, Pages or MS Office document. It is not intended to let you configure print settings.
+Open Terminal at Path	1.2	1030	bab5d3ec17ebd5acaa6ec9d0b0827674	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
+Screensaver	1.0	1006	42c0271355df1771b85ff91b5bc55ea4	Starts the screensaver.
