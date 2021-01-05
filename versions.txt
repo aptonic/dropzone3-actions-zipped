@@ -5,11 +5,11 @@ KDiff3	1.0	1033	9c1c42a45a6843a3e106f6a32a9f27e7	Drag 2 or 3 files or folders to
 Zip by Parent Name	1.2		8901d9775042bb4b2b2989616a5bd3ac	Zip up multiple files and naming by the parent directory's name.
 Send iMessage With Attachment to Phone Number	1.4	1021	d5263d63267b43d3fb8b3adf1b96cbe6	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to change the phone number.
 Pushbullet	1.1	1032	9fa21b9e9bf192409dbbcb7f5cd2adff	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
-Say Text	1.2	1023	0a6abe9889f1a3a4f1b5680b23efda24	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-Gfycat	1.0		ad1b2b87cb1e8cac54e0e76d838cc591	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	e84dedc2b594f6545ec6f5292737b160	Uploads images to ImageShack. Drop multiple images to create an album.
-Unbundle Zip by Name	1.0	1008	532f9ccdabf301c5d97eaaead0b72cb2	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
-Screenshot	1.0	1037	c12b9c0edbda597c599af721c30c5005	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
+Say Text	1.2	1023	be2d7f9b63b2834ce52937533681de39	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
+Gfycat	1.0		52b4736acff8cdf22405078490b51a25	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	37a738f3b8b2bcdfeae5c39fd64723bb	Uploads images to ImageShack. Drop multiple images to create an album.
+Unbundle Zip by Name	1.0	1008	6b79f1483cb8cff5c34e217ab0e43427	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
+Screenshot	1.0	1037	2c059472766b674c2fcbc237ae24f912	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
 Finder Path	1.2	1003	14bb36713a498587f39a1df9bf37adba	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
 Clone Git Repository	1.5	1031	8954eaf545fcfac5bd7c95c6abdbc552	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
 Trash	1.1		a01a8c07c6b6b79ef8661e4eec5c8e54	An action to throw items into the trash if Finder is running. Otherwise, it simply deletes them using the command line.
@@ -24,9 +24,9 @@ Create DMG File	1.1	1028	754e7918a049323e2721d80e53d7dbd3	Creates a DMG file wit
 Boxcar	1.0	7000	708492b7a9ccbb505eafd298275b3c4a	Send message to Boxcar App (https://boxcar.io/).
 Open iTerm tab at Path	1.0	6969696969	94b1433ec5f3e22bbe4ed8c200b46c9d	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new iTerm tab at the files path. If iTerm is open but no windows exist, a new iTerm window is created. You can also drop a textual path. Slightly modified version of the "Open Terminal at Path" action by Dennis Kuypers and "Open iTerm at Path" action by Sam Turner.
 File Sort	1.1	7001	d42ca0fd5a4925814ba454e191f0d471	Auto move a file to its corresponding folder if a part of the filename match the folder name.
-Gist	1.4	1034	1599b98ae59f121d211fbbecb0e9f65a	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
-Decode Base64	1.0	23452	0b0e9bbb819d31ddb23722ead9dad6e3	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
-Mail Link	1.1	1029	6050a0767aa6e54a66152ceb6c64f7be	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
+Gist	1.4	1034	9007fa16ec14fec35765fabb1aa9e5e8	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
+Decode Base64	1.0	23452	e955b6ed15b227767d91a90dacab0f95	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
+Mail Link	1.1	1029	013d5d2f5fa98b133876b666fcf77e4c	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
 YouTube Downloader	1.9	1036	aa979fe97a295fc4afdb0dffadbabecd	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		2a602ef79fd584761122dd857670d3d8	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	da72cd509357f7857564e510de9b2e9e	Dropped images will be searched for using Google Image Search.
