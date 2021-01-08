@@ -5,11 +5,11 @@ KDiff3	1.0	1033	c8faeb1e7902bc2baa470a2192373c4f	Drag 2 or 3 files or folders to
 Zip by Parent Name	1.2		3ad22841b593edc7178aebdcc763dedf	Zip up multiple files and naming by the parent directory's name.
 Send iMessage With Attachment to Phone Number	1.5	1021	09483449eed0ad1ac4383e8d3e4e2b83	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to set the phone number.
 Pushbullet	1.1	1032	d01b66525ab80823dd832b9f862813d2	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
-Say Text	1.2	1023	336b7286b05a89a052f6c9ffc84198cf	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-Gfycat	1.0		482ea78968375a211c85c6ebc7456a95	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	d2e185cfaac9fe2a9f108cc9f5b80f7e	Uploads images to ImageShack. Drop multiple images to create an album.
-Unbundle Zip by Name	1.0	1008	7edecca7b9cbd04b34f276520fde5bcb	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
-Screenshot	1.0	1037	4142e135609d23eb2a158762b0efe8e7	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
+Say Text	1.2	1023	fee973e760e6583d9a5896a84d28b97f	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
+Gfycat	1.0		d475488cc62c2e231083df0c2ced1f16	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	70a386aa9c39792bf478ebfef199fb95	Uploads images to ImageShack. Drop multiple images to create an album.
+Unbundle Zip by Name	1.0	1008	6ea3b808b8ea306f7963d365fca9994e	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
+Screenshot	1.0	1037	54428b95355c5c1677dbf121d60c3ee1	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
 Finder Path	1.2	1003	1085ac65d29128655226eec772425b37	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
 Clone Git Repository	1.5	1031	e1db2a8b16f71e4c0fb789997b93ff49	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
 Trash	1.1		47fef5f6a0039962bf6c1de80c719eca	An action to throw items into the trash if Finder is running. Otherwise, it simply deletes them using the command line.
@@ -25,8 +25,8 @@ Boxcar	1.0	7000	6bca60a95a943229db9b1b0f0e7c628e	Send message to Boxcar App (htt
 Open iTerm tab at Path	1.0	6969696969	a8801f35dec2cfdd811ed8f0f27f4747	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new iTerm tab at the files path. If iTerm is open but no windows exist, a new iTerm window is created. You can also drop a textual path. Slightly modified version of the "Open Terminal at Path" action by Dennis Kuypers and "Open iTerm at Path" action by Sam Turner.
 File Sort	1.1	7001	d2e4a2e3731164cc18183f9461440dd4	Auto move a file to its corresponding folder if a part of the filename match the folder name.
 Gist	1.4	1034	22e78f430dad29377bae03673da0b256	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
-Decode Base64	1.0	23452	1f0c32c744021bb64a5614b592d81a60	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
-Mail Link	1.1	1029	8fb1bc724fe21352a9465a03db625eea	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
+Decode Base64	1.0	23452	06d781d04256b54c910124954b3d9012	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
+Mail Link	1.1	1029	658f52af3675db04b5d7cbb607b0d7b3	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
 YouTube Downloader	1.9	1036	da881a2d9ba652f4622b077df3cddc3d	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		d81bb645593bf1f2dcaae03b8145e6e6	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	d72ae86f6f34f4f40891bab38c17b498	Dropped images will be searched for using Google Image Search.
@@ -40,7 +40,7 @@ Kaleidoscope Diff	1.1	1018	cfa81d5b37a1fb7dbc4a24a39ce74f45	Drag two or more fil
 Merge Directories	1.2		a2d281ef5d1c353622721f48b73331e9	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
 Google Maps	1.0	168438749	439e6eb3ca70e00a929da7fd50df31b0	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
 YouTube Uploader	2.4	1026	45567100e42960e71136a7ce61a16604	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
-Tinify	1.0		434103011692853949bcd5e2459a7c10	https://tinypng.com/
+Tinify	1.0		9b9a4d54dde8eef3aca77933f6d080d6	https://tinypng.com/
 Rackspace Cloud Files	2.1	1017	b40a1556758da81275616eebe8197a54	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
 Clean Text	1.0		983dc46dc9e479cd3774918d6f09e151	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
 Strip PDF from Zip	1.0		f72154c456b3cd0d8ac1227cd6e837d3	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
