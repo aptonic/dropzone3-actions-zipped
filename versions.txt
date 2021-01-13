@@ -3,17 +3,17 @@ Sparse Image	1.1	7003	c305236440a17a78fb7652a314b08e77	Creates a Sparse Image wi
 Pushover	1.2	7002	79b9e256c509ec89d96cbaff610a6ac6	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device, Shift Key to refresh devices list and Command key to reset settings.
 KDiff3	1.0	1033	6c6499a3332c5938ac6302eaf3f35e67	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
 Zip by Parent Name	1.2		01186e002305ece5c788a88857f2872d	Zip up multiple files and naming by the parent directory's name.
-Send iMessage With Attachment to Phone Number	1.5	1021	9d8136bd45875041adbc069950be8290	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to set the phone number.
+Send iMessage With Attachment to Phone Number	1.5	1021	a71e3922f2c328fab97e746ce6b0fb2c	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to set the phone number.
 Pushbullet	1.1	1032	53602de072017c80a75a96aaa794061b	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
-Say Text	1.2	1023	0ea0f7d8e7b38d98971b95dfee8d9824	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-Gfycat	1.0		8b33ee11ea036ea807af5b7aaf334ce9	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	a1165a639d5bf32a153bef63c4c7f78d	Uploads images to ImageShack. Drop multiple images to create an album.
-Unbundle Zip by Name	1.0	1008	49b02848812cdd235ec7f8502b1cc77f	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
-Screenshot	1.0	1037	b475552500a62fbf99efaf4d0019a320	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
+Say Text	1.2	1023	7715271a67fa9bc8fa43c112841898ab	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
+Gfycat	1.0		07f9a4f7223af470926813387a61d772	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	52a0fbc78a89f23956c7a66eab2eaa87	Uploads images to ImageShack. Drop multiple images to create an album.
+Unbundle Zip by Name	1.0	1008	7ddbbcc0f0166767d61567a5679da38c	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
+Screenshot	1.0	1037	f7da832fb1354477c440c87f62eb14d1	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
 Finder Path	1.2	1003	3a32d1fea3a6ffdaf76f68217b282fd5	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
 Clone Git Repository	1.5	1031	dec51fde2f63d7b04da350afc026b8ef	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
 Trash	1.1		e87374c52e18ef76a46b575ce794fb81	An action to throw items into the trash if Finder is running. Otherwise, it simply deletes them using the command line.
-Convert to MP4	1.3	23451	ffcfefeec0e41a699743f5d53254202f	Converts the dropped videos to the MP4 format using ffmpeg. Hold down Option to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
+Convert to MP4	1.3	23451	248e8277017f5891f654cd5f37246ab8	Converts the dropped videos to the MP4 format using ffmpeg. Hold down Option to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
 AutoRemote	1.0	7004	a83561272ca6c1d022de375511ebda0b	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
 Open iTerm at Path	1.1		2ca76015188006ee30d0b2398874d443	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	2170fff392c957ce89e4eb5d4a9e282c	Puts your Mac to sleep.
@@ -23,12 +23,12 @@ Desktop Picture	1.0	1002	ed5a15453717cabc3b0afa7e4c2c983e	A dropped image will b
 Create DMG File	1.1	1028	be6f96fb253b330ae030786a9b3eeb07	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
 Boxcar	1.0	7000	37f7cc5c4662b2ef53d5d7d30783370c	Send message to Boxcar App (https://boxcar.io/).
 Open iTerm tab at Path	1.0	6969696969	4f47e9538e46588f2a24d3cca54f60fe	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new iTerm tab at the files path. If iTerm is open but no windows exist, a new iTerm window is created. You can also drop a textual path. Slightly modified version of the "Open Terminal at Path" action by Dennis Kuypers and "Open iTerm at Path" action by Sam Turner.
-File Sort	1.1	7001	67bbc2838d305d6c829faf3827063021	Auto move a file to its corresponding folder if a part of the filename match the folder name.
+File Sort	1.1	7001	a78c1b2ff07c50aef1b99f307246f23a	Auto move a file to its corresponding folder if a part of the filename match the folder name.
 Gist	1.4	1034	26e6a5bf2f5363dbf6275fb43d5aa3ff	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
-Decode Base64	1.0	23452	7c988759cc4f2ef88ff7ce28333db716	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
-Mail Link	1.1	1029	d6c34ecb849e5c1c220958eb275b60c8	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.9	1036	91155045c7af45f073dcbfaee05bfb7b	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
-Node HTTP Server at Path	1.0		3a8e7d8f4303b4e3fcc599e716003e56	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
+Decode Base64	1.0	23452	5e6ea6905b480f14ba41a6f0f3d1f9cf	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
+Mail Link	1.1	1029	0ac8888c108cc793d442dd5a184773c9	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
+YouTube Downloader	1.9	1036	34b847e5d04389d8f6eedbb13a9edb0f	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+Node HTTP Server at Path	1.0		853c7b5f448d3a0ddf8d182a4900f047	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	449af9b651c525c9309c71741a4195ec	Dropped images will be searched for using Google Image Search.
 Qiniu	1.3	0830	a2ce7aa169d4e0064539b19bce683a33	Upload images to qiniu.com
                 Quick image converter and compressor	             1.1.0		316401911ab5fcf51d448afa44852c8a	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
@@ -50,5 +50,5 @@ Strip PDF Front	1.0		b4968ccfd7e3e11d7dc4151f136ff6c8	This actions takes PDF fil
 NotePad	1.2	394873920485738920	d6d7fbafb6312decba03e4b32cb1d026	This action will copy the contents of the file dropped or the text dropped and place it into the designated [NotePad](https://github.com/raguay/TextBarScripts) note. NotePad is a script for [TextBar](http://richsomerfield.com/apps/textbar/).
 MD to HTML Presentation Converter	1.2		fca77117dd16664f49699857d94690cc	This function is called with Dropzone has files dropped on this action.
 Print	1.3	1012	5b9b089e03438bfa821dd5716049aaa9	Dropped files will be printed. If you have multiple printers, you will be prompted for which printer you wish to use.\n\nNote this action is intended as just a quick and dirty way to quickly print an image, PDF, Pages or MS Office document. It is not intended to let you configure print settings.
-Open Terminal at Path	1.2	1030	75f47d92bb4a748cd629ece244c25afa	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
-Screensaver	1.0	1006	8de92c7ad4f8317ad134b404dffe781e	Starts the screensaver.
+Open Terminal at Path	1.2	1030	4453e45a448ae78b13800219b4607206	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
+Screensaver	1.0	1006	0ea9f08020948228cf6b1df857308957	Starts the screensaver.
