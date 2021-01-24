@@ -12,7 +12,7 @@ Unbundle Zip by Name	1.0	1008	5f11a73194ef6e8eaf334ad21e7aa42d	This action will 
 Screenshot	1.0	1037	1791123a90c7ec572a4014c1def3d904	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
 Finder Path	1.2	1003	a57d75c8fc112d08d79d243915ccc627	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
 Clone Git Repository	1.5	1031	b74941fc3ee6b9652111ebee893b0924	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
-Trash	1.1		ae49f7bfa70b9879efb7930f0c5439c5	An action to throw items into the trash if Finder is running. Otherwise, it simply deletes them using the command line.
+Trash	1.1		878dbb41f274d495bceed9b52783b111	An action to throw items into the trash if Finder is running. Otherwise, it simply deletes them using the command line.
 Convert to MP4	1.3	23451	acee388c06d9fde07bcdd76fb025815a	Converts the dropped videos to the MP4 format using ffmpeg. Hold down Option to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
 AutoRemote	1.0	7004	7ebb0f87a2141af4cfbd693b4bafdbdf	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
 Open iTerm at Path	1.1		0fa4c4fd5a39ad4a8d764b2465eaa237	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
@@ -34,7 +34,7 @@ Qiniu	1.3	0830	9b2a10385d46138bb760ad56727b079f	Upload images to qiniu.com
                 Quick image converter and compressor	             1.1.0		317ff4938933f361007089f098151e19	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
 Slack	1.1	1019	8b0976b7836f5afb11140ede63ffb779	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
 md5 Filename	1.0.0		64eb4ad9d49915774b49524ba184cbc6	Renames any dragged file(s) to a random, eight-characters-long md5 string.
-Show Image Size	1.0.0		443b7a4250f75b47310a9648f7914f13	Displays the width and height of a local or remote image file.
+Show Image Size	1.0.0		51dd29fff434786a75758fb281cf2266	Displays the width and height of a local or remote image file.
 Install Application	1.4	1011	a352d043c893b4965be2b8c7b9cfcaf7	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
 Kaleidoscope Diff	1.1	1018	09d565340d1511ba9cea4aabe8dd4bfd	Drag two or more files to diff them with Kaleidoscope
 Merge Directories	1.2		6e028f8caad6f5fe01c983fde132cc2e	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
