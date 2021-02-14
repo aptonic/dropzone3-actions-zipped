@@ -4,10 +4,10 @@ Pushover	1.2	7002	0c64b0dae34e3c95659abb6f2f654828	Send message via a Pushover n
 KDiff3	1.0	1033	4cce809af39ef82241f15db2f8b11040	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
 Zip by Parent Name	1.2		749811b5e55e0427ba6923836a69a6c9	Zip up multiple files and naming by the parent directory's name.
 Send iMessage With Attachment to Phone Number	1.5	1021	d181ee6e74ac9342da25b43d10c62e7a	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to set the phone number.
-Pushbullet	1.1	1032	3ca23a49a2c8d4553bc18fdaa6197f19	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
-Say Text	1.2	1023	597d801b47b80475ff7e3c6f4060ec85	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-Gfycat	1.0		71489ef6005e08a18159c88bf93ad86c	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	e0e99934b68a8874beb463a586bcf1c0	Uploads images to ImageShack. Drop multiple images to create an album.
+Pushbullet	1.1	1032	75afd37417f9b634749d795e1123ace1	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
+Say Text	1.2	1023	3f92b86b2f6f9cf1b25d860d1e1b78f5	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
+Gfycat	1.0		5ab139c22634f0b5bd0141518b623999	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	45bb804cd1564331a7347786bb89e0ff	Uploads images to ImageShack. Drop multiple images to create an album.
 Unbundle Zip by Name	1.0	1008	202a67d0eb92f28436c13b1b235a95af	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
 Screenshot	1.0	1037	e6ded85a5db6b78af0bc3aca03524d50	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
 Finder Path	1.2	1003	db0cf42356fa26d75ca6093e9542d91f	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
@@ -35,17 +35,17 @@ Qiniu	1.3	0830	48de2c4661ea355af88253a3f13fd4ca	Upload images to qiniu.com
 Slack	1.1	1019	b3d8e79149d908b8561db783923befc6	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
 md5 Filename	1.0.0		3bad0356e269d1542881cdf3aff0cb9e	Renames any dragged file(s) to a random, eight-characters-long md5 string.
 Show Image Size	1.0.0		9e38a5a9f51bca47d443d0b2dc0fbd93	Displays the width and height of a local or remote image file.
-Install Application	1.4	1011	91c63cec584ca1e61d8a742ad34f1f21	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
-Kaleidoscope Diff	1.1	1018	a030f18041878b4affca7d6ea959c48b	Drag two or more files to diff them with Kaleidoscope
-Merge Directories	1.2		7d1145c20693ef3d368af7c38f5d055d	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
+Install Application	1.4	1011	9e37968d61329b58aacfa39a6aa9013f	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
+Kaleidoscope Diff	1.1	1018	68f26e0c4367f9ea93a92ebc3a1c35cf	Drag two or more files to diff them with Kaleidoscope
+Merge Directories	1.2		d111b3cacc69b7f27c62de042c96cfa4	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
 Google Maps	1.0	168438749	f32ec3e82a9d24cfaa5f044c4974e2ff	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
 YouTube Uploader	2.4	1026	5b772d9ce9d42d7bd36dfb050877c1fa	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
 Tinify	1.0		e7ce71a7e555f32ddac1e73701f3fd49	https://tinypng.com/
 Rackspace Cloud Files	2.1	1017	f9493ba2cf7ba4241c7286f0e5ad7eaf	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
-Clean Text	1.0		79a9ee61dc6c1698013eea8acebf009d	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
-Strip PDF from Zip	1.0		6181033801c3c9180ded3cb5787ba22c	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
-Compress Image	1.2	1008	d049529efb692c59187073d3e0079dfd	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
-SCP Upload	1.6	1009	ecb22efc74dee8c29d0b4779a00138b0	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
+Clean Text	1.0		2619dc7b8600e8e8375927f11a8a8737	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
+Strip PDF from Zip	1.0		75ede0c8bdd0fbd7b0408b026d2b5e15	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
+Compress Image	1.2	1008	5f157c8b9df7a420eec1f8845ff0fa9e	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
+SCP Upload	1.6	1009	99f93a2b7c37385fec0e6cd401c85f69	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
 Strip PDF Front	1.0		9bcacbc10eeeeeb40ce99355b8b6e2e0	This actions takes PDF files, copies out the front cover picture, and scales it to the given size and the type given. Set the width and extension by clicking on the action. It uses the ImageMagick programs and the XPDF programs. Both are installable using HomeBrew. "brew install imagemagick" and "brew install xpdf".
 NotePad	1.2	394873920485738920	539292f5ca609d6cff1517eadc22e4f8	This action will copy the contents of the file dropped or the text dropped and place it into the designated [NotePad](https://github.com/raguay/TextBarScripts) note. NotePad is a script for [TextBar](http://richsomerfield.com/apps/textbar/).
 MD to HTML Presentation Converter	1.2		a4fd7fb72e0694123c9f699f58c54d11	This function is called with Dropzone has files dropped on this action.
