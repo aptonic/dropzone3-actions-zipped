@@ -1,13 +1,13 @@
-Up1	1.2	2175601	c68c2295073f9d6723ae344661f80f22	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
-Sparse Image	1.1	7003	83fbc8ff3d7c72ea0196e0cb93dffed2	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
-Pushover	1.2	7002	8aaa12888d82daf80ef29677709ec6f0	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device, Shift Key to refresh devices list and Command key to reset settings.
-KDiff3	1.0	1033	7575410c12edffd06a6c77239c501e0e	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
-Zip by Parent Name	1.2		cf35ce88c9889d6d821f3d62ad14ed17	Zip up multiple files and naming by the parent directory's name.
-Send iMessage With Attachment to Phone Number	1.5	1021	ad00d9699dd3a9706772dc7183bf7d08	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to set the phone number.
-Pushbullet	1.1	1032	5b39f7e94f05506f035a66aad918ee9d	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
-Say Text	1.2	1023	78fbbec54c3c6edb1a5cbd0c26a951e8	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-Gfycat	1.0		d755a5551bd422263576ee487bb483d9	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	ebfa49ac649cec1f4122b454ddd03456	Uploads images to ImageShack. Drop multiple images to create an album.
+Up1	1.2	2175601	5097c8ee734729b7a04bc3ca9d9ae8de	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
+Sparse Image	1.1	7003	36c97b498fe2c3fd49ad71dd106fe5cc	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
+Pushover	1.2	7002	7d7175c376e88565a55ddbd55d544910	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device, Shift Key to refresh devices list and Command key to reset settings.
+KDiff3	1.0	1033	4d9efc2add11b5b48e2e47850a06b778	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
+Zip by Parent Name	1.2		0b477788730fc8b7e69b15d7a888afd1	Zip up multiple files and naming by the parent directory's name.
+Send iMessage With Attachment to Phone Number	1.5	1021	a7e776dc4c17efc58b1449d52b7ea2d2	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to set the phone number.
+Pushbullet	1.1	1032	2d0c729747afa5fb76ae72dc6cc45321	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
+Say Text	1.2	1023	3d58013b13ad9eade1f51eced7170322	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
+Gfycat	1.0		2242ca258b0fec13c85d6bb95b7dbe86	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	3de383c646ec3068bf66f64ff61a6253	Uploads images to ImageShack. Drop multiple images to create an album.
 Unbundle Zip by Name	1.0	1008	7f930baca1e2e87cbc84434a9f67a34e	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
 Screenshot	1.0	1037	bcd72bb75f74767ae8917614b9143d7e	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
 Finder Path	1.2	1003	05bca2a0c0661a3a37ea37f3b603583a	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
@@ -35,9 +35,9 @@ Qiniu	1.3	0830	2839f391dd06eca08d8938f9bb54ff38	Upload images to qiniu.com
 Slack	1.1	1019	4cc8fd3e667d7d79b0ab610425bac1b0	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
 md5 Filename	1.0.0		38fb015750c9401da6ffedfd34678700	Renames any dragged file(s) to a random, eight-characters-long md5 string.
 Show Image Size	1.0.0		d19062fd55417d4463f212e44731a790	Displays the width and height of a local or remote image file.
-Install Application	1.4	1011	32c4693dc5bc98dacebd846746ae75ff	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
-Kaleidoscope Diff	1.1	1018	308d0cfae6fbc76716562a7458be28f6	Drag two or more files to diff them with Kaleidoscope
-Merge Directories	1.2		bff6828ff56bc0f69b00b5ad989f77de	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
+Install Application	1.4	1011	d45c3c97c966f3678728e31b333907ec	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
+Kaleidoscope Diff	1.1	1018	8a39fc745d6320b79f9d78349f48c2aa	Drag two or more files to diff them with Kaleidoscope
+Merge Directories	1.2		9de7230810cbe7e200ad60fcbfc14d0e	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
 Google Maps	1.0	168438749	d8909d32e24c10e05fc5762b32f695b6	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
 YouTube Uploader	2.4	1026	1d349fc9a44f35b1267fcd89c17fa9c1	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
 Tinify	1.0		3781e85b6a01243be55ea439fd79458e	https://tinypng.com/
