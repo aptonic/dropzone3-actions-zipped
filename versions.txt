@@ -1,24 +1,24 @@
-Up1	1.2	2175601	ac4b93c3aaa1894e40001d1ea9d4869f	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
-Sparse Image	1.1	7003	3eacfcb3b15514ed5dfa77cf2ebd3e97	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
-Pushover	1.2	7002	dc9f70bfb647c419983ea1301ff34635	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device, Shift Key to refresh devices list and Command key to reset settings.
-KDiff3	1.0	1033	22573964a5b30acdfcd0372719effad3	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
-Zip by Parent Name	1.2		1f29b2ded8a430c1e3732d0267f45bca	Zip up multiple files and naming by the parent directory's name.
-Send iMessage With Attachment to Phone Number	1.5	1021	ffab36354c899164fbbf965878c2ee28	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to set the phone number.
-Pushbullet	1.1	1032	00ca666b6d84ddf09790791431e3f3b2	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
-Say Text	1.2	1023	886e2d61d15d22911ed60127f20adb14	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-Gfycat	1.0		15b2360201e495161ed1e01775e23ee3	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	218a22b92d83e3c1d05df43dea809056	Uploads images to ImageShack. Drop multiple images to create an album.
+Up1	1.2	2175601	c68c2295073f9d6723ae344661f80f22	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
+Sparse Image	1.1	7003	83fbc8ff3d7c72ea0196e0cb93dffed2	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
+Pushover	1.2	7002	8aaa12888d82daf80ef29677709ec6f0	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device, Shift Key to refresh devices list and Command key to reset settings.
+KDiff3	1.0	1033	7575410c12edffd06a6c77239c501e0e	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
+Zip by Parent Name	1.2		cf35ce88c9889d6d821f3d62ad14ed17	Zip up multiple files and naming by the parent directory's name.
+Send iMessage With Attachment to Phone Number	1.5	1021	ad00d9699dd3a9706772dc7183bf7d08	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to set the phone number.
+Pushbullet	1.1	1032	5b39f7e94f05506f035a66aad918ee9d	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
+Say Text	1.2	1023	78fbbec54c3c6edb1a5cbd0c26a951e8	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
+Gfycat	1.0		d755a5551bd422263576ee487bb483d9	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	ebfa49ac649cec1f4122b454ddd03456	Uploads images to ImageShack. Drop multiple images to create an album.
 Unbundle Zip by Name	1.0	1008	7f930baca1e2e87cbc84434a9f67a34e	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
 Screenshot	1.0	1037	bcd72bb75f74767ae8917614b9143d7e	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
 Finder Path	1.2	1003	05bca2a0c0661a3a37ea37f3b603583a	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
 Clone Git Repository	1.5	1031	a792e3c14ca0615a83e56381a824b794	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
-Trash	1.1		7843facec2531cd500f5a196b0fc4e3a	An action to throw items into the trash if Finder is running. Otherwise, it simply deletes them using the command line.
-Convert to MP4	1.3	23451	e33bbdfbaaed456236235112024f72dd	Converts the dropped videos to the MP4 format using ffmpeg. Hold down Option to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
-AutoRemote	1.0	7004	2af175eb39a4a7907d622fac81423d88	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
-Open iTerm at Path	1.1		dc4432a3a4ba719af5339443f230bd68	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
-Sleep	1.0	1027	12350a50fb0122f3ee320b55e6cb4ea2	Puts your Mac to sleep.
-Zip Files	1.3	1025	d6fa28b51c1717efb86ba5109acc0524	Zips up the dropped files or folders and places the zip file in the chosen folder.
-Make GIF	1.0		0cb99fc654eea28d828be9d215edde3f	This action converts videos to GIFs using ffmpeg
+Trash	1.1		9ab5335488e4225256da81d55a532f82	An action to throw items into the trash if Finder is running. Otherwise, it simply deletes them using the command line.
+Convert to MP4	1.3	23451	a3e835726d0ca603352c92af2e662f05	Converts the dropped videos to the MP4 format using ffmpeg. Hold down Option to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
+AutoRemote	1.0	7004	d2ca47bb7b1971658887ad58deca391f	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
+Open iTerm at Path	1.1		7f5cde5d3c775d4c5baba674e78f9fb6	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
+Sleep	1.0	1027	a3d82281874fe274e06615bf0822ab96	Puts your Mac to sleep.
+Zip Files	1.3	1025	a76407d7ed119f8d24d8017b18b768d8	Zips up the dropped files or folders and places the zip file in the chosen folder.
+Make GIF	1.0		0ff1b705eb4af15925598d548c1d002f	This action converts videos to GIFs using ffmpeg
 Desktop Picture	1.0	1002	6748053bbcdf7d17f091cdea1ae1892b	A dropped image will be set as the current desktop background.
 Create DMG File	1.1	1028	43c3198c557f87e54ab77799a4a791bc	Creates a DMG file with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an encrypted DMG.
 Boxcar	1.0	7000	a441ff7ef95fbde8ad2ca7a1cdf4ce6a	Send message to Boxcar App (https://boxcar.io/).
@@ -27,7 +27,7 @@ File Sort	1.1	7001	9bff6b2823489013d7199174e64475fd	Auto move a file to its corr
 Gist	1.4	1034	2a41db7375e6ccf25c4ea70b87377f18	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Decode Base64	1.0	23452	1c2cf44cfacb1113706e8185d3563440	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
 Mail Link	1.1	1029	c52a3c384f603f8250e04f53fcfedf63	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.9	1036	f68decaf6054f52bec9aefa871491690	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+YouTube Downloader	1.9	1036	c0bf1d4b4625870fef9385e030714e55	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		8d343eb8abea231f9174a82161152451	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	40847b8337f5ce12c7f285e502d33d41	Dropped images will be searched for using Google Image Search.
 Qiniu	1.3	0830	2839f391dd06eca08d8938f9bb54ff38	Upload images to qiniu.com
@@ -35,17 +35,17 @@ Qiniu	1.3	0830	2839f391dd06eca08d8938f9bb54ff38	Upload images to qiniu.com
 Slack	1.1	1019	4cc8fd3e667d7d79b0ab610425bac1b0	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
 md5 Filename	1.0.0		38fb015750c9401da6ffedfd34678700	Renames any dragged file(s) to a random, eight-characters-long md5 string.
 Show Image Size	1.0.0		d19062fd55417d4463f212e44731a790	Displays the width and height of a local or remote image file.
-Install Application	1.4	1011	8ddfbde1eae49a45c16f7a7ed2296610	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
-Kaleidoscope Diff	1.1	1018	94d0a952fd04bd8e07b417fb85f298d8	Drag two or more files to diff them with Kaleidoscope
-Merge Directories	1.2		577202a8e3c32b1e1d2c0addfb52bb1f	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
-Google Maps	1.0	168438749	e0155c09995b3b9341519ed571e70975	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
-YouTube Uploader	2.4	1026	98751fba10423ddc77ab8baa68d40dfe	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
-Tinify	1.0		36ca8fb7deb062616bd39a57575e6c4a	https://tinypng.com/
-Rackspace Cloud Files	2.1	1017	0b1c923a028fa96bc44d061e9680ab7c	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
-Clean Text	1.0		e1fb409321d9a60656d28b5c74d900e0	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
-Strip PDF from Zip	1.0		2e445a81a218a88c2e19f6cff180edf7	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
-Compress Image	1.2	1008	886b7870f4ca4e581324590532bb1930	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
-SCP Upload	1.6	1009	027af958f4d7b895e27fcd883344c97f	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
+Install Application	1.4	1011	32c4693dc5bc98dacebd846746ae75ff	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
+Kaleidoscope Diff	1.1	1018	308d0cfae6fbc76716562a7458be28f6	Drag two or more files to diff them with Kaleidoscope
+Merge Directories	1.2		bff6828ff56bc0f69b00b5ad989f77de	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
+Google Maps	1.0	168438749	d8909d32e24c10e05fc5762b32f695b6	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
+YouTube Uploader	2.4	1026	1d349fc9a44f35b1267fcd89c17fa9c1	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
+Tinify	1.0		3781e85b6a01243be55ea439fd79458e	https://tinypng.com/
+Rackspace Cloud Files	2.1	1017	45ea99397c1b6cf0af83af07e7868315	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
+Clean Text	1.0		5c977b0a6d793dd95a8fee1cc66a1473	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
+Strip PDF from Zip	1.0		14c0781c5b8e25d24f06f31e7b9ea61e	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
+Compress Image	1.2	1008	da36308e2bfa8449e5da093bafad45f6	This destination is for compressing the images given.\n\nYou must have the imagemagick library installed. It is best to install it using HomeBrew (http://brew.sh/).
+SCP Upload	1.6	1009	01e64d26939d3b0ecbcc683c933e0877	Allows files to be uploaded to a remote SSH server. If the option key is held down then files are zipped up before uploading.
 Strip PDF Front	1.0		9c3a8012a27e778f88fd8e425cfcf4b2	This actions takes PDF files, copies out the front cover picture, and scales it to the given size and the type given. Set the width and extension by clicking on the action. It uses the ImageMagick programs and the XPDF programs. Both are installable using HomeBrew. "brew install imagemagick" and "brew install xpdf".
 NotePad	1.2	394873920485738920	9666686e1e600e988cd4b01984b04b89	This action will copy the contents of the file dropped or the text dropped and place it into the designated [NotePad](https://github.com/raguay/TextBarScripts) note. NotePad is a script for [TextBar](http://richsomerfield.com/apps/textbar/).
 MD to HTML Presentation Converter	1.2		3cb9367a1319801a57e26415defcd41f	This function is called with Dropzone has files dropped on this action.
