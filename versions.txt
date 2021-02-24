@@ -1,13 +1,13 @@
-Up1	1.2	2175601	2da37d05f3aee6d1b3a143508d959d57	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
-Sparse Image	1.1	7003	33b1d7a9e52f648374d0a293eaa12d5a	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
-Pushover	1.2	7002	5eddb24743ae1938f229146e31b80b21	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device, Shift Key to refresh devices list and Command key to reset settings.
-KDiff3	1.0	1033	b88e35668d34345a5e8567e09cf4cee8	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
-Zip by Parent Name	1.2		a050f75e34dbddd8fc3abee2885d9e1e	Zip up multiple files and naming by the parent directory's name.
-Send iMessage With Attachment to Phone Number	1.5	1021	0516ce6a27f0a2c4697733b98764a0b4	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to set the phone number.
-Pushbullet	1.1	1032	873379f24dda5fe20e8009d1fdd37bfd	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
-Say Text	1.2	1023	ad97a3f134c976a273cc90f68f934da1	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-Gfycat	1.0		517e9d9253f78848b65b6669bbc539c8	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	63ad4ce7032f13528332182adfbe7add	Uploads images to ImageShack. Drop multiple images to create an album.
+Up1	1.2	2175601	5caa0dadbb3ba1349c90fd79b9c33707	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
+Sparse Image	1.1	7003	cbe2ff865cabfd568fc44f2b2ef78a0f	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
+Pushover	1.2	7002	e886e3dda24ddff30d8ffa792a7ec202	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device, Shift Key to refresh devices list and Command key to reset settings.
+KDiff3	1.0	1033	57f6570c2202b741eecfbbe6039f01bd	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
+Zip by Parent Name	1.2		3199ea686eb7e4b9277020826256dc20	Zip up multiple files and naming by the parent directory's name.
+Send iMessage With Attachment to Phone Number	1.5	1021	ffe133429295c968933120e57d4260d8	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to set the phone number.
+Pushbullet	1.1	1032	e60c44d910f2892f02a09707ea67a248	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
+Say Text	1.2	1023	f4802dcef973fd91bcada3c196dc4771	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
+Gfycat	1.0		d9a3db38f889bde576ac9a7c4d177237	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	ab5df1377b6007570f6692147f034b57	Uploads images to ImageShack. Drop multiple images to create an album.
 Unbundle Zip by Name	1.0	1008	844e1633d4e480a7c1d581f7aeab6b26	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
 Screenshot	1.0	1037	15a3394e939cb3daf03364eb6be7badb	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
 Finder Path	1.2	1003	9bfab0da94873c4d460064a4a80f2c95	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
@@ -27,7 +27,7 @@ File Sort	1.1	7001	ae7ca3ea438b5a082d58de10e7c54fbe	Auto move a file to its corr
 Gist	1.4	1034	f028a2cdf71d76646c88bd3c20a23be4	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Decode Base64	1.0	23452	a7e1c6f91c64878be713b5a394c34327	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
 Mail Link	1.1	1029	dad49ec2eb972c78d702a6497d0a1e64	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.9	1036	15eaea4b52e81d37aa5f538c3ccbaf77	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+YouTube Downloader	1.9	1036	4fe549828edb0e5c5ac43012fada35ec	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		292be345bbcf578c460d97a2d6f42f82	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	b54a11fa5e4253c9aaa7d959b9c7de0e	Dropped images will be searched for using Google Image Search.
 Qiniu	1.3	0830	664341c9d17fa756dcb46ec7a1e66e4d	Upload images to qiniu.com
@@ -36,12 +36,12 @@ Slack	1.1	1019	394a62b2fd5a037911f260d683046192	Uploads files to a Slack channel
 md5 Filename	1.0.0		e2a6401d731eeb77a37b7feafbb9874f	Renames any dragged file(s) to a random, eight-characters-long md5 string.
 Show Image Size	1.0.0		1421beb28d78ac3cdae913c188dc3dcc	Displays the width and height of a local or remote image file.
 DRACOON	2.0.2	3920135319837973180911208394894	5d13dbf1f51b634311b2be86e8c3dc0f	Upload a file to DRACOON and create a Download Share (URL will be placed in clipboard). Holding 'Command' (⌘) or 'Option' (⌥) will expire the uploaded file and its Download Share after 14 days, 'Control' (^) or 'Option' (⌥) will allow you to set a password for the Download Share. Holding 'Shift' (⇧) just uploads the file without sharing it. Clicking on this Action copies the latest Share Link to the clipboard.\nIcon is property of DRACOON GmbH.
-Install Application	1.4	1011	635f79df6bf54e7c2a9368e082799806	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
-Kaleidoscope Diff	1.1	1018	b0edcf8fab23b3d60ab442caac08b97d	Drag two or more files to diff them with Kaleidoscope
-Merge Directories	1.2		2e6a6fd8a400d370cf02ac847eb3a526	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
-Google Maps	1.0	168438749	eb10059575035d933345ca2b69af2c03	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
-YouTube Uploader	2.4	1026	7db9c5bbc0a577988a1a9569a7b801ea	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
-Tinify	1.0		ac44e2ba46da6bbe35e98204d7188891	https://tinypng.com/
+Install Application	1.4	1011	38d270779a54fb77364c129d83265914	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
+Kaleidoscope Diff	1.1	1018	a328a6c5ca5267199be43bbdaca8db96	Drag two or more files to diff them with Kaleidoscope
+Merge Directories	1.2		3fb71fa0b820f1e6a3439ac566c69812	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
+Google Maps	1.0	168438749	e0bbefd0172feaf6fc7ba8ac73e7914c	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
+YouTube Uploader	2.4	1026	3d0be6c7586c43d5e0bd553f9a9e3e1c	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
+Tinify	1.0		0502da1ce60b3bdcd237794d24677993	https://tinypng.com/
 Rackspace Cloud Files	2.1	1017	299f4800f7b1bc226f7e38b360629b5b	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
 Clean Text	1.0		35a6c0358a90675ecba0412b97d81d2a	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
 Strip PDF from Zip	1.0		3b9264f23fb653663731d56f54edd14b	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
