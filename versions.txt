@@ -1,9 +1,9 @@
 Up1	1.2	2175601	e686a80ed7b521f983fd595352cb2679	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
 Sparse Image	1.1	7003	9a71115e41be41515b8644dac7441efc	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
 Pushover	1.2	7002	e4de5c6f8ced02b077986dbeda5b4642	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device, Shift Key to refresh devices list and Command key to reset settings.
-KDiff3	1.0	1033	025fcd156009aa9d580c73cdec447a83	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
-Zip by Parent Name	1.2		a05fef9693533b26d3c8987034f7c034	Zip up multiple files and naming by the parent directory's name.
-Send iMessage With Attachment to Phone Number	1.5	1021	0c5af9a5f29c47257490635a43cc8d2b	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to set the phone number.
+KDiff3	1.0	1033	a298b1eeb5ec8633622285635f951bd7	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
+Zip by Parent Name	1.2		5f7a7a3be93588c80fa4b12aa3fe6ba4	Zip up multiple files and naming by the parent directory's name.
+Send iMessage With Attachment to Phone Number	1.5	1021	30491329de177e35ebcb3e0c44e8930d	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to set the phone number.
 Pushbullet	1.1	1032	3048188852952c07ee8286c553231805	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
 Say Text	1.2	1023	cfc89f1858a5733be5479e38b5cc5edb	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
 Gfycat	1.0		13a632736a879359cb13f87eb0e24939	Uploads gif and mp4 files to gfycat
@@ -11,10 +11,10 @@ ImageShack	1.2	1005	1b71bebc830b8bfba590ac6430ed0b6a	Uploads images to ImageShac
 Unbundle Zip by Name	1.0	1008	777f0a7015f1a068dd5cc7f3afb61188	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
 Screenshot	1.0	1037	317ab06566de5c6675626ce586fd3dcf	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
 Finder Path	1.2	1003	7447084c3b83b7024ad01152837b2ffe	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
-Clone Git Repository	1.5	1031	867289e1881604930cbefe8e8bf3c0fe	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
+Clone Git Repository	1.5	1031	c999e1f7572a8634c8aefb9f2e179cf4	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
 Trash	1.1		f7a02a7ce56dbf520e58df7a602f8b0d	An action to throw items into the trash if Finder is running. Otherwise, it simply deletes them using the command line.
-Convert to MP4	1.3	23451	5caae497c7600324a556cf5d7cad0753	Converts the dropped videos to the MP4 format using ffmpeg. Hold down Option to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
-AutoRemote	1.0	7004	5875511dc20e94b366082c404f45f602	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
+Convert to MP4	1.3	23451	9e2f2c3989e362692921475725ffdeb2	Converts the dropped videos to the MP4 format using ffmpeg. Hold down Option to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
+AutoRemote	1.0	7004	d7bb7f3a59adcff25901c501346c75de	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
 Open iTerm at Path	1.1		c53069c60b6c7dcd31d13e19db3d569e	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
 Sleep	1.0	1027	7f51a4581acb7191492c11c49f11e2ac	Puts your Mac to sleep.
 Zip Files	1.3	1025	78f4e6fa505e4597f43788c44d5c7b12	Zips up the dropped files or folders and places the zip file in the chosen folder.
@@ -35,13 +35,13 @@ Qiniu	1.3	0830	3bb9845204db269d6d1d56c1d15efecd	Upload images to qiniu.com
 Slack	1.1	1019	7272c0c2d4a977a988762fce8e9796d5	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
 md5 Filename	1.0.0		2b6a559c5f8ee1ab49a35238686cedd6	Renames any dragged file(s) to a random, eight-characters-long md5 string.
 Show Image Size	1.0.0		6059cb9395b9dd3b3000a7dddf14d249	Displays the width and height of a local or remote image file.
-DRACOON	2.0.2	3920135319837973180911208394894	1247067afe69cc528f53b551c2c8272b	Upload a file to DRACOON and create a Download Share (URL will be placed in clipboard). Holding 'Command' (⌘) or 'Option' (⌥) will expire the uploaded file and its Download Share after 14 days, 'Control' (^) or 'Option' (⌥) will allow you to set a password for the Download Share. Holding 'Shift' (⇧) just uploads the file without sharing it. Clicking on this Action copies the latest Share Link to the clipboard.\nIcon is property of DRACOON GmbH.
-Install Application	1.4	1011	af08a7aa78df31af7c9a79d0021043c0	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
-Kaleidoscope Diff	1.1	1018	e71e83ce1288ab69e7f258f63962cc51	Drag two or more files to diff them with Kaleidoscope
-Merge Directories	1.2		3593589fe23744ec61315c5c5e614d1a	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
-Google Maps	1.0	168438749	44d7bdcebd43efed15f456e06ad5e445	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
-YouTube Uploader	2.4	1026	2e941fa39b622470eda64b18197c4158	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
-Tinify	1.0		cc5e32a3d93d9e42f468575de82000b7	https://tinypng.com/
+DRACOON	2.0.2	3920135319837973180911208394894	b0d1d0777d12d0fec9967850b321fd14	Upload a file to DRACOON and create a Download Share (URL will be placed in clipboard). Holding 'Command' (⌘) or 'Option' (⌥) will expire the uploaded file and its Download Share after 14 days, 'Control' (^) or 'Option' (⌥) will allow you to set a password for the Download Share. Holding 'Shift' (⇧) just uploads the file without sharing it. Clicking on this Action copies the latest Share Link to the clipboard.\nIcon is property of DRACOON GmbH.
+Install Application	1.4	1011	3d63a7df25f6f1167abe701fb24518de	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
+Kaleidoscope Diff	1.1	1018	4a0d48412cc4ac52f749351a7d3efb4a	Drag two or more files to diff them with Kaleidoscope
+Merge Directories	1.2		c61873db530a5b4fadcc4711c123ff75	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
+Google Maps	1.0	168438749	037d71de3136da94827a78410e6d5a6f	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
+YouTube Uploader	2.4	1026	72682060a495de459483948bfc5b2d35	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.
+Tinify	1.0		5390abb7376b85e185ef2bd040fae2b4	https://tinypng.com/
 Rackspace Cloud Files	2.1	1017	a1415662fea0104e03e745041549bb6e	Uploads files to a Rackspace Cloud Files account container.\n\nYou will be prompted for the region and container on your first upload. Click the action to change the configured container.
 Clean Text	1.0		41298af5e0e23ddcfe7723b49d43a856	Removes any formatting and puts cleaned text into clipboard. A click cleans the clipboard's contents.
 Strip PDF from Zip	1.0		d9f493beeb800cd6d8a5d010e3bc795f	This actions takes zip files,  and removes the PDF. It will give the PDF the same name as the zip file and delete the zip file.
